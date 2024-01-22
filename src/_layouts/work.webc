@@ -39,12 +39,12 @@ layout: base.webc
 			</app-video-preview>
 
 			<template webc:nokeep webc:if="demos">
-				<figure webc:for="demo of demos" class="demo">
+				<figure webc:for="item of demos" class="demo">
 					<app-video-preview class="demo__preview preview">
-						<video webc:if="demo.video && demo.image" :src="demo.video" :poster="demo.image" width="380" height="285" preload="none" loop muted playsinline class="preview__media"></video>
-						<img webc:if="!demo.video && demo.image" :src="demo.image" width="380" height="285" loading="lazy" alt="" class="preview__media">
+						<video webc:if="item.demo.video && item.demo.image" :src="item.demo.video" :poster="item.demo.image" width="380" height="285" preload="none" loop muted playsinline class="preview__media"></video>
+						<img webc:if="!item.demo.video && item.demo.image" :src="item.demo.image" width="380" height="285" loading="lazy" alt="" class="preview__media">
 					</app-video-preview>
-					<figcaption webc:if="demo.caption" class="demo__name" @text="demo.caption">Prototyping Process</figcaption>
+					<figcaption webc:if="item.demo.caption" class="demo__name" @text="item.demo.caption">Prototyping Process</figcaption>
 				</figure>
 			</template>
 		</div>

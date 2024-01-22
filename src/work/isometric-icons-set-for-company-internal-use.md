@@ -4,21 +4,27 @@ tags: work
 title: Isometric icons set for company internal use
 category: illustration
 favorite: false
+date: 2024-01-22T18:57:31.183Z
 coverImage: /images/mobile-app-design-for-travel-startup.png
 coverVideo: /images/demo.mp4
-brief: Design a comprehensive mobile app addressing the varied needs of modern travelers.
-role: Research, Concept, Prototyping, UI Design, Graphic Design, Illustration.
-more: 'https://example.com'
 demos:
-  - image: /images/mobile-app-design-for-travel-startup.png
-    video: /images/demo.mp4
-    caption: Prototyping Process
-  - image: /images/mobile-app-design-for-travel-startup.png
-    caption: Elsewhere User Flow
-  - image: /images/mobile-app-design-for-travel-startup.png
-    video: /images/demo.mp4
-    caption: App Main Screens
-  - image: /images/mobile-app-design-for-travel-startup.png
+  - demo:
+      image: /images/fintech-website-design-for-gainsgurus.png
+      video: /images/demo.mp4
+      caption: Prototyping Process
+  - demo:
+      image: /images/fintech-website-design-for-gainsgurus.png
+      caption: Elsewhere User Flow
+  - demo:
+      image: /images/fintech-website-design-for-gainsgurus.png
+      video: /images/demo.mp4
+      caption: App Main Screens
+  - demo:
+      image: /images/fintech-website-design-for-gainsgurus.png
+more: https://example.com
+brief: Design a comprehensive mobile app addressing the varied needs of modern
+  travelers.
+role: Research, Concept, Prototyping, UI Design, Graphic Design, Illustration.
 ---
 
 ## Overview:

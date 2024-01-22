@@ -1,3 +1,4 @@
+local_backend: true
 backend:
   name: git-gateway
   branch: main
@@ -5,15 +6,192 @@ publish_mode: editorial_workflow
 media_folder: "src/images"
 public_folder: "/images"
 collections:
-  - name: "blog" # Used in routes, e.g., /admin/collections/blog
-    label: "Blog" # Used in the UI
-    folder: "_posts/blog" # The path to the folder where the documents are stored
+  - name: "work" # Used in routes, e.g., /admin/collections/blog
+    label: "Work" # Used in the UI
+    folder: "src/work" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "thumbnail", widget: "image"}
-      - {label: "Rating (scale of 1-5)", name: "rating", widget: "number"}
-      - {label: "Body", name: "body", widget: "markdown"}
+
+      - label: "Layout"
+        name: "layout"
+        widget: "hidden"
+        default: "work.webc"
+
+      - label: "Tags"
+        name: "tags"
+        widget: "hidden"
+        default: "work"
+
+      - label: "Title"
+        name: "title"
+        widget: "string"
+
+      - label: "Category"
+        name: "category"
+        widget: "select"
+        options: 
+          - label: "UX/UI Design"
+            value: "ui-ux-design"
+          - label: "Logotype"
+            value: "logotype"
+          - label: "Animation/Motion"
+            value: "animation-motion"
+          - label: "Social Media"
+            value: "social-media"
+          - label: "Illustration"
+            value: "illustration"
+
+      - label: "Favorite"
+        name: "favorite"
+        widget: "boolean"
+        default: false
+
+      - label: "Publish Date"
+        name: "date"
+        widget: "datetime"
+
+      - label: "Cover Image"
+        name: "coverImage"
+        widget: "image"
+
+      - label: "Cover Video"
+        name: "coverVideo"
+        widget: "file"
+        required: false
+
+      - label: "Brief"
+        name: "brief"
+        widget: "text"
+
+      - label: "Role"
+        name: "role"
+        widget: "text"
+
+      - label: "Demos"
+        name: "demos"
+        widget: "list"
+        fields:
+          - label: "Demo"
+            name: "demo"
+            widget: "object"
+            fields:
+              - label: "Image"
+                name: "image"
+                widget: "image"
+                required: false
+
+              - label: "Video"
+                name: "video"
+                widget: "file"
+                required: false
+
+              - label: "Caption"
+                name: "caption"
+                widget: "string"
+                required: false
+
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+        hint: "Add a [DEMO] separator to divide the text into two parts and insert images between them."
+
+  - name: "pages"
+    label: "Pages"
+    files:
+      - label: "Home"
+        name: "home"
+        file: "src/index.md"
+        fields:
+          - label: "Layout"
+            name: "layout"
+            widget: "hidden"
+            default: "home.webc"
+
+          - label: "Body"
+            name: "body"
+            widget: "markdown"
+
+          - label: "Video"
+            name: "video"
+            widget: "file"
+            required: false
+
+          - label: "Poster"
+            name: "poster"
+            widget: "image"
+
+      - label: "About"
+        name: "about"
+        file: "src/about/index.md"
+        fields:
+          - label: "Layout"
+            name: "layout"
+            widget: "hidden"
+            default: "home.webc"
+
+          - label: "Body"
+            name: "body"
+            widget: "markdown"
+
+          - label: "Video"
+            name: "video"
+            widget: "file"
+            required: false
+
+          - label: "Poster"
+            name: "poster"
+            widget: "image"
+
+  - name: "settings"
+    label: "Settings"
+    editor:
+      preview: false
+    files:
+      - label: "General"
+        name: "general"
+        file: "src/_data/global.json"
+        fields:
+          - label: "Socials"
+            name: "socials"
+            widget: "object"
+            fields:
+              - label: "LinkedIn"
+                name: "linkedin"
+                widget: "string"
+
+              - label: "Behance"
+                name: "behance"
+                widget: "string"
+
+              - label: "Email"
+                name: "email"
+                widget: "string"
+
+          - label: "Buttons"
+            name: "buttons"
+            widget: "object"
+            fields:
+              - label: "Get in Touch"
+                name: "getInTouch"
+                widget: "object"
+                fields:
+                  - label: "Text"
+                    name: "text"
+                    widget: "string"
+
+                  - label: "Link"
+                    name: "link"
+                    widget: "string"
+
+              - label: "Download my resume"
+                name: "resume"
+                widget: "object"
+                fields:
+                  - label: "Text"
+                    name: "text"
+                    widget: "string"
+
+                  - label: "Resume"
+                    name: "link"
+                    widget: "file"
