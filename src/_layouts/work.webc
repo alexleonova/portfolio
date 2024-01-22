@@ -35,29 +35,18 @@ layout: base.webc
 
 		<div class="details__demo">
 			<app-video-preview class="preview mobile-hidden">
-				<video src="/images/demo.mp4" poster="/images/mobile-app-design-for-travel-startup.png" width="380" height="285" preload="none" loop muted playsinline class="preview__media"></video>
+				<video :src="coverVideo" :poster="coverImage" width="380" height="285" preload="none" loop muted playsinline class="preview__media"></video>
 			</app-video-preview>
 
-			<figure class="demo">
-				<app-video-preview class="demo__preview preview">
-					<video src="/images/demo.mp4" poster="/images/mobile-app-design-for-travel-startup.png" width="380" height="285" preload="none" loop muted playsinline class="preview__media"></video>
-				</app-video-preview>
-				<figcaption class="demo__name">Prototyping Process</figcaption>
-			</figure>
-
-			<figure class="demo">
-				<app-video-preview class="demo__preview preview">
-					<img src="/images/mobile-app-design-for-travel-startup.png" width="380" height="285" alt="" class="preview__media">
-				</app-video-preview>
-				<figcaption class="demo__name">Elsewhere User Flow</figcaption>
-			</figure>
-
-			<figure class="demo">
-				<app-video-preview class="demo__preview preview">
-					<video src="/images/demo.mp4" poster="/images/mobile-app-design-for-travel-startup.png" width="380" height="285" preload="none" loop muted playsinline class="preview__media card__video"></video>
-				</app-video-preview>
-				<figcaption class="demo__name">App Main Screens</figcaption>
-			</figure>
+			<template webc:nokeep webc:if="demos">
+				<figure webc:for="demo of demos" class="demo">
+					<app-video-preview class="demo__preview preview">
+						<video webc:if="demo.video && demo.image" :src="demo.video" :poster="demo.image" width="380" height="285" preload="none" loop muted playsinline class="preview__media"></video>
+						<img webc:if="!demo.video && demo.image" :src="demo.image" width="380" height="285" loading="lazy" alt="" class="preview__media">
+					</app-video-preview>
+					<figcaption webc:if="demo.caption" class="demo__name" @text="demo.caption">Prototyping Process</figcaption>
+				</figure>
+			</template>
 		</div>
 
 		<div class="details__description content" @html="description"></div>

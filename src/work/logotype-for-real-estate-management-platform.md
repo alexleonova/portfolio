@@ -9,6 +9,16 @@ coverVideo: /images/demo.mp4
 brief: Design a comprehensive mobile app addressing the varied needs of modern travelers.
 role: Research, Concept, Prototyping, UI Design, Graphic Design, Illustration.
 more: 'https://example.com'
+demos:
+  - image: /images/mobile-app-design-for-travel-startup.png
+    video: /images/demo.mp4
+    caption: Prototyping Process
+  - image: /images/mobile-app-design-for-travel-startup.png
+    caption: Elsewhere User Flow
+  - image: /images/mobile-app-design-for-travel-startup.png
+    video: /images/demo.mp4
+    caption: App Main Screens
+  - image: /images/mobile-app-design-for-travel-startup.png
 ---
 
 ## Overview:
