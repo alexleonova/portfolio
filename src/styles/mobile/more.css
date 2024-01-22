@@ -1,0 +1,13 @@
+.more {
+	padding-top: 3.125rem;
+	padding-bottom: 1.625rem;
+}
+
+.more__cards {
+	--grid-gap: 1.875rem;
+	margin-bottom: 2.875rem;
+}
+
+.more__cards > :last-child {
+	display: none;
+}

@@ -1,0 +1,30 @@
+.details {
+	padding-top: 3.125rem;
+	padding-bottom: 5rem;
+}
+
+.details__article {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 2.5rem 4.375rem;
+}
+
+.details__intro {
+	grid-column: 1 / 2;
+	grid-row: 1 / 2;
+}
+
+.details__demo {
+	gap: 3.75rem;
+	grid-column: 2 / 3;
+	grid-row: 1 / 3;
+}
+
+.details__description {
+	grid-column: 1 / 2;
+	grid-row: 2 / 3;
+}
+
+.details__hgroup {
+	gap: 0.625rem 0.9375rem;
+}

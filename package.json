@@ -1,0 +1,35 @@
+{
+  "name": "alexleonova",
+  "version": "1.0.0",
+  "description": "Alex Leonova portfolio website",
+  "author": "",
+  "license": "MIT",
+  "scripts": {
+    "clean": "npx rimraf build",
+    "dev:eleventy": "npx @11ty/eleventy --serve --watch",
+    "dev": "npm run clean && npm run dev:eleventy",
+    "build:eleventy": "npx @11ty/eleventy --quiet",
+    "build:styles": "lightningcss --minify --bundle --browserslist src/styles/base.css src/styles/mobile.css src/styles/tablet.css src/styles/desktop.css --output-dir build/styles",
+    "build:scripts": "esbuild src/scripts/index.js --minify --bundle --target=es2021 --outfile=build/scripts/index.js",
+    "build": "npm run clean && npm run build:eleventy && npm run build:styles && npm run build:scripts"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "browserslist": [
+    "last 5 firefoxandroid versions",
+    "last 5 chrome versions",
+    "last 5 chromeandroid versions",
+    "last 5 firefox versions",
+    "last 5 opera versions",
+    "last 5 edge versions",
+    "safari >= 15"
+  ],
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-plugin-webc": "^0.11.2",
+    "esbuild": "^0.19.11",
+    "lightningcss": "^1.23.0",
+    "lightningcss-cli": "^1.23.0"
+  }
+}

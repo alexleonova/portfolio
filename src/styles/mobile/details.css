@@ -1,0 +1,19 @@
+.details {
+	padding-top: 1.25rem;
+	padding-bottom: 3.125rem;
+}
+
+.details__article {
+	display: flex;
+	flex-direction: column;
+	gap: 2.5rem;
+}
+
+
+.details__demo {
+	gap: 1.875rem;
+}
+
+.details__hgroup {
+	gap: 0.625rem;
+}

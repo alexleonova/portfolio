@@ -1,0 +1,49 @@
+.color-light {
+	background-color: var(--color-white);
+	color: var(--color-black);
+}
+
+.color-dark {
+	background-color: var(--color-black);
+	color: var(--color-white);
+}
+
+.accent-pink {
+	--accent-color-primary: var(--color-primary-pink);
+	--accent-color-secondary: var(--color-primary-light-pink);
+	--accent-color-primary-hover: var(--accent-color-primary);
+	--button-text-color: var(--color-black);
+	--list-marker: url('/images/list-marker-pink.svg');
+}
+
+.accent-yellow {
+	--accent-color-primary: var(--color-primary-yellow);
+	--accent-color-secondary: var(--color-primary-light-yellow);
+	--accent-color-primary-hover: var(--accent-color-primary);
+	--button-text-color: var(--color-black);
+	--list-marker: url('/images/list-marker-yellow.svg');
+}
+
+.accent-green {
+	--accent-color-primary: var(--color-primary-green);
+	--accent-color-secondary: var(--color-primary-light-green);
+	--accent-color-primary-hover: var(--accent-color-primary);
+	--button-text-color: var(--color-black);
+	--list-marker: url('/images/list-marker-green.svg');
+}
+
+.accent-blue {
+	--accent-color-primary: var(--color-primary-blue);
+	--accent-color-secondary: var(--color-primary-light-blue);
+	--accent-color-primary-hover: var(--accent-color-primary);
+	--button-text-color: var(--color-black);
+	--list-marker: url('/images/list-marker-blue.svg');
+}
+
+.accent-purple {
+	--accent-color-primary: var(--color-primary-purple);
+	--accent-color-secondary: var(--color-primary-light-purple);
+	--accent-color-primary-hover: var(--accent-color-primary);
+	--button-text-color: var(--color-black);
+	--list-marker: url('/images/list-marker-purple.svg');
+}

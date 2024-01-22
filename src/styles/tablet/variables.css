@@ -1,0 +1,17 @@
+:root {
+	--container-field: 2.5rem;
+
+	--typography-heading-1: normal 600 2rem/2.875rem "Lexend", sans-serif;
+	--typography-heading-2: normal 600 1.5rem/2.125rem "Lexend", sans-serif;
+	--typography-heading-3: normal 600 1.125rem/1.4375rem "Lexend", sans-serif;
+	--typography-heading-4: normal 600 1rem/1.25rem "Lexend", sans-serif;
+
+	--typography-text-l-bold: normal 700 1.125rem/1.4375rem "Lexend", sans-serif;
+	--typography-text-l: normal 500 1.125rem/1.4375rem "Lexend", sans-serif;
+	--typography-text-m-bold: normal 700 1rem/1.25rem "Lexend", sans-serif;
+	--typography-text-m: normal 500 1rem/1.25rem "Lexend", sans-serif;
+	--typography-text-s-bold: normal 700 0.9375rem/1.5rem "Lexend", sans-serif;
+	--typography-text-s: normal 500 0.9375rem/1.5rem "Lexend", sans-serif;
+	--typography-text-xs-bold: normal 700 0.875rem/1.0625rem "Lexend", sans-serif;
+	--typography-text-xs: normal 500 0.875rem/1.0625rem "Lexend", sans-serif;
+}

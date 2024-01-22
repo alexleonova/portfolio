@@ -1,0 +1,5 @@
+.container {
+	--container-available-field: calc((var(--vw) - var(--container-width)) / 2);
+	padding-left: max(var(--container-available-field), var(--container-field));
+	padding-right: max(var(--container-available-field), var(--container-field));
+}

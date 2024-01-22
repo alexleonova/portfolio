@@ -1,0 +1,13 @@
+.intro {
+	display: flex;
+	gap: 1.875rem;
+}
+
+.intro__heading {
+	padding-bottom: 0.4375rem;
+	margin-bottom: 0.625rem;
+}
+
+.intro__text {
+	margin-left: 0;
+}

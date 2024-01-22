@@ -1,0 +1,10 @@
+.filter {
+	display: flex;
+	gap: 0.9375rem 0.625rem;
+}
+
+.filter__button[aria-pressed="true"] {
+	--button-text-color: var(--color-black);
+	background-color: var(--color-white);
+	border-color: var(--color-black);
+}

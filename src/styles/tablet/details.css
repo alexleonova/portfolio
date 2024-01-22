@@ -1,0 +1,23 @@
+.details {
+	padding-top: 1.875rem;
+	padding-bottom: 3.75rem;
+}
+
+.details__article {
+	display: flex;
+	flex-direction: column;
+	gap: 3.125rem;
+}
+
+.details__intro,
+.details__description {
+	max-width: 37.5rem;
+}
+
+.details__demo {
+	gap: 1.875rem;
+}
+
+.details__hgroup {
+	gap: 0.625rem 0.9375rem;
+}

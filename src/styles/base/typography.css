@@ -1,0 +1,47 @@
+.text-heading-1 {
+	font: var(--typography-heading-1);
+}
+
+.text-heading-2 {
+	font: var(--typography-heading-2);
+}
+
+.text-heading-3 {
+	font: var(--typography-heading-3);
+}
+
+.text-heading-4 {
+	font: var(--typography-heading-4);
+}
+
+.text-l-bold {
+	font: var(--typography-text-l-bold);
+}
+
+.text-l {
+	font: var(--typography-text-l);
+}
+
+.text-m-bold {
+	font: var(--typography-text-m-bold);
+}
+
+.text-m {
+	font: var(--typography-text-m);
+}
+
+.text-s-bold {
+	font: var(--typography-text-s-bold);
+}
+
+.text-s {
+	font: var(--typography-text-s);
+}
+
+.text-xs-bold {
+	font: var(--typography-text-xs-bold);
+}
+
+.text-xs {
+	font: var(--typography-text-xs);
+}

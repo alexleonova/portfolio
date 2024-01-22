@@ -1,0 +1,24 @@
+.header {
+	position: sticky;
+	top: 0;
+	z-index: 2;
+	display: block;
+	background-color: var(--color-white);
+	transition: box-shadow var(--transition);
+}
+
+.header[sticky] {
+	box-shadow: 0 0.25rem 1.25rem 0 rgba(0, 0, 0, 0.05);
+}
+
+.header__container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+@media (prefers-reduced-transparency) {
+	.header[sticky] {
+		box-shadow: 0 0 0 0.0625rem var(--color-black);
+	}
+}

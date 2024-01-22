@@ -1,0 +1,7 @@
+.nav {
+	column-gap: 1.5625rem;
+}
+
+.nav__link {
+	padding: 0.75rem 0.9375rem;
+}

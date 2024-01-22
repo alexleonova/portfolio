@@ -1,0 +1,30 @@
+.works {
+	display: flex;
+	justify-content: space-between;
+	column-gap: 2.5rem;
+	position: relative;
+	padding-top: 4.375rem;
+	padding-bottom: 3.75rem;
+}
+
+.works__sidebar {
+	position: sticky;
+	top: 9.375rem;
+	align-self: flex-start;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 1.25rem;
+	min-height: calc(100dvh - 5rem - 4.375rem - 3.75rem);
+}
+
+.works__socials {
+	margin-top: auto;
+}
+
+.works__list {
+	--grid-gap: 1.875rem;
+	--grid-justify-items: end;
+	--grid-card-max-width: 23.75rem;
+	flex-grow: 1;
+}

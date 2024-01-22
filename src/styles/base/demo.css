@@ -1,0 +1,8 @@
+.demo {
+	margin: 0;
+}
+
+.demo__name {
+	margin-top: 0.625rem;
+	text-align: center;
+}

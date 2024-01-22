@@ -1,0 +1,27 @@
+.about {
+	display: grid;
+	grid-gap: 3.125rem 4.0625rem;
+	padding-top: 3.125rem;
+	padding-bottom: 2.5rem;
+}
+
+.about__content {
+	grid-column: 1 / 2;
+	grid-row: 1 / 2;
+	max-width: 39.0625rem;
+}
+
+.about__illustration {
+	grid-column: 2 / 3;
+	grid-row: 1 / 3;
+	width: 100%;
+	height: auto;
+	aspect-ratio: 510 / 530;
+}
+
+.about__socials {
+	grid-column: 1 / 2;
+	grid-row: 2 / 3;
+	justify-self: start;
+	align-self: end;
+}

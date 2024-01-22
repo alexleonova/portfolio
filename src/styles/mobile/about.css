@@ -1,0 +1,21 @@
+.about {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2.5rem;
+	padding-top: 1.3175rem;
+	padding-bottom: 1.875rem;
+}
+
+.about__content {
+	flex: 1 0 100%;
+}
+
+.about__illustration {
+	width: 100%;
+	height: auto;
+	aspect-ratio: 340 / 360;
+}
+
+.about__socials {
+	flex: 0 0 auto;
+}

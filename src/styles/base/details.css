@@ -1,0 +1,34 @@
+.details__hgroup {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.details__demo {
+	display: flex;
+	flex-direction: column;
+}
+
+.details__tag {
+	margin: 0;
+}
+
+.details__heading {
+	flex: 1 0 100%;
+	margin: 0;
+}
+
+.details__more {
+	display: inline-flex;
+	align-items: center;
+	column-gap: 0.625rem;
+	font: var(--typography-text-m);
+	color: inherit;
+	text-decoration-color: transparent;
+	text-decoration-skip-ink: none;
+	transition: text-decoration-color var(--transition);
+}
+
+.details__more:where(:hover, :focus-visible) {
+	text-decoration-color: currentColor;
+}

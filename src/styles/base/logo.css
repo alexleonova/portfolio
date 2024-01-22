@@ -1,0 +1,12 @@
+.logo__link {
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: inherit;
+	text-decoration: none;
+}
+
+.logo__image {
+	width: inherit;
+	height: inherit;
+}

@@ -1,0 +1,17 @@
+{
+	"socials": {
+		"linkedin": "https://www.linkedin.com/",
+		"behance": "https://www.behance.net/",
+		"email": "https://mail.google.com/"
+	},
+	"buttons": {
+		"getInTouch": {
+			"text": "Get in Touch",
+			"link": "https://example.com"
+		},
+		"resume": {
+			"text": "Download my Resume",
+			"link": "https://example.com"
+		}
+	}
+}

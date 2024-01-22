@@ -1,0 +1,67 @@
+---
+layout: base.webc
+---
+<script webc:setup>
+	const [intro, description] = content.split('<p>[DEMO]</p>');
+</script>
+<main class="container details" :class="getAccentClassByCategory(category)">
+	<article class="details__article">
+		<div class="details__intro">
+			<app-video-preview class="preview desktop-hidden tablet-hidden">
+				<video src="/images/demo.mp4" poster="/images/mobile-app-design-for-travel-startup.png" width="380" height="285" preload="none" loop muted playsinline class="preview__media"></video>
+			</app-video-preview>
+
+			<div class="details__header content">
+				<header class="details__hgroup">
+					<p class="details__tag tag" @text="getNameByCategory(category)"></p>
+					<img webc:if="favorite" class="details__favorite" src="/images/favorite.svg" width="28" height="28" alt="Favorite work." title="Favorite Work.">
+					<h1 class="details__heading text-heading-1" @text="title"></h1>
+				</header>
+				<dl class="details__intro intro">
+					<div class="intro__item">
+						<dt class="intro__heading text-heading-4 text-underline">The Brief</dt>
+						<dd class="intro__text" @text="brief"></dd>
+					</div>
+					<div class="intro__item">
+						<dt class="intro__heading text-heading-4 text-underline">My Role</dt>
+						<dd class="intro__text" @text="role"></dd>
+					</div>
+				</dl>
+				<p webc:if="more"><a :href="more" class="details__more">More Project Details <img src="/images/new-tab.svg" width="20" height="21" alt="(open in new tab)"></a></p>
+				<hr>
+				<slot webc:nokeep @html="intro"></slot>
+			</div>
+		</div>
+
+		<div class="details__demo">
+			<app-video-preview class="preview mobile-hidden">
+				<video src="/images/demo.mp4" poster="/images/mobile-app-design-for-travel-startup.png" width="380" height="285" preload="none" loop muted playsinline class="preview__media"></video>
+			</app-video-preview>
+
+			<figure class="demo">
+				<app-video-preview class="demo__preview preview">
+					<video src="/images/demo.mp4" poster="/images/mobile-app-design-for-travel-startup.png" width="380" height="285" preload="none" loop muted playsinline class="preview__media"></video>
+				</app-video-preview>
+				<figcaption class="demo__name">Prototyping Process</figcaption>
+			</figure>
+
+			<figure class="demo">
+				<app-video-preview class="demo__preview preview">
+					<img src="/images/mobile-app-design-for-travel-startup.png" width="380" height="285" alt="" class="preview__media">
+				</app-video-preview>
+				<figcaption class="demo__name">Elsewhere User Flow</figcaption>
+			</figure>
+
+			<figure class="demo">
+				<app-video-preview class="demo__preview preview">
+					<video src="/images/demo.mp4" poster="/images/mobile-app-design-for-travel-startup.png" width="380" height="285" preload="none" loop muted playsinline class="preview__media card__video"></video>
+				</app-video-preview>
+				<figcaption class="demo__name">App Main Screens</figcaption>
+			</figure>
+		</div>
+
+		<div class="details__description content" @html="description"></div>
+	</article>
+</main>
+
+<app-more :@works="collections.work" :@socials="global.socials"></app-more>

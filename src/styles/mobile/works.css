@@ -1,0 +1,17 @@
+.works {
+	padding-top: 1.875rem;
+	padding-bottom: 1.625rem;
+}
+
+.works__sidebar {
+	margin-bottom: 2.5rem;
+}
+
+.works__heading {
+	margin-bottom: 0.9375rem;
+}
+
+.works__list {
+	--grid-gap: 1.875rem;
+	margin-bottom: 3.5rem;
+}

@@ -1,0 +1,21 @@
+.home {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2.5rem;
+	padding-top: 2.5rem;
+	padding-bottom: 1.875rem;
+}
+
+.home__content {
+	flex: 1 0 100%;
+}
+
+.home__illustration {
+	width: 100%;
+	height: auto;
+	aspect-ratio: 340 / 360;
+}
+
+.home__socials {
+	flex: 0 0 auto;
+}

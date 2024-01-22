@@ -1,0 +1,5 @@
+.button,
+.tag {
+	/* padding: calc(0.9375rem - 0.125rem) calc(2.5rem - 0.125rem) calc(0.875rem - 0.125rem); */
+	padding: calc(0.90625rem - 0.125rem) calc(2.5rem - 0.125rem);
+}

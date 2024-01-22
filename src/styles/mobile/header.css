@@ -1,0 +1,10 @@
+.header {
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}
+
+
+.header__logo {
+	width: 8.1875rem;
+	height: 1.25rem;
+}

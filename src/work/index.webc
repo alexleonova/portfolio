@@ -1,0 +1,37 @@
+---
+layout: base.webc
+---
+<main class="container works">
+	<div class="works__sidebar">
+		<h1 class="works__heading text-heading-1">Portfolio</h1>
+		<search class="works__filter" role="search" aria-label="Works filtering">
+			<app-filter-controls class="filter">
+				<button webc:for="category of getCategories()" type="button" class="button filter__button" :class="getAccentClassByCategory(category[0])" :data-filter="category[0]" aria-pressed="false" @text="category[1].name">All Works</button>
+			</app-filter-controls>
+		</search>
+
+		<app-socials :@socials="global.socials" class="works__socials mobile-hidden"></app-socials>
+	</div>
+
+	<app-filter-results class="works__list">
+		<ul class="cards" role="list">
+			<li webc:for="work of collections.workSorted" class="cards__item" :data-filter="work.data.category">
+				<article class="card">
+					<app-video-preview class="card__preview preview">
+						<video :src="work.data.coverVideo" :poster="work.data.coverImage" width="380" height="285" preload="none" loop muted playsinline class="preview__media card__video"></video>
+					</app-video-preview>
+					<header class="card__meta">
+						<span class="card__category text-xs" :class="getAccentClassByCategory(work.data.category)" @text="getNameByCategory(work.data.category)"></span>
+						<img webc:if="work.data.favorite" class="card__favorite" src="/images/favorite.svg" width="28" height="28" alt="Favorite work." title="Favorite Work.">
+						<h2 class="card__heading text--heading-3">
+							<a :href="work.url" class="card__link" @text="work.data.title"></a>
+						</h2>
+					</header>
+				</article>
+			</li>
+		</ul>
+		<div class="cards__load-trigger"></div>
+	</app-filter-results>
+
+	<app-socials :@socials="global.socials" class=" desktop-hidden tablet-hidden"></app-socials>
+</main>

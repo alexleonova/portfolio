@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html {
+	scrollbar-gutter: stable;
+}
+
+body {
+	--scrollbar-width: calc(100vw - 100%);
+	--vw: calc(100vw - var(--scrollbar-width));
+	position: relative;
+	padding-top: 1px;
+	margin: 0;
+	font: var(--typography-text-s);
+}
+
+img {
+	display: block;
+}

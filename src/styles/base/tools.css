@@ -1,0 +1,11 @@
+.tools {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.9375rem;
+	list-style: none;
+}
+
+.tools__item {
+	border-radius: 1.25rem;
+	background-color: var(--accent-color-secondary);
+}

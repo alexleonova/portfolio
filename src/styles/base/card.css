@@ -1,0 +1,51 @@
+.card {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	row-gap: 0.9375rem;
+}
+
+.card__meta {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.625rem;
+}
+
+.card__category {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0.5rem 1.5rem;
+	border-radius: 1.25rem;
+	background-color: var(--accent-color-secondary);
+	color: var(--color-black);
+}
+
+.card__favorite {
+	align-self: center;
+}
+
+.card__heading {
+	flex: 1 0 100%;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.card__link {
+	
+	color: inherit;
+	text-decoration-color: transparent;
+	transition: text-decoration-color var(--transition);
+}
+
+.card__link::before {
+	content: '';
+	position: absolute;
+	inset: 0;
+	display: block;
+	border-radius: 1.25rem 1.25rem 0 0;
+}
+
+.card__link:where(:hover, :focus-visible) {
+	text-decoration-color: currentColor;
+}

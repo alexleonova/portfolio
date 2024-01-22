@@ -1,0 +1,11 @@
+.nav {
+	column-gap: 1.25rem;
+}
+
+.nav__link {
+	padding: 0.75rem 0.625rem;
+}
+
+.nav__line {
+	scale: 0.71;
+}
