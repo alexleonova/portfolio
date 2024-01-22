@@ -7,6 +7,7 @@
   "scripts": {
     "clean": "npx rimraf build",
     "dev:eleventy": "npx @11ty/eleventy --serve --watch",
+    "cms": "npx netlify-cms-proxy-server",
     "dev": "npm run clean && npm run dev:eleventy",
     "build:eleventy": "npx @11ty/eleventy --quiet",
     "build:styles": "lightningcss --minify --bundle --browserslist src/styles/base.css src/styles/mobile.css src/styles/tablet.css src/styles/desktop.css --output-dir build/styles",
@@ -14,7 +15,7 @@
     "build": "npm run clean && npm run build:eleventy && npm run build:styles && npm run build:scripts"
   },
   "engines": {
-    "node": ">=20.0.0"
+    "node": ">=18.0.0"
   },
   "browserslist": [
     "last 5 firefoxandroid versions",
@@ -30,6 +31,7 @@
     "@11ty/eleventy-plugin-webc": "^0.11.2",
     "esbuild": "^0.19.11",
     "lightningcss": "^1.23.0",
-    "lightningcss-cli": "^1.23.0"
+    "lightningcss-cli": "^1.23.0",
+    "netlify-cms-proxy-server": "^1.3.24"
   }
 }
