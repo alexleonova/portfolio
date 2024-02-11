@@ -3,7 +3,7 @@ class AppStickyHeader extends HTMLElement {
 
 	connectedCallback() {
 		this.observer = new IntersectionObserver(
-			([event]) => event.target.toggleAttribute('sticky', event.intersectionRatio < 1),
+			([event]) => this.toggleAttribute('sticky', event.intersectionRatio < 1),
 			{
 				rootMargin: '-1px 0px 0px 0px',
 				threshold: [1]

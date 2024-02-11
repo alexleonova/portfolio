@@ -39,6 +39,7 @@ class AppVideoPreview extends HTMLElement {
 			});
 		}
 		
+		// @TODO
 		this.video.load();
 	}
 }
