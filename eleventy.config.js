@@ -6,6 +6,10 @@ module.exports = function(config) {
 	config.addPlugin(webcPlugin, {
 		components: 'src/_includes/**/*.webc'
 	});
+
+	config.setServerOptions({
+		domDiff: false
+	});
 	
 	if (process.env.ELEVENTY_RUN_MODE !== 'build') {
 		config.addPassthroughCopy('src/styles');
@@ -15,6 +19,7 @@ module.exports = function(config) {
 	config.addPassthroughCopy('src/admin/config.yml');
 	config.addPassthroughCopy('src/images');
 	config.addPassthroughCopy('src/fonts');
+	config.addPassthroughCopy('src/uploads');
 
 	const categoriesMap = new Map([
 		['all', { name: 'All Works', color: ''}],
@@ -31,6 +36,14 @@ module.exports = function(config) {
 
 	config.addJavaScriptFunction('getCategories', function() {
 		return Array.from(categoriesMap);
+	});
+
+	config.addJavaScriptFunction('getIntroFromContent', function(content) {
+		return content.includes('<p>[DEMO]</p>') ? content.split('<p>[DEMO]</p>')[0] : '';
+	});
+
+	config.addJavaScriptFunction('getBodyFromContent', function(content) {
+		return content.includes('<p>[DEMO]</p>') ? content.split('<p>[DEMO]</p>')[1] : content;
 	});
 
 	config.addJavaScriptFunction('getAccentClassByCategory', function(category) {

@@ -2,14 +2,38 @@ local_backend: true
 backend:
   name: git-gateway
   branch: main
-media_folder: "src/images"
-public_folder: "/images"
+media_folder: "src/uploads"
+public_folder: "/uploads"
 collections:
   - name: "work"
     label: "Work"
     folder: "src/work"
     create: true
-    slug: "{{slug}}"
+    slug: "{{handle}}"
+    sortable_fields:
+      - "title"
+      - "date"
+    view_filters:
+      - label: "UX/UI Design"
+        field: "category"
+        pattern: "ui-ux-design"
+      - label: "Logotype"
+        field: "category"
+        pattern: "logotype"
+      - label: "Animation/Motion"
+        field: "category"
+        pattern: "animation-motion"
+      - label: "Social Media"
+        field: "category"
+        pattern: "social-media"
+      - label: "Illustration"
+        field: "category"
+        pattern: "illustration"
+    view_groups:
+      - label: "Category"
+        field: "category"
+      - label: "Favorite"
+        field: "favorite"
     fields:
       - label: "Layout"
         name: "layout"
@@ -23,6 +47,10 @@ collections:
 
       - label: "Title"
         name: "title"
+        widget: "string"
+
+      - label: "Slug"
+        name: "handle"
         widget: "string"
 
       - label: "Category"
@@ -66,6 +94,10 @@ collections:
         name: "role"
         widget: "text"
 
+      - label: "More link"
+        name: "more"
+        widget: "string"
+
       - label: "Demos"
         name: "demos"
         widget: "list"
@@ -92,7 +124,15 @@ collections:
       - label: "Body"
         name: "body"
         widget: "markdown"
-        hint: "Add a [DEMO] separator to divide the text into two parts and insert images between them."
+
+      - label: "Tools"
+        name: "tools"
+        widget: "list"
+        allow_add: true
+        field:
+          label: "Tool" 
+          name: "tool"
+          widget: "string"
 
   - name: "pages"
     label: "Pages"

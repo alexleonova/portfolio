@@ -1,7 +1,7 @@
 ---
 layout: about.webc
 video: null
-poster: /images/about.jpg
+poster: /uploads/about.jpg
 ---
 <h1 class="text-heading-2">About me</h1>
 

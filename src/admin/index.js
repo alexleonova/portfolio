@@ -104,3 +104,15 @@ ${md.render(data.content)}
 </div>`;
 	}
 });
+
+CMS.registerEditorComponent({
+	id: "separator",
+	label: "Demo block separator",
+	pattern: /^<p\s>\[DEMO\]<\/p>$/ms,
+	toBlock: function() {
+		return '<p>[DEMO]</p>';
+	},
+	toPreview: function() {
+		return '<p>[DEMO]<p>';
+	}
+});
