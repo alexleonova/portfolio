@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Alex Leonova</title>
 	<meta name="generator" :content="eleventy.generator">
-	<link webc:keep rel="preload" href="/fonts/Lexend-variable-latin.woff2" as="font" type="font/woff2">
+	<link webc:keep rel="preload" href="/fonts/Lexend-variable-latin.woff2" as="font" type="font/woff2"><!--- @TODO --->
 	<link webc:keep rel="stylesheet" href="/styles/base.css" media="all">
 	<link webc:keep rel="stylesheet" href="/styles/mobile.css" media="(max-width: 600px)">
 	<link webc:keep rel="stylesheet" href="/styles/tablet.css" media="(max-width: 900px) and (min-width: 601px)">
@@ -15,6 +15,6 @@
 <body class="color-light">
 	<app-sticky-header :@page="page"></app-sticky-header>
 	
-	<slot @raw="content"></slot>	
+	<slot @raw="content"></slot>
 </body>
 </html>
