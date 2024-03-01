@@ -15,6 +15,6 @@
 <body class="color-light">
 	<app-sticky-header :@page="page"></app-sticky-header>
 	
-	<slot @raw="content"></slot>
+	<slot webc:nokeep @html="content"></slot>
 </body>
 </html>

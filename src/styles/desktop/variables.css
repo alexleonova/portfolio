@@ -7,11 +7,11 @@
 	--typography-heading-4: normal 600 1.0625rem/1.3125rem "Lexend", sans-serif;
 
 	--typography-text-l-bold: normal 700 1.3125rem/1.625rem "Lexend", sans-serif;
-	--typography-text-l: normal 500 1.3125rem/1.625rem "Lexend", sans-serif;
+	--typography-text-l: normal 400 1.3125rem/1.625rem "Lexend", sans-serif;
 	--typography-text-m-bold: normal 700 1.0625rem/1.3125rem "Lexend", sans-serif;
-	--typography-text-m: normal 500 1.0625rem/1.3125rem "Lexend", sans-serif;
+	--typography-text-m: normal 400 1.0625rem/1.3125rem "Lexend", sans-serif;
 	--typography-text-s-bold: normal 700 1rem/1.625rem "Lexend", sans-serif;
-	--typography-text-s: normal 500 1rem/1.625rem "Lexend", sans-serif;
+	--typography-text-s: normal 400 1rem/1.625rem "Lexend", sans-serif;
 	--typography-text-xs-bold: normal 700 0.9375rem/1.1875rem "Lexend", sans-serif;
-	--typography-text-xs: normal 500 0.9375rem/1.1875rem "Lexend", sans-serif;
+	--typography-text-xs: normal 400 0.9375rem/1.1875rem "Lexend", sans-serif;
 }

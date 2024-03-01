@@ -1,3 +1,9 @@
+.details__intro {
+	display: flex;
+	flex-direction: column;
+	gap: 1.875rem;
+}
+
 .details__hgroup {
 	display: flex;
 	flex-wrap: wrap;

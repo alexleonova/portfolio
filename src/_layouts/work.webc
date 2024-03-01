@@ -4,9 +4,16 @@ layout: base.webc
 <main class="container details" :class="getAccentClassByCategory(category)">
 	<article class="details__article">
 		<div class="details__intro">
-			<app-video-preview class="preview desktop-hidden">
-				<video src="/uploads/demo.mp4" poster="/uploads/mobile-app-design-for-travel-startup.png" width="380" height="285" preload="none" autoplay loop muted  playsinline class="preview__media"></video>
+			<app-video-preview webc:if="coverVideo && coverImage" class="preview desktop-hidden">
+				<app-demo-picture :src="coverImage"></app-demo-picture>
+				<video :src="coverVideo" width="380" height="285" preload="none" loop muted playsinline class="preview__media" hidden></video>
 			</app-video-preview>
+			<div webc:elseif="coverVideo && !coverImage" class="preview desktop-hidden">
+				<video :src="coverVideo" width="380" height="285" preload="none" autoplay loop muted playsinline class="preview__media"></video>
+			</div>
+			<div webc:elseif="!coverVideo && coverImage" class="preview desktop-hidden">
+				<app-demo-picture :src="coverImage"></app-demo-picture>
+			</div>
 
 			<div class="details__header content">
 				<header class="details__hgroup">
@@ -31,16 +38,26 @@ layout: base.webc
 		</div>
 
 		<div class="details__demo">
-			<app-video-preview class="preview tablet-hidden mobile-hidden">
-				<video :src="coverVideo" :poster="coverImage" width="380" height="285" preload="none" loop muted playsinline class="preview__media"></video>
+			<app-video-preview webc:if="coverVideo && coverImage" class="preview tablet-hidden mobile-hidden">
+				<app-demo-picture :src="coverImage"></app-demo-picture>
+				<video :src="coverVideo" width="380" height="285" preload="none" loop muted playsinline class="preview__media" hidden></video>
 			</app-video-preview>
+			<div webc:elseif="coverVideo && !coverImage" class="preview tablet-hidden mobile-hidden">
+				<video :src="coverVideo" width="380" height="285" preload="none" autoplay loop muted playsinline class="preview__media"></video>
+			</div>
+			<div webc:elseif="!coverVideo && coverImage" class="preview tablet-hidden mobile-hidden">
+				<app-demo-picture :src="coverImage"></app-demo-picture>
+			</div>
 
 			<template webc:nokeep webc:if="demos">
 				<figure webc:for="item of demos" class="demo">
-					<app-video-preview class="demo__preview preview">
-						<video webc:if="item.demo.video && item.demo.image" :src="item.demo.video" :poster="item.demo.image" width="380" height="285" preload="none" loop muted playsinline class="preview__media"></video>
-						<img webc:if="!item.demo.video && item.demo.image" :src="item.demo.image" width="380" height="285" loading="lazy" alt="" class="preview__media">
+					<app-video-preview webc:if="item.demo.video && item.demo.image" class="demo__preview preview">
+						<app-demo-picture :src="item.demo.image"></app-demo-picture>
+						<video :src="item.demo.video" :poster="item.demo.image" width="380" height="285" preload="none" loop muted playsinline class="preview__media" hidden></video>
 					</app-video-preview>
+					<div webc:if="!item.demo.video && item.demo.image" class="demo__preview preview">
+						<app-demo-picture :src="item.demo.image"></app-demo-picture>
+					</div>
 					<figcaption webc:if="item.demo.caption" class="demo__name" @text="item.demo.caption">Prototyping Process</figcaption>
 				</figure>
 			</template>

@@ -128,10 +128,7 @@ hr:not([class]) {
 	text-decoration: underline;
 	text-decoration-thickness: 0.3125rem;
 	text-decoration-color: var(--accent-color-primary);
-}
-
-.text-underline {
-	padding-bottom: 0.4375rem;
+	text-decoration-skip-ink: none;
 	text-underline-offset: 0.5rem;
 }
 

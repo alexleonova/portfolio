@@ -2,16 +2,17 @@
   "buttons": {
     "getInTouch": {
       "text": "Get in Touch",
-      "link": "https://example.com"
+      "link": "mailto:alexleonova99@gmail.com"
     },
     "resume": {
       "text": "Download my Resume",
-      "link": "/uploads/favorite.svg"
+      "file": "Resume Alex Leonova",
+      "link": "/uploads/Resume Alex Leonova.pdf"
     }
   },
   "socials": {
-    "linkedin": "https://www.linkedin.com/",
-    "behance": "https://www.behance.net/",
-    "email": "https://mail.google.com/"
+    "linkedin": "https://www.linkedin.com/in/alex-leonova-7b73a4233/",
+    "behance": "https://www.behance.net/alex_leonova",
+    "email": "mailto:alexleonova99@gmail.com"
   }
 }

@@ -4,17 +4,17 @@ layout: base.webc
 <main class="container works">
 	<div class="works__sidebar">
 		<h1 class="works__heading text-heading-1">Portfolio</h1>
-		<search class="works__filter" role="search" aria-label="Works filtering">
+		<div class="works__filter" role="search" aria-label="Works filtering">
 			<app-filter-controls class="filter">
 				<button webc:for="category of getCategories()" type="button" class="button filter__button" :class="getAccentClassByCategory(category[0])" :data-filter="category[0]" aria-pressed="false" @text="category[1].name">All Works</button>
 			</app-filter-controls>
-		</search>
+		</div>
 
 		<app-socials :@socials="global.socials" class="works__socials mobile-hidden"></app-socials>
 	</div>
 
 	<app-filter-results class="works__list">
-		<ul class="cards" role="list">
+		<ul class="cards">
 			<li webc:for="work of collections.workSorted" class="cards__item" :data-filter="work.data.category">
 				<article class="card">
 					<app-video-preview class="card__preview preview">
@@ -33,5 +33,5 @@ layout: base.webc
 		<div class="cards__load-trigger"></div>
 	</app-filter-results>
 
-	<app-socials :@socials="global.socials" class=" desktop-hidden tablet-hidden"></app-socials>
+	<app-socials :@socials="global.socials" class="desktop-hidden tablet-hidden"></app-socials>
 </main>

@@ -20,3 +20,15 @@ body {
 img {
 	display: block;
 }
+
+picture {
+	display: contents;
+}
+
+[hidden] {
+	display: none !important;
+}
+
+::selection {
+	background-color: var(--accent-color-secondary, var(--color-primary-light-blue));
+}

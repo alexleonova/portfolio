@@ -1,14 +1,18 @@
 class AppVideoPreview extends HTMLElement {
 	static parentDelegateElements = 'article.card';
+	picture = null;
 	video = null;
 	target = null;
 	playPromise = null;
 
 	connectedCallback() {
+		this.picture = this.querySelector('picture'); 
 		this.video = this.querySelector('video');
 
-		if (!this.video) {
-			console.warn('app-video-preview should contains <video> element.');
+		console.log(this.picture, this.video);
+
+		if (!this.picture && !this.video) {
+			console.warn('app-video-preview should contains <picture> and <video> elements.');
 			return;
 		}
 
@@ -19,16 +23,27 @@ class AppVideoPreview extends HTMLElement {
 			this.target = parent;
 		}
 
-		this.target.addEventListener('pointerenter', this.playVideo.bind(this));
-		this.target.addEventListener('pointerleave', this.stopVideo.bind(this));
+		if (!this.video.autoplay) {
+			this.target.addEventListener('pointerenter', this.playVideo.bind(this));
+			this.target.addEventListener('pointerleave', this.stopVideo.bind(this));
+		} else {
+			this.target.addEventListener('click', this.toggleVideo.bind(this));
+		}
 	}
 
 	disconnectedCallback() {
-		this.target.removeEventListener('pointerenter', this.playVideo.bind(this));
-		this.target.removeEventListener('pointerleave', this.stopVideo.bind(this));
+		if (!this.video.autoplay) {
+			this.target.removeEventListener('pointerenter', this.playVideo.bind(this));
+			this.target.removeEventListener('pointerleave', this.stopVideo.bind(this));
+		} else {
+			this.target.removeEventListener('click', this.toggleVideo.bind(this));
+		}
 	}
 
 	playVideo() {
+		console.log('event');
+		this.picture.hidden = true;
+		this.video.hidden = false;
 		this.playPromise = this.video.play();
 	}
 
@@ -38,9 +53,18 @@ class AppVideoPreview extends HTMLElement {
 				this.video.pause();
 			});
 		}
-		
-		// @TODO
-		this.video.load();
+
+		this.video.currentTime = 0;
+		this.picture.hidden = false;
+		this.video.hidden = true;
+	}
+
+	toggleVideo() {
+		if (this.video.paused) {
+			this.video.play();
+		} else {
+			this.video.pause();
+		}
 	}
 }
 

@@ -1,0 +1,1 @@
+<slot webc:nokeep @html="picture(`./src/${src}`, [380, 475, 570, 665, 760, 820], '(max-width: 600px) calc(100vw - 3.125rem), ((max-width: 900px) and (min-width: 601px)) calc(100vw - 5rem), ((max-width: 1360px) and (min-width: 901px)) calc(calc(100vw - 14.375rem) / 2), 32.3125rem', alt)"></slot>

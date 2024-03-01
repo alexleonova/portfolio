@@ -24,7 +24,7 @@
 
 .works__list {
 	--grid-gap:  3.125rem 2.5rem;
-	--grid-justify-items: end;
+	--grid-justify-items: start;
 	--grid-card-max-width: 23.75rem;
 	flex: 0 1 50rem;
 }

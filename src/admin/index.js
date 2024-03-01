@@ -1,5 +1,5 @@
 import CMS from 'decap-cms-app';
-import markdownit from 'markdown-it'
+import markdownit from 'markdown-it';
 
 CMS.init();
 

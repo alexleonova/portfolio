@@ -18,7 +18,7 @@ demos:
       video: /uploads/demo.mp4
       caption: Prototyping Process
   - demo:
-      image: /uploads/fintech-website-design-for-gainsgurus.png
+      image: /uploads/test.png
       caption: Elsewhere User Flow
   - demo:
       image: /uploads/fintech-website-design-for-gainsgurus.png

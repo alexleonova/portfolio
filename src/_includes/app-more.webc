@@ -22,5 +22,5 @@
 		</li>
 	</ul>
 
-	<app-socials :socials="socials"></app-socials>
+	<app-socials :@socials="socials"></app-socials>
 </aside>

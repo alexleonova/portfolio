@@ -1,0 +1,1 @@
+<slot webc:nokeep @html="picture('./src/' + src, widths, sizes, alt)"></slot>

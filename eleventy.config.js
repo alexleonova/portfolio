@@ -1,10 +1,14 @@
-const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
-const webcPlugin = require('@11ty/eleventy-plugin-webc');
+const path = require('node:path');
+const { EleventyHtmlBasePlugin } = require('@11ty/eleventy');
+const eleventyWebcPlugin = require('@11ty/eleventy-plugin-webc');
+const Image = require('@11ty/eleventy-img');
 
 module.exports = function(config) {
 	config.addPlugin(EleventyHtmlBasePlugin);
-	config.addPlugin(webcPlugin, {
-		components: 'src/_includes/**/*.webc'
+	config.addPlugin(eleventyWebcPlugin, {
+		components: [
+			'src/_includes/**/*.webc'
+		]
 	});
 
 	config.setServerOptions({
@@ -60,6 +64,22 @@ module.exports = function(config) {
 		}
 
 		return categoriesMap.get(category).name;
+	});
+
+	config.addJavaScriptFunction('picture', async function(src, widths = ['auto'], sizes = '', alt = '') {
+		const metadata = await Image(src, {
+			widths: widths,
+			formats: ['avif', 'webp', 'auto'],
+			urlPath: '/images/',
+			outputDir: './build/images/',
+			filenameFormat: (id, src, width, format) => {
+				const { name } = path.parse(src);
+
+				return `${name}-${width}w.${format}`;
+			},
+		});
+
+		return Image.generateHTML(metadata, { class: 'preview__media', sizes, alt});
 	});
 
 	config.addCollection("workSorted", function(collectionApi) {
