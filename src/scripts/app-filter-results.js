@@ -9,6 +9,17 @@ class AppFilterResults extends HTMLElement {
 		if (!this.filterControls) return;
 
 		this.cards = Array.from(this.querySelectorAll('[data-filter]'));
+		this.cards.forEach(card => {
+			const observer = new IntersectionObserver(
+				([event]) => {
+					event.target.classList.toggle('card--visible', event.isIntersecting);
+					console.log(event);
+				}
+			);
+	
+			observer.observe(card.querySelector('.card'));
+		});
+
 		this.filterControls.addEventListener('app-filter-controls:change', this.filterCards.bind(this));
 	}
 

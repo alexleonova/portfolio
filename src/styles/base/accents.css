@@ -1,9 +1,13 @@
 .color-light {
+	--color-text-1: var(--color-black);
+	--color-text-2: var(--color-gray-80);
 	background-color: var(--color-white);
-	color: var(--color-black);
+	color: var(--color-text-1);
 }
 
 .color-dark {
+	--color-text-1: var(--color-white);
+	--color-text-2: var(--color-gray-20);
 	background-color: var(--color-black);
 	color: var(--color-white);
 }

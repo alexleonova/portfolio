@@ -23,6 +23,8 @@ demos:
       caption: App Main Screens
   - demo:
       image: /uploads/fintech-website-design-for-gainsgurus.png
+results: Traveler's Companion app received positive reviews and gained
+  popularity, redefining the travel experience for users worldwide.
 tools:
   - Figma
   - Illustrator
@@ -40,7 +42,7 @@ Frequent travelers face a myriad of challenges: from itinerary planning to navig
 
 Introducing the Traveler's Companion, a mobile app meticulously crafted to be the ultimate travel partner. Our solution goes beyond mere navigation, offering an intuitive interface that combines itinerary management, real-time language translation, local insights, and personalized recommendations.
 
-[DEMO]
+\[DEMO]
 
 ## Design Process:
 
@@ -63,7 +65,3 @@ Introducing the Traveler's Companion, a mobile app meticulously crafted to be th
 5. ### User Testing and Iteration:
 
    * Engaged in multiple rounds of user testing to validate design decisions.
-
-## Results:
-
-Traveler's Companion app received positive reviews and gained popularity, redefining the travel experience for users worldwide.

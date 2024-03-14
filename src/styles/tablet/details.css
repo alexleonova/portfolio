@@ -6,7 +6,10 @@
 .details__article {
 	display: flex;
 	flex-direction: column;
-	gap: 3.125rem;
+}
+
+.details__intro {
+	margin-bottom: 3.125rem;
 }
 
 .details__header,
@@ -16,6 +19,11 @@
 
 .details__demo {
 	gap: 1.875rem;
+	margin-bottom: 3.125rem;
+}
+
+.details__description {
+	margin-bottom: 3.125rem;
 }
 
 .details__hgroup {

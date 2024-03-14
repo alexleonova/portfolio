@@ -1,0 +1,5 @@
+.cards {
+	--grid-gap: 2.5rem;
+	display: flex;
+	flex-direction: column;
+}

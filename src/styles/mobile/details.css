@@ -9,9 +9,17 @@
 	gap: 2.5rem;
 }
 
+.details__intro {
+	margin-bottom: 2.5rem;
+}
 
 .details__demo {
 	gap: 1.875rem;
+	margin-bottom: 2.5rem;
+}
+
+.details__description {
+	margin-bottom: 2.5rem;
 }
 
 .details__hgroup {

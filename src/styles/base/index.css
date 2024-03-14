@@ -9,7 +9,7 @@
 @import url('header.css');
 @import url('logo.css');
 @import url('nav.css');
-@import url('home.css');
+@import url('page.css');
 @import url('buttons.css');
 @import url('socials.css');
 @import url('works.css');
@@ -22,4 +22,3 @@
 @import url('demo.css');
 @import url('tools.css');
 @import url('more.css');
-@import url('about.css');

@@ -18,6 +18,10 @@
 	min-height: calc(100dvh - 5rem - 4.375rem - 3.75rem);
 }
 
+.works__heading {
+	margin-bottom: 1.125rem;
+}
+
 .works__socials {
 	margin-top: auto;
 }

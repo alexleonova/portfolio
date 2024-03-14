@@ -12,9 +12,9 @@
 					<img webc:if="!work.data.coverVideo && work.data.coverImage" :src="work.data.coverImage" width="380" height="285" loading="lazy" :alt="work.data.title" class="preview__media card__video">
 				</app-video-preview>
 				<header class="card__meta">
-					<span class="card__category text-xs" :class="getAccentClassByCategory(work.data.category)" @text="getNameByCategory(work.data.category)"></span>
+					<span class="card__category card__category--primary text-xs" :class="getAccentClassByCategory(work.data.category)" @text="getNameByCategory(work.data.category)"></span>
 					<img webc:if="work.data.favorite" class="card__favorite" src="/images/favorite.svg" width="28" height="28" alt="Favorite work.">
-					<h2 class="card__heading text--heading-3">
+					<h2 class="card__heading text-heading-3">
 						<a :href="work.url" class="card__link" @text="work.data.title"></a>
 					</h2>
 				</header>

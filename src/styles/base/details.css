@@ -1,6 +1,5 @@
 .details__intro {
-	display: flex;
-	flex-direction: column;
+	display: grid;
 	gap: 1.875rem;
 }
 
@@ -24,7 +23,7 @@
 	margin: 0;
 }
 
-.details__more {
+.details__more-link {
 	display: inline-flex;
 	align-items: center;
 	column-gap: 0.625rem;
@@ -35,6 +34,6 @@
 	transition: text-decoration-color var(--transition);
 }
 
-.details__more:where(:hover, :focus-visible) {
+.details__more-link:where(:hover, :focus-visible) {
 	text-decoration-color: currentColor;
 }

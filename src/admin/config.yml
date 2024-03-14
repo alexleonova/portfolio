@@ -125,6 +125,10 @@ collections:
         name: "body"
         widget: "markdown"
 
+      - label: "Results"
+        name: "results"
+        widget: "text"
+
       - label: "Tools"
         name: "tools"
         widget: "list"
@@ -133,6 +137,68 @@ collections:
           label: "Tool" 
           name: "tool"
           widget: "string"
+
+      - label: "Open Graph"
+        name: "og"
+        widget: "object"
+        fields:
+          - label: "og:title"
+            name: "opengraph"
+            widget: "boolean"
+            default: true
+            required: false
+
+          - label: "og:title"
+            name: "title"
+            widget: "string"
+            required: false
+
+          - label: "og:image"
+            name: "image"
+            widget: "image"
+            required: false
+            hint: "1200 x 630 pixels recommended"
+
+          - label: "og:description"
+            name: "description"
+            widget: "text"
+            required: false
+
+          - label: "og:url"
+            name: "url"
+            widget: "boolean"
+            default: true
+            required: false
+            hint: "Generated automatically if enabled"
+
+          - label: "og:type"
+            name: "type"
+            widget: "string"
+            default: website
+            required: false
+
+          - label: "og:locale"
+            name: "locale"
+            widget: "string"
+            default: en_US
+            required: false
+
+          - label: "og:site_name"
+            name: "site_name"
+            widget: "string"
+            required: false
+
+          - label: "twitter:card"
+            name: "twitter"
+            widget: "boolean"
+            default: true
+            required: false
+            hint: "Generated automatically from og:* if enabled"
+
+          - label: "twitter:site"
+            name: "site"
+            widget: "string"
+            required: false
 
   - name: "pages"
     label: "Pages"
@@ -159,6 +225,68 @@ collections:
             name: "poster"
             widget: "image"
 
+          - label: "Open Graph"
+            name: "og"
+            widget: "object"
+            fields:
+              - label: "og:title"
+                name: "opengraph"
+                widget: "boolean"
+                default: true
+                required: false
+
+              - label: "og:title"
+                name: "title"
+                widget: "string"
+                required: false
+
+              - label: "og:image"
+                name: "image"
+                widget: "image"
+                required: false
+                hint: "1200 x 630 pixels recommended"
+
+              - label: "og:description"
+                name: "description"
+                widget: "text"
+                required: false
+
+              - label: "og:url"
+                name: "url"
+                widget: "boolean"
+                default: true
+                required: false
+                hint: "Generated automatically if enabled"
+
+              - label: "og:type"
+                name: "type"
+                widget: "string"
+                default: website
+                required: false
+
+              - label: "og:locale"
+                name: "locale"
+                widget: "string"
+                default: en_US
+                required: false
+
+              - label: "og:site_name"
+                name: "site_name"
+                widget: "string"
+                required: false
+
+              - label: "twitter:card"
+                name: "twitter"
+                widget: "boolean"
+                default: true
+                required: false
+                hint: "Generated automatically from og:* if enabled"
+
+              - label: "twitter:site"
+                name: "site"
+                widget: "string"
+                required: false
+
       - label: "About"
         name: "about"
         file: "src/about/index.md"
@@ -180,6 +308,68 @@ collections:
           - label: "Poster"
             name: "poster"
             widget: "image"
+
+          - label: "Open Graph"
+            name: "og"
+            widget: "object"
+            fields:
+              - label: "og:title"
+                name: "opengraph"
+                widget: "boolean"
+                default: true
+                required: false
+
+              - label: "og:title"
+                name: "title"
+                widget: "string"
+                required: false
+
+              - label: "og:image"
+                name: "image"
+                widget: "image"
+                required: false
+                hint: "1200 x 630 pixels recommended"
+
+              - label: "og:description"
+                name: "description"
+                widget: "text"
+                required: false
+
+              - label: "og:url"
+                name: "url"
+                widget: "boolean"
+                default: true
+                required: false
+                hint: "Generated automatically if enabled"
+
+              - label: "og:type"
+                name: "type"
+                widget: "string"
+                default: website
+                required: false
+
+              - label: "og:locale"
+                name: "locale"
+                widget: "string"
+                default: en_US
+                required: false
+
+              - label: "og:site_name"
+                name: "site_name"
+                widget: "string"
+                required: false
+
+              - label: "twitter:card"
+                name: "twitter"
+                widget: "boolean"
+                default: true
+                required: false
+                hint: "Generated automatically from og:* if enabled"
+
+              - label: "twitter:site"
+                name: "site"
+                widget: "string"
+                required: false
 
   - name: "settings"
     label: "Settings"

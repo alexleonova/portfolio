@@ -16,14 +16,14 @@ layout: base.webc
 	<app-filter-results class="works__list">
 		<ul class="cards">
 			<li webc:for="work of collections.workSorted" class="cards__item" :data-filter="work.data.category">
-				<article class="card">
+				<article class="card card--revealed">
 					<app-video-preview class="card__preview preview">
-						<video :src="work.data.coverVideo" :poster="work.data.coverImage" width="380" height="285" preload="none" loop muted playsinline class="preview__media card__video"></video>
+						<video :src="work.data.coverVideo" :poster="work.data.coverImage" width="380" height="285" preload="none" loop muted playsinline class="card__media preview__media card__video"></video>
 					</app-video-preview>
 					<header class="card__meta">
-						<span class="card__category text-xs" :class="getAccentClassByCategory(work.data.category)" @text="getNameByCategory(work.data.category)"></span>
+						<span class="card__category card__category--secondary text-xs" :class="getAccentClassByCategory(work.data.category)" @text="getNameByCategory(work.data.category)"></span>
 						<img webc:if="work.data.favorite" class="card__favorite" src="/images/favorite.svg" width="28" height="28" alt="Favorite work." title="Favorite Work.">
-						<h2 class="card__heading text--heading-3">
+						<h2 class="card__heading text-heading-3">
 							<a :href="work.url" class="card__link" @text="work.data.title"></a>
 						</h2>
 					</header>

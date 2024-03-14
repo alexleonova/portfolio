@@ -1,17 +1,17 @@
 ---
 layout: base.webc
 ---
-<main class="container home">
-	<div class="home__content content accent-purple">
+<main class="container page">
+	<div class="page__content content accent-purple">
 		<slot webc:nokeep @html="content"></slot>
-		<div class="buttons">
+		<div class="buttons page__buttons">
 			<a :href="global.buttons.getInTouch.link" class="button accent-purple" @text="global.buttons.getInTouch.text"></a>
 			<a :href="global.buttons.resume.link" class="button accent-blue" download="Alex_Leonova_CV" @text="global.buttons.resume.text"></a>
 		</div>
 	</div>
 
-	<video webc:if="video && poster" :src="video" :poster="poster" width="510" height="530" preload="metadata" autoplay muted loop playsinline class="home__illustration"></video>
-	<img webc:if="!video && poster" :src="poster" width="510" height="530" alt="" class="home__illustration">
+	<video webc:if="video && poster" :src="video" :poster="poster" width="510" height="530" preload="metadata" autoplay muted loop playsinline class="page__illustration"></video>
+	<img webc:if="!video && poster" :src="poster" width="510" height="530" alt="" class="page__illustration">
 
-	<app-socials :@socials="global.socials" class="home__socials"></app-socials>
+	<app-socials :@socials="global.socials" class="page__socials"></app-socials>
 </main>

@@ -21,7 +21,7 @@ layout: base.webc
 					<img webc:if="favorite" class="details__favorite" src="/images/favorite.svg" width="28" height="28" alt="Favorite work.">
 					<h1 class="details__heading text-heading-1" @text="title"></h1>
 				</header>
-				<dl class="details__intro intro">
+				<dl class="intro">
 					<div class="intro__item">
 						<dt class="intro__heading text-heading-4 text-underline">The Brief</dt>
 						<dd class="intro__text" @text="brief"></dd>
@@ -31,7 +31,7 @@ layout: base.webc
 						<dd class="intro__text" @text="role"></dd>
 					</div>
 				</dl>
-				<p webc:if="more"><a :href="more" class="details__more">More Project Details <img src="/images/new-tab.svg" width="20" height="21" alt="(open in new tab)."></a></p>
+				<p webc:if="more" class="details__more"><a :href="more" class="details__more-link">More Project Details <img src="/images/new-tab.svg" width="20" height="21" alt="(open in new tab)."></a></p>
 				<hr>
 				<slot webc:nokeep @html="getIntroFromContent(content)"></slot>
 			</div>
@@ -65,6 +65,13 @@ layout: base.webc
 
 		<div class="details__description content">
 			<slot webc:nokeep @html="getBodyFromContent(content)"></slot>
+		</div>
+
+		<div class="details__results content">
+			<template webc:nokeep webc:if="results">
+				<h2>Results:</h2>
+				<p @html="results"></p>
+			</template>
 			<template webc:nokeep webc:if="tools">
 				<h2>Tools</h2>
 				<ul class="tools">

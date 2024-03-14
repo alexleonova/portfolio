@@ -1,8 +1,4 @@
 .cards {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(var(--grid-card-min-width, 17.5rem), 1fr));
-	gap: var(--grid-gap, 1rem);
-	justify-items: var(--grid-justify-items, initial);
 	list-style: none;
 	padding-left: 0;
 	margin-top: 0;
@@ -11,4 +7,12 @@
 
 .cards__item {
 	max-width: var(--grid-card-max-width, initial);
+}
+
+.cards__item:nth-child(even) {
+	--transition-origin: center left;
+}
+
+.cards__item:nth-child(odd) {
+	--transition-origin: center right;
 }
