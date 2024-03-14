@@ -1,28 +1,29 @@
 ---
 layout: work.webc
 tags: work
-title: Logotype for real estate management platform
+title: Illustrations set for company internal use
 handle: logotype-for-real-estate-management-platform
 category: logotype
 favorite: false
 date: 2024-01-22T18:57:31.183Z
-coverImage: /uploads/mobile-app-design-for-travel-startup.png
+coverImage: /uploads/ga4-thumbnail.png
 brief: Design a comprehensive mobile app addressing the varied needs of modern
   travelers.
 role: Research, Concept, Prototyping, UI Design, Graphic Design, Illustration.
 more: https://example.com
 demos:
   - demo:
-      image: /uploads/fintech-website-design-for-gainsgurus.png
-      caption: Prototyping Process
+      image: /uploads/ga4-img-1.png
+      caption: Sketch process, colors
   - demo:
-      image: /uploads/fintech-website-design-for-gainsgurus.png
-      caption: Elsewhere User Flow
+      image: /uploads/ga4-img-2.png
+      caption: Illustrations for article
   - demo:
-      image: /uploads/fintech-website-design-for-gainsgurus.png
-      caption: App Main Screens
+      image: /uploads/ga4-img-3.png
+      caption: "Alternative colour scheme "
   - demo:
-      image: /uploads/fintech-website-design-for-gainsgurus.png
+      image: /uploads/ga4-img-4.png
+      caption: Illustrations on article website page
 results: Traveler's Companion app received positive reviews and gained
   popularity, redefining the travel experience for users worldwide.
 tools:
