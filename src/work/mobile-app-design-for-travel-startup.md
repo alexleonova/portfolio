@@ -6,7 +6,7 @@ handle: mobile-app-design-for-travel-startup
 category: ui-ux-design
 favorite: false
 date: 2024-01-22T18:57:31.183Z
-coverImage: /uploads/thumbnail.png
+coverImage: /uploads/thumbnail-2.png
 brief: Design a comprehensive mobile app addressing the varied needs of modern
   travelers.
 role: Research, Concept, Prototyping, UI Design, Graphic Design, Illustration.
