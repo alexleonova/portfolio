@@ -314,7 +314,7 @@ collections:
             name: "og"
             widget: "object"
             fields:
-              - label: "og:title"
+              - label: "Enable OG"
                 name: "opengraph"
                 widget: "boolean"
                 default: true
