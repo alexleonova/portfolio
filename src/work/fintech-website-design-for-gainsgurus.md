@@ -5,7 +5,7 @@ title: "Website redesign for men’s clothing brand ToddShelton "
 handle: fintech-website-design-for-gainsgurus
 category: ui-ux-design
 favorite: true
-date: 2024-01-22T18:57:31.183Z
+date: 2024-01-30T18:57:31.183Z
 coverImage: /uploads/toddshelton-thumbnail.png
 brief: Design a comprehensive mobile app addressing the varied needs of modern
   travelers.
