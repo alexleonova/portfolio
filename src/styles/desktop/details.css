@@ -35,3 +35,8 @@
 .details__hgroup {
 	gap: 0.625rem 0.9375rem;
 }
+
+.details__tag {
+	padding-right: calc(2.5rem - 0.125rem);
+	padding-left: calc(2.5rem - 0.125rem);
+}

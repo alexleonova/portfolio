@@ -1,5 +1,9 @@
 .cards {
-	--grid-gap: 2.5rem;
 	display: flex;
 	flex-direction: column;
+	gap:  2.5rem;
+}
+
+.cards__item {
+	--transition-origin: center center;
 }

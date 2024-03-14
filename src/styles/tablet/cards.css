@@ -4,3 +4,7 @@
 	align-items: flex-end;
 	gap: var(--grid-gap, 1rem);
 }
+
+.cards__item {
+	--transition-origin: center center;
+}

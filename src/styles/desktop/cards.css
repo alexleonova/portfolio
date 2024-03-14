@@ -4,3 +4,11 @@
 	justify-items: var(--grid-justify-items, initial);
 	gap: var(--grid-gap, 1rem);
 }
+
+.cards__item:nth-child(even) {
+	--transition-origin: center left;
+}
+
+.cards__item:nth-child(odd) {
+	--transition-origin: center right;
+}
