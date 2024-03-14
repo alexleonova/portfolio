@@ -97,6 +97,7 @@ collections:
       - label: "More link"
         name: "more"
         widget: "string"
+        required: false
 
       - label: "Demos"
         name: "demos"
