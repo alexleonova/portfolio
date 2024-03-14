@@ -1,28 +1,29 @@
 ---
 layout: work.webc
 tags: work
-title: Isometric icons set for company internal use
+title: "Homepage redesign for digital marketing platform Logic "
 handle: isometric-icons-set-for-company-internal-use
-category: illustration
+category: ui-ux-design
 favorite: false
 date: 2024-01-22T18:57:31.183Z
-coverImage: /uploads/mobile-app-design-for-travel-startup.png
+coverImage: /uploads/logiq-thumbnail.png
 brief: Design a comprehensive mobile app addressing the varied needs of modern
   travelers.
 role: Research, Concept, Prototyping, UI Design, Graphic Design, Illustration.
 more: https://example.com
 demos:
   - demo:
-      image: /uploads/fintech-website-design-for-gainsgurus.png
-      caption: Prototyping Process
+      image: /uploads/logic-img-1.png
+      caption: Logo, Typography, Colors, UI Kit
   - demo:
-      image: /uploads/fintech-website-design-for-gainsgurus.png
-      caption: Elsewhere User Flow
+      image: /uploads/logic-img-2.png
+      caption: Page wireframes
   - demo:
-      image: /uploads/fintech-website-design-for-gainsgurus.png
-      caption: App Main Screens
+      image: /uploads/logic-img-3.png
+      caption: Page mockup
   - demo:
-      image: /uploads/fintech-website-design-for-gainsgurus.png
+      image: /uploads/logic-img-4.png
+      caption: New website homepage
 results: Traveler's Companion app received positive reviews and gained
   popularity, redefining the travel experience for users worldwide.
 tools:
