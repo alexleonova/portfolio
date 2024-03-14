@@ -3,7 +3,7 @@ layout: work.webc
 tags: work
 title: Logotype for real estate management platform
 handle: video-ads-for-nbc-basketball-and-volleyball-sports-camps
-category: animation-motion
+category: logotype
 favorite: false
 date: 2024-01-22T18:57:31.183Z
 coverImage: /uploads/inhabify-thumbnail.png
