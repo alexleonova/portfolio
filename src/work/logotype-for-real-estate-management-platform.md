@@ -3,7 +3,7 @@ layout: work.webc
 tags: work
 title: Illustrations set for company internal use
 handle: logotype-for-real-estate-management-platform
-category: logotype
+category: illustration
 favorite: false
 date: 2024-01-22T18:57:31.183Z
 coverImage: /uploads/ga4-thumbnail.png
