@@ -1,28 +1,29 @@
 ---
 layout: work.webc
 tags: work
-title: Social Media banners for Nike US Sports Camps
+title: Illustrations & icons  for tech platform Creators Legal
 handle: social-media-banners-for-nike-us-sports-camps
-category: social-media
-favorite: false
+category: illustration
+favorite: true
 date: 2024-01-22T18:57:31.183Z
-coverImage: /uploads/mobile-app-design-for-travel-startup.png
+coverImage: /uploads/cl-thumbnail.png
 brief: Design a comprehensive mobile app addressing the varied needs of modern
   travelers.
 role: Research, Concept, Prototyping, UI Design, Graphic Design, Illustration.
 more: https://example.com
 demos:
   - demo:
-      image: /uploads/fintech-website-design-for-gainsgurus.png
-      caption: Prototyping Process
+      image: /uploads/cl-img-1.png
+      caption: Sketch process, colors
   - demo:
-      image: /uploads/fintech-website-design-for-gainsgurus.png
-      caption: Elsewhere User Flow
+      image: /uploads/cl-img-2.png
+      caption: Illustrations for categories pages
   - demo:
-      image: /uploads/fintech-website-design-for-gainsgurus.png
-      caption: App Main Screens
+      image: /uploads/cl-img-3.png
+      caption: Icons for contracts categories
   - demo:
-      image: /uploads/fintech-website-design-for-gainsgurus.png
+      image: /uploads/cl-img-4.png
+      caption: Illustrations on website pages
 results: Traveler's Companion app received positive reviews and gained
   popularity, redefining the travel experience for users worldwide.
 tools:
