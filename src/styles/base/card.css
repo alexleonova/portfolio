@@ -61,7 +61,7 @@
 }
 
 .card__link {
-	color: var(--color-black);
+	color: var(--color-text-1);
 	text-decoration-color: transparent;
 	text-decoration-skip-ink: none;
 	text-decoration-thickness: 0.125rem;
