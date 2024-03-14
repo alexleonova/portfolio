@@ -1,28 +1,28 @@
 ---
 layout: work.webc
 tags: work
-title: Fintech website design for GainsGurus
+title: "Website redesign for men’s clothing brand ToddShelton "
 handle: fintech-website-design-for-gainsgurus
 category: ui-ux-design
 favorite: true
 date: 2024-01-22T18:57:31.183Z
-coverImage: /uploads/mobile-app-design-for-travel-startup.png
+coverImage: /uploads/toddshelton-thumbnail.png
 brief: Design a comprehensive mobile app addressing the varied needs of modern
   travelers.
-role: Research, Concept, Prototyping, UI Design, Graphic Design, Illustration.
+role: |-
+  UX Research, User flow,  Wireframes, Clicable Prototype, 
+  UI Design.
 more: https://example.com
 demos:
   - demo:
-      image: /uploads/fintech-website-design-for-gainsgurus.png
-      caption: Prototyping Process
+      image: /uploads/toddshelton-img-1.png
+      caption: Typography, Colors, UI Kit
   - demo:
-      image: /uploads/test.png
-      caption: Elsewhere User Flow
+      image: /uploads/toddshelton-img-2.png
+      caption: Site on mobile
   - demo:
-      image: /uploads/fintech-website-design-for-gainsgurus.png
-      caption: App Main Screens
-  - demo:
-      image: /uploads/fintech-website-design-for-gainsgurus.png
+      image: /uploads/toddshelton-img-3.png
+      caption: Pages mockups
 results: Traveler's Companion app received positive reviews and gained
   popularity, redefining the travel experience for users worldwide.
 tools:
