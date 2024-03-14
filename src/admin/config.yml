@@ -424,3 +424,7 @@ collections:
                   - label: "Resume"
                     name: "link"
                     widget: "file"
+          
+          - label: "Cards animation"
+            name: "cardsAnimation"
+            widget: "boolean"  

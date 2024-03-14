@@ -1,23 +1,31 @@
 class AppFilterResults extends HTMLElement {
+	static classes = {
+		animatedCard: 'card--revealed',
+		visibleCard: 'card--visible'
+	};
+	static selectors = {
+		filterControls: 'app-filter-controls',
+		filterItem: '[data-filter]',
+		card: '.card'
+	};
 	filterControls = null;
 	cards = [];
 	currentFilter = 'all';
 
 	connectedCallback() {
-		this.filterControls = document.querySelector('app-filter-controls');
+		this.filterControls = document.querySelector(AppFilterResults.selectors.filterControls);
 
 		if (!this.filterControls) return;
 
-		this.cards = Array.from(this.querySelectorAll('[data-filter]'));
+		this.cards = Array.from(this.querySelectorAll(AppFilterResults.selectors.filterItem));
 		this.cards.forEach(card => {
+			if (!card.classList.contains(AppFilterResults.classes.animatedCard)) return;
+
 			const observer = new IntersectionObserver(
-				([event]) => {
-					event.target.classList.toggle('card--visible', event.isIntersecting);
-					console.log(event);
-				}
+				([event]) => event.target.classList.toggle(AppFilterResults.classes.visibleCard, event.isIntersecting)
 			);
 	
-			observer.observe(card.querySelector('.card'));
+			observer.observe(card.querySelector(AppFilterResults.selectors.card));
 		});
 
 		this.filterControls.addEventListener('app-filter-controls:change', this.filterCards.bind(this));
