@@ -4,25 +4,23 @@ tags: work
 title: Mobile app design for travel startup
 handle: mobile-app-design-for-travel-startup
 category: ui-ux-design
-favorite: true
+favorite: false
 date: 2024-01-22T18:57:31.183Z
-coverImage: /uploads/mobile-app-design-for-travel-startup.png
+coverImage: /uploads/thumbnail.png
 brief: Design a comprehensive mobile app addressing the varied needs of modern
   travelers.
 role: Research, Concept, Prototyping, UI Design, Graphic Design, Illustration.
 more: https://example.com
 demos:
   - demo:
-      image: /uploads/fintech-website-design-for-gainsgurus.png
-      caption: Prototyping Process
+      image: /uploads/img-1.png
+      caption: "Logotype, Typography, Colors "
   - demo:
-      image: /uploads/fintech-website-design-for-gainsgurus.png
-      caption: Elsewhere User Flow
+      image: /uploads/img-2.png
+      caption: Wireframes vs UI Mockups
   - demo:
-      image: /uploads/fintech-website-design-for-gainsgurus.png
-      caption: App Main Screens
-  - demo:
-      image: /uploads/fintech-website-design-for-gainsgurus.png
+      image: /uploads/img-3.png
+      caption: Mobile App
 results: Traveler's Companion app received positive reviews and gained
   popularity, redefining the travel experience for users worldwide.
 tools:
