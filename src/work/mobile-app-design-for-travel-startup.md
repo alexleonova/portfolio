@@ -28,6 +28,8 @@ tools:
   - Figma
   - Illustrator
   - Photoshop
+og:
+  image: /uploads/og-test.png
 ---
 ## Overview:
 
