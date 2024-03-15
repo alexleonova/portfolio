@@ -30,6 +30,11 @@ tools:
   - Photoshop
 og:
   image: /uploads/og-test.png
+  opengraph: true
+  title: Mobile app design for travel startup
+  description: Design a comprehensive mobile app addressing the varied needs of
+    modern travelers.
+  url: true
 ---
 ## Overview:
 
