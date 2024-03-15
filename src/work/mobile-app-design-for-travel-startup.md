@@ -7,10 +7,11 @@ category: ui-ux-design
 favorite: false
 date: 2024-01-22T18:57:31.183Z
 coverImage: /uploads/thumbnail-3.png
+coverVideo: /uploads/elsewhere.mp4
 brief: Design a comprehensive mobile app addressing the varied needs of modern
   travelers.
 role: Research, Concept, Prototyping, UI Design, Graphic Design, Illustration.
-more: https://example.com
+more: ""
 demos:
   - demo:
       image: /uploads/img-1.png
