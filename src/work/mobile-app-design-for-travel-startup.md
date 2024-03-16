@@ -8,6 +8,7 @@ favorite: false
 date: 2024-01-22T18:57:31.183Z
 coverImage: /uploads/thumbnail-3.png
 coverVideo: /uploads/elsewhere.mp4
+showVideo: true
 brief: Design a comprehensive mobile app addressing the varied needs of modern
   travelers.
 role: Research, Concept, Prototyping, UI Design, Graphic Design, Illustration.
@@ -31,9 +32,9 @@ tools:
   - Illustrator
   - Photoshop
 moreProjects:
-  - fintech-website-design-for-gainsgurus
   - isometric-icons-set-for-company-internal-use
-  - video-ads-for-nbc-basketball-and-volleyball-sports-camps
+  - logotype-for-real-estate-management-platform
+  - social-media-banners-for-nike-us-sports-camps
 og:
   image: /uploads/og-test.png
   opengraph: true

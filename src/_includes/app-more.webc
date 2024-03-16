@@ -4,8 +4,8 @@
 		<li webc:for="work of getWorksBySlugs(works, slugs)" class="cards__item">
 			<article class="card">
 				<app-video-preview class="card__preview preview">
-					<video webc:if="work.data.coverVideo && work.data.coverImage" :src="work.data.coverVideo" :poster="work.data.coverImage" width="380" height="285" preload="none" loop muted playsinline class="preview__media card__video"></video>
-					<img webc:if="!work.data.coverVideo && work.data.coverImage" :src="work.data.coverImage" width="380" height="285" loading="lazy" :alt="work.data.title" class="preview__media card__video">
+					<app-demo-picture :src="work.data.coverImage"></app-demo-picture>
+					<video :src="work.data.coverVideo" :poster="work.data.coverImage" width="380" height="285" preload="none" loop muted playsinline class="card__media preview__media card__video"></video>
 				</app-video-preview>
 				<header class="card__meta">
 					<span class="card__category card__category--primary text-xs" :class="getAccentClassByCategory(work.data.category)" @text="getNameByCategory(work.data.category)"></span>

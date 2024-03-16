@@ -18,6 +18,7 @@ layout: base.webc
 			<li webc:for="work of collections.workSorted" class="cards__item" :data-filter="work.data.category">
 				<article class="card" :class="global.cardsAnimation ? 'card--revealed' : ''">
 					<app-video-preview class="card__preview preview">
+						<app-demo-picture :src="work.data.coverImage"></app-demo-picture>
 						<video :src="work.data.coverVideo" :poster="work.data.coverImage" width="380" height="285" preload="none" loop muted playsinline class="card__media preview__media card__video"></video>
 					</app-video-preview>
 					<header class="card__meta">
