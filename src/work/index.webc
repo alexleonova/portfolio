@@ -17,10 +17,16 @@ layout: base.webc
 		<ul class="cards">
 			<li webc:for="work of collections.workSorted" class="cards__item" :data-filter="work.data.category">
 				<article class="card" :class="global.cardsAnimation ? 'card--revealed' : ''">
-					<app-video-preview class="card__preview preview">
+					<app-video-preview webc:if="work.data.coverVideo && work.data.coverImage" class="card__preview preview">
 						<app-demo-picture :src="work.data.coverImage"></app-demo-picture>
 						<video :src="work.data.coverVideo" :poster="work.data.coverImage" width="380" height="285" preload="none" loop muted playsinline class="card__media preview__media card__video"></video>
 					</app-video-preview>
+					<div webc:elseif="!work.data.coverVideo && work.data.coverImage" class="card__preview preview">
+						<app-demo-picture :src="work.data.coverImage"></app-demo-picture>
+					</div>
+					<div webc:elseif="work.data.coverVideo && !work.data.coverImage" class="card__preview preview">
+						<video :src="work.data.coverVideo" width="380" height="285" preload="none" loop muted playsinline class="card__media preview__media card__video"></video>
+					</div>
 					<header class="card__meta">
 						<span class="card__category card__category--secondary text-xs" :class="getAccentClassByCategory(work.data.category)" @text="getNameByCategory(work.data.category)"></span>
 						<img webc:if="work.data.favorite" class="card__favorite" src="/images/favorite.svg" width="28" height="28" alt="Favorite work." title="Favorite Work.">
