@@ -139,6 +139,17 @@ collections:
           name: "tool"
           widget: "string"
 
+      - label: "More projects"
+        name: "moreProjects"
+        widget: "relation"
+        collection: "work"
+        search_fields: ["title", "handle"]
+        value_field: "{{slug}}"
+        display_fields: ["title"]
+        multiple: true
+        max: 3
+        required: false
+
       - label: "Open Graph"
         name: "og"
         widget: "object"

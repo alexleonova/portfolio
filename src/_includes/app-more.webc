@@ -1,11 +1,7 @@
-<script webc:setup>
-	const moreWorks = collections.work.slice(0, 3);
-</script>
-<aside class="more container color-dark">
+<aside webc:if="getWorksBySlugs(works, slugs).length" class="more container color-dark">
 	<h2 class="more__heading text-heading-2">More projects</h2>
-
 	<ul class="more__cards cards">
-		<li webc:for="work of moreWorks" class="cards__item">
+		<li webc:for="work of getWorksBySlugs(works, slugs)" class="cards__item">
 			<article class="card">
 				<app-video-preview class="card__preview preview">
 					<video webc:if="work.data.coverVideo && work.data.coverImage" :src="work.data.coverVideo" :poster="work.data.coverImage" width="380" height="285" preload="none" loop muted playsinline class="preview__media card__video"></video>

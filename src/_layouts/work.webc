@@ -82,4 +82,4 @@ layout: base.webc
 	</article>
 </main>
 
-<app-more :@socials="global.socials"></app-more>
+<app-more :@socials="global.socials" :@works="collections.work" :@slugs="moreProjects"></app-more>

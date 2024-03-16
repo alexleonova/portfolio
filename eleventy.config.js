@@ -82,6 +82,12 @@ module.exports = function(config) {
 		return Image.generateHTML(metadata, { class: 'preview__media', sizes, alt});
 	});
 
+	config.addJavaScriptFunction('getWorksBySlugs', function(works, slugs) {
+		if (!slugs || !works) return [];
+
+		return works.filter(work => slugs.includes(work.fileSlug));
+	});
+
 	config.addCollection("workSorted", function(collectionApi) {
     const works = collectionApi.getFilteredByTag('work');
 

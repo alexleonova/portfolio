@@ -30,6 +30,10 @@ tools:
   - Figma
   - Illustrator
   - Photoshop
+moreProjects:
+  - fintech-website-design-for-gainsgurus
+  - isometric-icons-set-for-company-internal-use
+  - video-ads-for-nbc-basketball-and-volleyball-sports-camps
 og:
   image: /uploads/og-test.png
   opengraph: true
