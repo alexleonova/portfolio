@@ -22,6 +22,8 @@ demos:
   - demo:
       image: /uploads/img-3.png
       caption: Mobile App
+  - demo:
+      video: /uploads/elsewhere.mp4
 results: Traveler's Companion app received positive reviews and gained
   popularity, redefining the travel experience for users worldwide.
 tools:
