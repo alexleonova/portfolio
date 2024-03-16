@@ -7,10 +7,11 @@ category: ui-ux-design
 favorite: false
 date: 2024-01-22T18:57:31.183Z
 coverImage: /uploads/thumbnail-3.png
+coverVideo: /uploads/elsewhere.mp4
 brief: Design a comprehensive mobile app addressing the varied needs of modern
   travelers.
 role: Research, Concept, Prototyping, UI Design, Graphic Design, Illustration.
-more: https://example.com
+more: ""
 demos:
   - demo:
       image: /uploads/img-1.png
@@ -21,12 +22,21 @@ demos:
   - demo:
       image: /uploads/img-3.png
       caption: Mobile App
+  - demo:
+      video: /uploads/elsewhere.mp4
 results: Traveler's Companion app received positive reviews and gained
   popularity, redefining the travel experience for users worldwide.
 tools:
   - Figma
   - Illustrator
   - Photoshop
+og:
+  image: /uploads/og-test.png
+  opengraph: true
+  title: Mobile app design for travel startup
+  description: Design a comprehensive mobile app addressing the varied needs of
+    modern travelers.
+  url: true
 ---
 ## Overview:
 
