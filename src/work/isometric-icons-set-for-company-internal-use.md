@@ -2,7 +2,7 @@
 layout: work.webc
 tags: work
 title: "Homepage redesign for digital marketing platform Logic "
-handle: isometric-icons-set-for-company-internal-use
+handle: "homepage-redesign-for-digital-marketing-platform-logic "
 category: ui-ux-design
 favorite: false
 date: 2024-01-22T18:57:31.183Z
@@ -11,7 +11,7 @@ coverVideo: /uploads/logiq.mp4
 brief: Design a comprehensive mobile app addressing the varied needs of modern
   travelers.
 role: Research, Concept, Prototyping, UI Design, Graphic Design, Illustration.
-more: https://example.com
+more: ""
 demos:
   - demo:
       image: /uploads/logic-img-1.png
