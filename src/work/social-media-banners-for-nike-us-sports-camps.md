@@ -11,7 +11,7 @@ coverVideo: /uploads/creatorslegal.mp4
 brief: Design a comprehensive mobile app addressing the varied needs of modern
   travelers.
 role: Research, Concept, Prototyping, UI Design, Graphic Design, Illustration.
-more: https://example.com
+more: ""
 demos:
   - demo:
       image: /uploads/cl-img-1.png
