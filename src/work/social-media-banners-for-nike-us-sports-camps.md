@@ -7,7 +7,7 @@ category: illustration
 favorite: true
 date: 2024-01-22T18:57:31.183Z
 coverImage: /uploads/cl-thumbnail.png
-coverVideo: /uploads/creatorslegal.mp4
+coverVideo: /uploads/creatorslegal2.mp4
 brief: Design a comprehensive mobile app addressing the varied needs of modern
   travelers.
 role: Research, Concept, Prototyping, UI Design, Graphic Design, Illustration.
