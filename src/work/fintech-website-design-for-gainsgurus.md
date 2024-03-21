@@ -2,17 +2,18 @@
 layout: work.webc
 tags: work
 title: "Website redesign for men’s clothing brand ToddShelton "
-handle: fintech-website-design-for-gainsgurus
+handle: "website-redesign-for-men’s-clothing-brand-ToddShelton "
 category: ui-ux-design
 favorite: true
 date: 2024-01-30T18:57:31.183Z
 coverImage: /uploads/toddshelton-thumbnail.png
+coverVideo: /uploads/toddshelton.mp4
 brief: Design a comprehensive mobile app addressing the varied needs of modern
   travelers.
 role: |-
   UX Research, User flow,  Wireframes, Clicable Prototype, 
   UI Design.
-more: https://example.com
+more: ""
 demos:
   - demo:
       image: /uploads/toddshelton-img-1.png
