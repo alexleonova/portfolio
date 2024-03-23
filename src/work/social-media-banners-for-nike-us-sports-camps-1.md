@@ -7,7 +7,7 @@ category: social-media
 favorite: false
 date: 2024-03-23T15:24:33.721Z
 coverImage: /uploads/ussc-thumbnail.png
-coverVideo: /uploads/toddshelton.mp4
+coverVideo: /uploads/ussc-banners.mp4
 brief: Design a comprehensive mobile app addressing the varied needs of modern
   travelers.
 role: Research, Concept, Prototyping, UI Design, Graphic Design, Illustration.
