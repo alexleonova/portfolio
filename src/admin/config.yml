@@ -84,12 +84,13 @@ collections:
       - label: "Cover Video"
         name: "coverVideo"
         widget: "file"
+        required: false
 
-      - label: "Show video"
+      - label: "Show video on detail page"
         name: "showVideo"
         widget: "boolean"
         required: false
-        hint: "Show video instead of image"
+        hint: "Show video instead of static image (video required)"
 
       - label: "Brief"
         name: "brief"

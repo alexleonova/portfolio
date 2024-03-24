@@ -8,6 +8,7 @@ favorite: true
 date: 2024-01-30T18:57:31.183Z
 coverImage: /uploads/toddshelton-thumbnail.png
 coverVideo: /uploads/toddshelton.mp4
+showVideo: true
 brief: Design a comprehensive mobile app addressing the varied needs of modern
   travelers.
 role: |-

@@ -8,6 +8,7 @@ favorite: false
 date: 2024-01-22T18:57:31.183Z
 coverImage: /uploads/logiq-thumbnail.png
 coverVideo: /uploads/logiq.mp4
+showVideo: true
 brief: Design a comprehensive mobile app addressing the varied needs of modern
   travelers.
 role: Research, Concept, Prototyping, UI Design, Graphic Design, Illustration.

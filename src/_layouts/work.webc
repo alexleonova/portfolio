@@ -4,8 +4,8 @@ layout: base.webc
 <main class="container details" :class="getAccentClassByCategory(category)">
 	<article class="details__article">
 		<div class="details__intro">
-			<div webc:if="showVideo" class="preview desktop-hidden">
-				<video :src="coverVideo" width="380" height="285" preload="none" autoplay loop muted playsinline class="preview__media"></video>
+			<div webc:if="showVideo && coverVideo" class="preview desktop-hidden">
+				<video :src="coverVideo" width="380" height="285" autoplay loop muted playsinline class="preview__media"></video>
 			</div>
 			<div webc:else class="preview desktop-hidden">
 				<app-demo-picture :src="coverImage"></app-demo-picture>
@@ -34,8 +34,8 @@ layout: base.webc
 		</div>
 
 		<div class="details__demo">
-			<div webc:if="showVideo" class="preview tablet-hidden mobile-hidden">
-				<video :src="coverVideo" width="380" height="285" preload="none" autoplay loop muted playsinline class="preview__media"></video>
+			<div webc:if="showVideo && coverVideo" class="preview tablet-hidden mobile-hidden">
+				<video :src="coverVideo" width="380" height="285" autoplay loop muted playsinline class="preview__media"></video>
 			</div>
 			<div webc:else class="preview tablet-hidden mobile-hidden">
 				<app-demo-picture :src="coverImage"></app-demo-picture>

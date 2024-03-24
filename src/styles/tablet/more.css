@@ -6,6 +6,11 @@
 .more__cards {
 	--grid-gap: 2.8125rem;
 	--grid-card-min-width: 14.5rem;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(var(--grid-card-min-width, 17.5rem), 1fr));
+	justify-items: var(--grid-justify-items, initial);
+	align-items: start;
+	gap: var(--grid-gap, 1rem);
 	margin-bottom: 3.5rem;
 }
 

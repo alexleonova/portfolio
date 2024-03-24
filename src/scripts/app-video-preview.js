@@ -39,9 +39,12 @@ class AppVideoPreview extends HTMLElement {
 	}
 
 	playVideo() {
-		if (this.picture) this.picture.hidden = true;
-		this.video.hidden = false;
 		this.playPromise = this.video.play();
+		this.playPromise.then(_ => {
+			if (this.picture) this.picture.hidden = true;
+			this.video.hidden = false;
+			this.playPromise = null;
+		});
 	}
 
 	stopVideo() {
