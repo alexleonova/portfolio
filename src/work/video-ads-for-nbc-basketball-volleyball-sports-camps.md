@@ -17,15 +17,15 @@ demos:
   - demo:
       image: ""
       caption: Advertising video editing process
-      video: /uploads/ae-nbc-video-editing.mp4
+      video: /uploads/nbc-a-m-1.mp4
+  - demo:
+      image: ""
+      caption: Video ads for NBC Volleyball&Basketball camps in facebook
+      video: /uploads/nbc-a-m-2.mp4
   - demo:
       image: ""
       caption: Video ads for NBC Basketball camps
-      video: /uploads/nbc-basketball-v02.mp4
-  - demo:
-      image: ""
-      caption: Video ads for NBC Volleyball camps
-      video: /uploads/nbc-volleyball-v01-1-.mp4
+      video: /uploads/nbc-a-m-3.mp4
 results: Traveler's Companion app received positive reviews and gained
   popularity, redefining the travel experience for users worldwide.
 tools:
