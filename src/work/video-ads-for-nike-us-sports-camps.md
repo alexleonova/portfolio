@@ -7,7 +7,7 @@ category: animation-motion
 favorite: false
 date: 2024-04-06T17:35:05.821Z
 coverImage: /uploads/ussc-motion-thumbnail.png
-coverVideo: /uploads/ussc-m-a.mp4
+coverVideo: /uploads/ussc-m-a-01-.mp4
 showVideo: true
 brief: Design a comprehensive mobile app addressing the varied needs of modern
   travelers.
