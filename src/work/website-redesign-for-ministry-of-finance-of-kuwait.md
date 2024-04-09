@@ -4,7 +4,7 @@ tags: work
 title: Website redesign for Ministry of Finance  of Kuwait
 handle: website-redesign-for-ministry-of-finance -of-kuwait
 category: ui-ux-design
-favorite: true
+favorite: false
 date: 2024-04-09T07:36:08.473Z
 coverImage: /uploads/thumbnail-mof.png
 coverVideo: /uploads/mof-00.mp4
