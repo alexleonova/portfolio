@@ -1,6 +1,6 @@
 ---
 layout: home.webc
-video: ""
+video: /uploads/main-video.mp4
 poster: /uploads/main-illustration-3.png
 ---
 <h1 class="text-heading-2">Hi, I'm Alex Leonova, a <u>versatile UX/UI & Graphic designer</u> with a passion for creating seamless and delightful user experiences</h1>
