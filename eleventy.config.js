@@ -24,6 +24,7 @@ module.exports = function(config) {
 	config.addPassthroughCopy('src/images');
 	config.addPassthroughCopy('src/fonts');
 	config.addPassthroughCopy('src/uploads');
+	config.addPassthroughCopy('src/robots.txt');
 
 	const categoriesMap = new Map([
 		['all', { name: 'All Works', color: ''}],
