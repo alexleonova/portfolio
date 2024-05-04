@@ -4,7 +4,6 @@
   "description": "Alex Leonova portfolio website",
   "author": "",
   "license": "MIT",
-  "type": "module",
   "scripts": {
     "clean": "npx rimraf build",
     "dev:eleventy": "npx @11ty/eleventy --serve --watch",
