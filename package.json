@@ -4,6 +4,7 @@
   "description": "Alex Leonova portfolio website",
   "author": "",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "clean": "npx rimraf build",
     "dev:eleventy": "npx @11ty/eleventy --serve --watch",
@@ -14,10 +15,11 @@
     "build:styles": "lightningcss --minify --bundle --browserslist src/styles/base.css src/styles/mobile.css src/styles/tablet.css src/styles/desktop.css --output-dir build/styles",
     "build:scripts": "esbuild src/scripts/index.js --minify --bundle --target=es2021 --outfile=build/scripts/index.js",
     "build:cms": "esbuild src/admin/index.js --minify --bundle --target=es2021 --outfile=build/admin/index.js",
+    "build:encrypt": "npx staticrypt build -r",
     "build": "npm run clean && concurrently \"npm run build:eleventy\" \"npm run build:styles\" \"npm run build:scripts\" \"npm run build:cms\""
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=20.0.0"
   },
   "browserslist": [
     "last 5 firefoxandroid versions",

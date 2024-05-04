@@ -130,4 +130,5 @@ dist
 .pnp.*
 
 # project build
+.staticrypt.json
 build
