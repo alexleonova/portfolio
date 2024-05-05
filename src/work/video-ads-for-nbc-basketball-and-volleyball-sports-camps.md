@@ -2,11 +2,13 @@
 layout: work.webc
 tags: work
 title: Logotype for real estate management platform
-handle: video-ads-for-nbc-basketball-and-volleyball-sports-camps
+handle: logotype-for-real-estate-management-platform
 category: logotype
 favorite: false
 date: 2024-01-22T18:57:31.183Z
 coverImage: /uploads/inhabify-thumbnail.png
+coverVideo: /uploads/inhabify.mp4
+showVideo: true
 brief: Design a comprehensive mobile app addressing the varied needs of modern
   travelers.
 role: Research, Concept, Prototyping, UI Design, Graphic Design, Illustration.
@@ -30,6 +32,8 @@ tools:
   - Figma
   - Illustrator
   - Photoshop
+og:
+  image: /uploads/og-logotype-inhabify.png
 ---
 ## Overview:
 
