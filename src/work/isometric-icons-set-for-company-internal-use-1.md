@@ -7,7 +7,7 @@ category: logotype
 favorite: false
 date: 2024-03-14T17:36:09.686Z
 coverImage: /uploads/gainsgurus-logo_thumbnail.png
-coverVideo: /uploads/gainsgurus-logo.mp4
+coverVideo: /uploads/gg-logo-video.mp4
 showVideo: true
 brief: Design a comprehensive mobile app addressing the varied needs of modern
   travelers.
