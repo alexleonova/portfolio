@@ -1,6 +1,6 @@
 ---
 layout: home.webc
-video: /uploads/main-video.mp4
+video: /uploads/main-video-upd.mp4
 poster: /uploads/main-illustration-3.png
 og:
   image: /uploads/og-main.png
