@@ -11,7 +11,7 @@ coverVideo: /uploads/gainsgurus-logo.mp4
 showVideo: true
 brief: Design a comprehensive mobile app addressing the varied needs of modern
   travelers.
-role: Research, Concept, Prototyping, UI Design, Graphic Design, Illustration.
+role: Research, Concept, Prototyping, UI Design, Graphic Design
 more: ""
 demos:
   - demo:
