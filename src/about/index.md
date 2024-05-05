@@ -1,6 +1,6 @@
 ---
 layout: about.webc
-video: /uploads/about-video.mp4
+video: /uploads/about-video-upscale.mp4
 poster: /uploads/about-illustration-v02.png
 og:
   image: /uploads/og-main.png
