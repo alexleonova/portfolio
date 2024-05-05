@@ -1,12 +1,12 @@
 ---
 layout: work.webc
 tags: work
-title: Illustrations & icons  for tech platform Creators Legal
-handle: social-media-banners-for-nike-us-sports-camps
+title: Illustrations & icons for tech platform Creators Legal
+handle: illustrations-&-icons-for-tech-platform-creators-legal
 category: illustration
 favorite: true
 date: 2024-01-22T18:57:31.183Z
-coverImage: /uploads/cl-thumbnail.png
+coverImage: /uploads/creatorslegal_thumbnail.png
 coverVideo: /uploads/creatorslegal.mp4
 showVideo: true
 brief: Design a comprehensive mobile app addressing the varied needs of modern
@@ -32,6 +32,8 @@ tools:
   - Figma
   - Illustrator
   - Photoshop
+og:
+  image: /uploads/og-illustrations-cl.png
 ---
 ## Overview:
 
