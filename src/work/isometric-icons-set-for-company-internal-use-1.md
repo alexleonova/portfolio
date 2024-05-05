@@ -2,11 +2,13 @@
 layout: work.webc
 tags: work
 title: "Logotype design for fintech website GainsGurus "
-handle: isometric-icons-set-for-company-internal-use
+handle: "logotype-design-for-fintech-website-gainsgurus "
 category: logotype
 favorite: false
 date: 2024-03-14T17:36:09.686Z
-coverImage: /uploads/gg-thumbnail.png
+coverImage: /uploads/gainsgurus-logo_thumbnail.png
+coverVideo: /uploads/gainsgurus-logo.mp4
+showVideo: true
 brief: Design a comprehensive mobile app addressing the varied needs of modern
   travelers.
 role: Research, Concept, Prototyping, UI Design, Graphic Design, Illustration.
@@ -27,6 +29,8 @@ tools:
   - Figma
   - Illustrator
   - Photoshop
+og:
+  image: /uploads/og-logotype-gg.png
 ---
 ## Overview:
 
