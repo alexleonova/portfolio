@@ -44,7 +44,7 @@ og:
   title: OG Title
   locale: en_US
   type: website
-  image: /uploads/mobile-app-design-for-travel-startup.png
+  image: /uploads/og-uxui-cargoloop.png
   description: OG description
 ---
 ## Overview:
