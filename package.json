@@ -11,7 +11,7 @@
     "dev:cms": "esbuild src/admin/index.js --bundle --target=es2021 --watch --outfile=build/admin/index.js",
     "dev": "concurrently \"npm run dev:proxy\" \"npm run dev:cms\" \"npm run dev:eleventy\" ",
     "build:eleventy": "npx @11ty/eleventy --quiet",
-    "build:styles": "lightningcss --minify --bundle --browserslist src/styles/base.css src/styles/mobile.css src/styles/tablet.css src/styles/desktop.css src/styled/glightbox.css --output-dir build/styles",
+    "build:styles": "lightningcss --minify --bundle --browserslist src/styles/base.css src/styles/mobile.css src/styles/tablet.css src/styles/desktop.css src/styles/glightbox.css --output-dir build/styles",
     "build:scripts": "esbuild src/scripts/index.js --minify --bundle --target=es2021 --outfile=build/scripts/index.js",
     "build:lightbox": "esbuild src/scripts/glightbox.js --minify --bundle --target=es2021 --outfile=build/scripts/glightbox.js",
     "build:cms": "esbuild src/admin/index.js --minify --bundle --target=es2021 --outfile=build/admin/index.js",
