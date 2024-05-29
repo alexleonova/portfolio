@@ -15,5 +15,6 @@
     "behance": "https://www.behance.net/alex_leonova",
     "email": "mailto:alexleonova99@gmail.com"
   },
-  "cardsAnimation": false
+  "cardsAnimation": false,
+  "logo": "/uploads/logo.svg"
 }

@@ -1,4 +1,3 @@
-.button,
-.tag {
+:is(.button, .tag) {
 	padding: calc(0.90625rem - 0.125rem) calc(1.875rem - 0.125rem);
 }

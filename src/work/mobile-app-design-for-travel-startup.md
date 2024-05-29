@@ -3,7 +3,7 @@ layout: work.webc
 tags: work
 title: Mobile app design for travel startup
 handle: mobile-app-design-for-travel-startup
-category: ui-ux-design
+category: ui_ux_design
 favorite: false
 date: 2024-01-22T18:57:31.183Z
 coverImage: /uploads/thumbnail-3.png

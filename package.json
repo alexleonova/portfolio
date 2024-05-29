@@ -9,7 +9,7 @@
     "dev:eleventy": "npx @11ty/eleventy --serve --watch",
     "dev:proxy": "npx netlify-cms-proxy-server",
     "dev:cms": "esbuild src/admin/index.js --bundle --target=es2021 --watch --outfile=build/admin/index.js",
-    "dev": "npm run clean && concurrently \"npm run dev:proxy\" \"npm run dev:cms\" \"npm run dev:eleventy\" ",
+    "dev": "concurrently \"npm run dev:proxy\" \"npm run dev:cms\" \"npm run dev:eleventy\" ",
     "build:eleventy": "npx @11ty/eleventy --quiet",
     "build:styles": "lightningcss --minify --bundle --browserslist src/styles/base.css src/styles/mobile.css src/styles/tablet.css src/styles/desktop.css --output-dir build/styles",
     "build:scripts": "esbuild src/scripts/index.js --minify --bundle --target=es2021 --outfile=build/scripts/index.js",
@@ -41,6 +41,7 @@
   },
   "dependencies": {
     "decap-cms-app": "^3.0.12",
+    "glightbox": "^3.3.0",
     "markdown-it": "^14.0.0"
   }
 }

@@ -3,7 +3,7 @@ layout: work.webc
 tags: work
 title: "Homepage redesign for digital marketing platform Logic "
 handle: "homepage-redesign-for-digital-marketing-platform-logic "
-category: ui-ux-design
+category: ui_ux_design
 favorite: false
 date: 2024-01-22T18:57:31.183Z
 coverImage: /uploads/logiq-thumbnail.png

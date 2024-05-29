@@ -10,8 +10,8 @@ layout: base.webc
 		</div>
 	</div>
 
-	<video webc:if="video && poster" :src="video" :poster="poster" width="510" height="530" preload="metadata" autoplay muted loop playsinline class="page__illustration"></video>
-	<img webc:if="!video && poster" :src="poster" width="510" height="530" alt="" class="page__illustration">
+	<video webc:if="video && poster" :src="video" :poster="poster" width="510" height="530" preload="metadata" autoplay muted loop playsinline class="page__illustration page__illustration--sticky"></video>
+	<img webc:if="!video && poster" :src="poster" width="510" height="530" alt="" class="page__illustration page__illustration--sticky">
 
 	<app-socials :@socials="global.socials" class="page__socials"></app-socials>
 </main>

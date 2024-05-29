@@ -3,7 +3,7 @@ layout: work.webc
 tags: work
 title: "Website redesign for men’s clothing brand ToddShelton "
 handle: "website-redesign-for-men’s-clothing-brand-ToddShelton "
-category: ui-ux-design
+category: ui_ux_design
 favorite: true
 date: 2024-01-30T18:57:31.183Z
 coverImage: /uploads/toddshelton-thumbnail.png

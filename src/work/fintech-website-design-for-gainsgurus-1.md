@@ -3,7 +3,7 @@ layout: work.webc
 tags: work
 title: Fintech website design for GainsGurus
 handle: fintech-website-design-for-gainsgurus
-category: ui-ux-design
+category: ui_ux_design
 favorite: true
 date: 2024-04-07T10:18:05.028Z
 coverImage: /uploads/gg-ui-thumbnail.png

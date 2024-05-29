@@ -1,4 +1,5 @@
 .preview {
+	position: relative;
 	display: block;
 	border-radius: 1.875rem;
 	background-color: var(--color-gray-20);
@@ -10,4 +11,24 @@
 	display: block;
 	width: 100%;
 	height: 100%;
+}
+
+.prevew__zoom {
+	all: unset;
+	position: absolute;
+	inset: 0;
+	z-index: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--color-black-a30);
+	backdrop-filter: blur(0.25rem);
+	opacity: 0;
+	transition-property: opacity;
+	transition-duration: var(--transition);
+	cursor: zoom-in;
+}
+
+.prevew__zoom:where(:hover, :focus-visible) {
+	opacity: 1;
 }

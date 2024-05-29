@@ -3,7 +3,7 @@ layout: work.webc
 tags: work
 title: Industry page design for Cogniac Corporation
 handle: industry-page-design-for-cogniac-corporation
-category: ui-ux-design
+category: ui_ux_design
 favorite: false
 date: 2024-04-11T08:08:00.994Z
 coverImage: /uploads/thumbnail-cogniac.png

@@ -25,10 +25,16 @@ module.exports = function(config) {
 	config.addPassthroughCopy('src/fonts');
 	config.addPassthroughCopy('src/uploads');
 	config.addPassthroughCopy('src/robots.txt');
+	config.addPassthroughCopy('src/favicon.ico');
+	config.addPassthroughCopy('src/icon.svg');
+	config.addPassthroughCopy('src/icon-192.png');
+	config.addPassthroughCopy('src/icon-512.png');
+	config.addPassthroughCopy('src/apple-touch-icon.png');
+	config.addPassthroughCopy('src/manifest.webmanifest');
 
 	const categoriesMap = new Map([
 		['all', { name: 'All Works', color: ''}],
-		['ui-ux-design', { name: 'UI/UX Design', color: 'accent-yellow'}],
+		['ui_ux_design', { name: 'UI/UX Design', color: 'accent-yellow'}],
 		['logotype', { name: 'Logotype', color: 'accent-green'}],
 		['animation-motion', { name: 'Animation/Motion', color: 'accent-blue'}],
 		['social-media', { name: 'Social Media', color: 'accent-pink'}],
@@ -78,6 +84,18 @@ module.exports = function(config) {
 
 				return `${name}-${width}w.${format}`;
 			},
+			sharpAvifOptions: {
+				quality: 100
+			},
+			sharpWebpOptions: {
+				quality: 100
+			},
+			sharpPngOptions: {
+				quality: 100
+			},
+			sharpJpegOptions: {
+				quality: 100
+			}
 		});
 
 		return Image.generateHTML(metadata, { class: 'preview__media', sizes, alt});

@@ -1,5 +1,6 @@
 ---
 layout: base.webc
+lightbox: true
 ---
 <main class="container details" :class="getAccentClassByCategory(category)">
 	<article class="details__article">
@@ -13,7 +14,7 @@ layout: base.webc
 
 			<div class="details__header content">
 				<header class="details__hgroup">
-					<p class="details__tag tag" @text="getNameByCategory(category)"></p>
+					<a :href="`/work/?filter=${category}`" class="details__tag tag" @text="getNameByCategory(category)"></a>
 					<img webc:if="favorite" class="details__favorite" src="/images/favorite.svg" width="28" height="28" alt="Favorite work.">
 					<h1 class="details__heading text-heading-1" @text="title"></h1>
 				</header>
@@ -49,6 +50,9 @@ layout: base.webc
 					</app-video-preview>
 					<div webc:if="!item.demo.video && item.demo.image" class="demo__preview preview">
 						<app-demo-picture :src="item.demo.image"></app-demo-picture>
+						<a :href="item.demo.image" class="prevew__zoom glightbox" data-gallery="details-demo">
+							<img src="/images/zoom.svg" alt="Zoom In.">
+						</a>
 					</div>
 					<div webc:if="item.demo.video && !item.demo.image" class="demo__preview preview">
 						<video :src="item.demo.video" width="380" height="285" preload="metadata" controls autoplay loop muted playsinline class="preview__media"></video>

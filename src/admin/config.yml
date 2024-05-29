@@ -16,7 +16,7 @@ collections:
     view_filters:
       - label: "UX/UI Design"
         field: "category"
-        pattern: "ui-ux-design"
+        pattern: "ui_ux_design"
       - label: "Logotype"
         field: "category"
         pattern: "logotype"
@@ -58,7 +58,7 @@ collections:
         widget: "select"
         options: 
           - label: "UX/UI Design"
-            value: "ui-ux-design"
+            value: "ui_ux_design"
           - label: "Logotype"
             value: "logotype"
           - label: "Animation/Motion"
@@ -398,6 +398,10 @@ collections:
         name: "general"
         file: "src/_data/global.json"
         fields:
+          - label: "Logo"
+            name: "logo"
+            widget: "file"
+
           - label: "Socials"
             name: "socials"
             widget: "object"

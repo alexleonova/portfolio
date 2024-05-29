@@ -1,7 +1,7 @@
 class AppFilterControls extends HTMLElement {
 	buttons = [];
 	currentButton = null;
-	currentFilter = 'all';
+	currentFilter = (new URL(location.href)).searchParams.get('filter') || 'all';
 
 	connectedCallback() {
 		this.buttons = Array.from(this.querySelectorAll('button.filter__button[aria-pressed]'));
@@ -31,6 +31,13 @@ class AppFilterControls extends HTMLElement {
 		this.currentButton = target;
 		this.currentButton.ariaPressed = 'true';
 		this.currentFilter = this.currentButton.dataset.filter;
+		const search = (new URLSearchParams(location.search));
+		search.set('filter', this.currentFilter);
+		history.replaceState(null, null, `?${search.toString()}`);
+		this.throwChangeEvent();
+	}
+
+	throwChangeEvent() {
 		this.dispatchEvent(new CustomEvent(
 			'app-filter-controls:change', 
 			{ 

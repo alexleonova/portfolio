@@ -10,7 +10,7 @@ class AppFilterResults extends HTMLElement {
 	};
 	filterControls = null;
 	cards = [];
-	currentFilter = 'all';
+	currentFilter = (new URL(location.href)).searchParams.get('filter') || 'all';
 
 	connectedCallback() {
 		this.filterControls = document.querySelector(AppFilterResults.selectors.filterControls);
@@ -18,22 +18,26 @@ class AppFilterResults extends HTMLElement {
 		if (!this.filterControls) return;
 
 		this.cards = Array.from(this.querySelectorAll(AppFilterResults.selectors.filterItem));
-		this.cards.forEach(card => {
-			if (!card.classList.contains(AppFilterResults.classes.animatedCard)) return;
+		// this.cards.forEach(card => {
+		// 	if (!card.classList.contains(AppFilterResults.classes.animatedCard)) return;
 
-			const observer = new IntersectionObserver(
-				([event]) => event.target.classList.toggle(AppFilterResults.classes.visibleCard, event.isIntersecting)
-			);
+		// 	const observer = new IntersectionObserver(
+		// 		([event]) => event.target.classList.toggle(AppFilterResults.classes.visibleCard, event.isIntersecting)
+		// 	);
 	
-			observer.observe(card.querySelector(AppFilterResults.selectors.card));
-		});
+		// 	observer.observe(card.querySelector(AppFilterResults.selectors.card));
+		// });
+		this.filterCards();
 
-		this.filterControls.addEventListener('app-filter-controls:change', this.filterCards.bind(this));
+		this.filterControls.addEventListener('app-filter-controls:change', this.onFilterControlsChange.bind(this));
 	}
 
-	filterCards(event) {
+	onFilterControlsChange(event) {
 		this.currentFilter = event.detail.filter;
+		this.filterCards();
+	}
 
+	filterCards() {
 		if (this.currentFilter === 'all') {
 			this.cards.forEach(item => item.hidden = false);
 		} else {

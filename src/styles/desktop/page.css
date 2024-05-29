@@ -19,6 +19,11 @@
 	aspect-ratio: 510 / 530;
 }
 
+.page__illustration--sticky {
+	position: sticky;
+	top: 8.75rem;
+}
+
 .page__socials {
 	grid-column: 1 / 2;
 	grid-row: 2 / 3;

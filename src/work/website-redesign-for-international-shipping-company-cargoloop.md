@@ -3,7 +3,7 @@ layout: work.webc
 tags: work
 title: Website redesign for international shipping company CargoLoop
 handle: website-redesign-for-international-shipping-company-cargoLoop
-category: ui-ux-design
+category: ui_ux_design
 favorite: true
 date: 2024-04-07T20:01:26.552Z
 coverImage: /uploads/cargoloop-00.png
