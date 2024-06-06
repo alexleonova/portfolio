@@ -1,8 +1,8 @@
 ---
 layout: work.webc
 tags: work
-title: "Logotype design for fintech website GainsGurus "
-handle: "logotype-design-for-fintech-website-gainsgurus "
+title: "Logotype design for fintech website GainsGurus"
+handle: "logotype-design-for-fintech-website-gainsgurus"
 category: logotype
 favorite: false
 date: 2024-03-14T17:36:09.686Z
@@ -14,15 +14,12 @@ brief: Design a comprehensive mobile app addressing the varied needs of modern
 role: Research, Concept, Prototyping, UI Design, Graphic Design
 more: ""
 demos:
-  - demo:
-      image: /uploads/gg-img-1.png
-      caption: Logo versions, Colors
-  - demo:
-      image: /uploads/gg-img-2.png
-      caption: Social Media posts
-  - demo:
-      image: /uploads/gg-img-3.png
-      caption: Mobile app, Favicon, Typography
+  - image: /uploads/gg-img-1.png
+    caption: Logo versions, Colors
+  - image: /uploads/gg-img-2.png
+    caption: Social Media posts
+  - image: /uploads/gg-img-3.png
+    caption: Mobile app, Favicon, Typography
 results: Traveler's Companion app received positive reviews and gained
   popularity, redefining the travel experience for users worldwide.
 tools:

@@ -44,20 +44,20 @@ lightbox: true
 
 			<template webc:nokeep webc:if="demos">
 				<figure webc:for="item of demos" class="demo">
-					<app-video-preview webc:if="item.demo.video && item.demo.image" class="demo__preview preview">
-						<app-demo-picture :src="item.demo.image"></app-demo-picture>
-						<video :src="item.demo.video" :poster="item.demo.image" width="380" height="285" preload="none" loop muted playsinline class="preview__media" hidden></video>
+					<app-video-preview webc:if="item.video && item.image" class="demo__preview preview">
+						<app-demo-picture :src="item.image"></app-demo-picture>
+						<video :src="item.video" :poster="item.image" width="380" height="285" preload="none" loop muted playsinline class="preview__media" hidden></video>
 					</app-video-preview>
-					<div webc:if="!item.demo.video && item.demo.image" class="demo__preview preview">
-						<app-demo-picture :src="item.demo.image"></app-demo-picture>
-						<a :href="item.demo.image" class="prevew__zoom glightbox" data-gallery="details-demo">
+					<div webc:if="!item.video && item.image" class="demo__preview preview">
+						<app-demo-picture :src="item.image"></app-demo-picture>
+						<a :href="item.image" class="prevew__zoom glightbox" data-gallery="details-demo">
 							<img src="/images/zoom.svg" alt="Zoom In.">
 						</a>
 					</div>
-					<div webc:if="item.demo.video && !item.demo.image" class="demo__preview preview">
-						<video :src="item.demo.video" width="380" height="285" preload="metadata" controls autoplay loop muted playsinline class="preview__media"></video>
+					<div webc:if="item.video && !item.image" class="demo__preview preview">
+						<video :src="item.video" width="380" height="285" preload="metadata" controls autoplay loop muted playsinline class="preview__media"></video>
 					</div>
-					<figcaption webc:if="item.demo.caption" class="demo__name" @text="item.demo.caption">Prototyping Process</figcaption>
+					<figcaption webc:if="item.caption" class="demo__name" @text="item.caption">Prototyping Process</figcaption>
 				</figure>
 			</template>
 		</div>

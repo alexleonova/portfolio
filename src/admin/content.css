@@ -1,0 +1,282 @@
+/* Latin */
+@font-face {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('/fonts/Lexend-variable-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('/fonts/Lexend-variable-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+:root {
+	--typography-heading-1: normal 600 3rem/3.75rem "Lexend", sans-serif;
+	--typography-heading-2: normal 600 1.75rem/2.375rem "Lexend", sans-serif;
+	--typography-heading-3: normal 600 1.3125rem/1.625rem "Lexend", sans-serif;
+	--typography-heading-4: normal 600 1.0625rem/1.3125rem "Lexend", sans-serif;
+
+	--typography-text-l-bold: normal 700 1.3125rem/1.625rem "Lexend", sans-serif;
+	--typography-text-l: normal 400 1.3125rem/1.625rem "Lexend", sans-serif;
+	--typography-text-m-bold: normal 700 1.0625rem/1.3125rem "Lexend", sans-serif;
+	--typography-text-m: normal 400 1.0625rem/1.3125rem "Lexend", sans-serif;
+	--typography-text-s-bold: normal 700 1rem/1.625rem "Lexend", sans-serif;
+	--typography-text-s: normal 400 1rem/1.625rem "Lexend", sans-serif;
+	--typography-text-xs-bold: normal 700 0.9375rem/1.1875rem "Lexend", sans-serif;
+	--typography-text-xs: normal 400 0.9375rem/1.1875rem "Lexend", sans-serif;
+}
+
+.text-heading-1 {
+	font: var(--typography-heading-1);
+}
+
+.text-heading-2 {
+	font: var(--typography-heading-2);
+}
+
+.text-heading-3 {
+	font: var(--typography-heading-3);
+}
+
+.text-heading-4 {
+	font: var(--typography-heading-4);
+}
+
+.text-l-bold {
+	font: var(--typography-text-l-bold);
+}
+
+.text-l {
+	font: var(--typography-text-l);
+}
+
+.text-m-bold {
+	font: var(--typography-text-m-bold);
+}
+
+.text-m {
+	font: var(--typography-text-m);
+}
+
+.text-s-bold {
+	font: var(--typography-text-s-bold);
+}
+
+.text-s {
+	font: var(--typography-text-s);
+}
+
+.text-xs-bold {
+	font: var(--typography-text-xs-bold);
+}
+
+.text-xs {
+	font: var(--typography-text-xs);
+}
+
+body {
+	font: var(--typography-text-s);
+}
+
+:is(h1, h2, h3, h4, h5, h6) {
+	margin: 0;
+}
+
+:is(ul, ol) {
+	padding-left: 0;
+}
+
+:is(ul, ol) {
+	list-style: none;
+}
+
+:is(ul, ol) > li {
+	position: relative;
+	padding-left: 1.875rem;
+}
+
+:is(ul, ol) > li:not(:last-child) {
+	margin-bottom: 0.9375rem;
+}
+
+
+:is(ul, ol) > li::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+}
+
+ul > li::before {
+	content: '';
+	width: 1.25rem;
+	height: 1.5625rem;
+	background-image: var(--list-marker, url('/images/list-marker-purple.svg'));
+}
+
+ol {
+	counter-reset: ordered-list;
+}
+
+ol > li::before {
+	counter-increment: ordered-list;
+	content: counter(ordered-list) '.';
+	font: var(--typography-heading-3);
+	color: var(--color-text-1);
+}
+
+hr {
+	height: 0.9375rem;
+	background: url('/images/hr.svg') left center no-repeat;
+	margin: 0;
+	border-width: 0;
+}
+
+.frame-content > div > *:not(:last-child) {
+	margin-bottom: 2.5rem;
+}
+
+.frame-content :is(h1, h2, h3, h4, h5, h6, ul, ol) {
+	margin-bottom: 0.9375rem;
+}
+
+.frame-content h1 {
+	font: var(--typography-heading-1);
+}
+
+.frame-content h2 {
+	font: var(--typography-heading-2);
+}
+
+.frame-content h3 {
+	font: var(--typography-heading-3);
+}
+
+.frame-content h4 {
+	font: var(--typography-heading-4);
+}
+
+.frame-content h5 {
+	font: var(--typography-text-s-bold);
+}
+
+.frame-content h6 {
+	font: var(--typography-text-xs-bold);
+}
+
+.frame-content a {
+	color: inherit;
+	text-decoration-thickness: 0.125rem;
+}
+
+.frame-content :is(b, strong) {
+	font-weight: 700;
+}
+
+.frame-content small {
+	font: var(--typography-text-xs);
+}
+
+.frame-content q {
+	quotes: "«" "»" "„" "“";
+}
+
+.frame-content abbr {
+	text-decoration-thickness: 0.125rem;
+	cursor: help;
+}
+
+.frame-content :is(code, var, samp, kbd) {
+	display: inline-block;
+	padding: 0 0.25rem;
+	border-radius: 0.25rem;
+	background-color: var(--accent-color-primary);
+	font-family: monospace;
+	font-size: inherit;
+	line-height: inherit;
+	font-weight: inherit;
+}
+
+.frame-content :is(sup, sub) {
+	font: var(--typography-text-xs);
+}
+
+.frame-content :is(u, .text-underline) {
+	text-decoration: underline;
+	text-decoration-thickness: 0.3125rem;
+	text-decoration-color: var(--accent-color-primary);
+	text-decoration-skip-ink: none;
+	text-underline-offset: 0.5rem;
+}
+
+.frame-content mark {
+	background-color: var(--accent-color-secondary);
+}
+
+.frame-content dl dt {
+	font-weight: 700;
+}
+
+.frame-content dl dd {
+	margin-left: 1.875rem;
+}
+
+.frame-content blockquote {
+	padding-left: calc(1.875rem - 0.25rem);
+	border-left: 0.25rem solid var(--accent-color-primary);
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.frame-content table {
+	width: 100%;
+	max-width: 100%;
+	table-layout: fixed;
+	border-collapse: collapse;
+	border: 0.0625rem solid var(--accent-color-primary);
+	font: inherit;
+}
+
+.frame-content table :is(th, td) {
+	text-align: center;
+}
+
+.frame-content table th {
+	background-color: var(--accent-color-primary);
+	font-weight: 700;
+}
+
+.frame-content table tr {
+	background-color: var(--accent-color-secondary);
+}
+
+.frame-content :is(img, video, iframe, embed, object) {
+	width: 100%;
+	height: auto;
+	border-radius: 1.875rem;
+}
+
+.frame-content figure {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.frame-content figure figcaption {
+	text-align: center;
+}
+
+.frame-content figure figcaption:first-child {
+	margin-bottom: 0.625rem;
+}
+
+.frame-content figure figcaption:last-child {
+	margin-top: 0.625rem;
+}

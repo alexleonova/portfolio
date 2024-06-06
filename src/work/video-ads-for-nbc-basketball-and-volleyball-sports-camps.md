@@ -1,39 +1,35 @@
 ---
 layout: work.webc
 tags: work
-title: Logotype for real estate management platform
-handle: logotype-for-real-estate-management-platform
-category: logotype
+title: Video ads for NBC Basketball & Volleyball Sports Camps
+handle: video-ads-for-nbc-basketball-and-volleyball-sports-camps
+category: animation-motion
 favorite: false
-date: 2024-01-22T18:57:31.183Z
-coverImage: /uploads/inhabify-thumbnail.png
-coverVideo: /uploads/inhabify.mp4
+date: 2024-04-03T19:04:34.757Z
+coverImage: /uploads/nbc-motion_thumbnails.png
+coverVideo: /uploads/nbc-motion.mp4
 showVideo: true
 brief: Design a comprehensive mobile app addressing the varied needs of modern
   travelers.
 role: Research, Concept, Prototyping, UI Design, Graphic Design, Illustration.
-more: https://example.com
+more: ""
 demos:
-  - demo:
-      image: /uploads/inhabify-img-1.png
-      caption: Logo versions, Colors
-  - demo:
-      image: /uploads/inhabify-img-2.png
-      caption: Social banner
-  - demo:
-      image: /uploads/inhabify-img-3.png
-      caption: Platform website homepage
-  - demo:
-      image: /uploads/inhabify-img-4.png
-      caption: Mobile app, Favicon, Typography
+  - video: /uploads/nbc-a-m-1.mp4
+    caption: Advertising video editing process
+  - video: /uploads/nbc-a-m-2.mp4
+    caption: Video ads for NBC Volleyball&Basketball camps in facebook
+  - video: /uploads/nbc-a-m-3.mp4
+    caption: Video ads for NBC Basketball camps
 results: Traveler's Companion app received positive reviews and gained
   popularity, redefining the travel experience for users worldwide.
 tools:
   - Figma
   - Illustrator
   - Photoshop
-og:
-  image: /uploads/og-logotype-inhabify.png
+moreProjects:
+  - isometric-icons-set-for-company-internal-use
+  - logotype-for-real-estate-management-platform
+  - video-ads-for-nbc-basketball-and-volleyball-sports-camps
 ---
 ## Overview:
 

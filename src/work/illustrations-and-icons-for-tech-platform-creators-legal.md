@@ -1,41 +1,35 @@
 ---
 layout: work.webc
 tags: work
-title: Video ads for NBC Basketball & Volleyball Sports Camps
-handle: video-ads-for-nbc-basketball-&-volleyball-sports-camps
-category: animation-motion
-favorite: false
-date: 2024-04-03T19:04:34.757Z
-coverImage: /uploads/nbc-motion_thumbnails.png
-coverVideo: /uploads/nbc-motion.mp4
+title: Illustrations & icons for tech platform Creators Legal
+handle: illustrations-and-icons-for-tech-platform-creators-legal
+category: illustration
+favorite: true
+date: 2024-01-22T18:57:31.183Z
+coverImage: /uploads/creatorslegal_thumbnail.png
+coverVideo: /uploads/creatorslegal.mp4
 showVideo: true
 brief: Design a comprehensive mobile app addressing the varied needs of modern
   travelers.
 role: Research, Concept, Prototyping, UI Design, Graphic Design, Illustration.
 more: ""
 demos:
-  - demo:
-      image: ""
-      caption: Advertising video editing process
-      video: /uploads/nbc-a-m-1.mp4
-  - demo:
-      image: ""
-      caption: Video ads for NBC Volleyball&Basketball camps in facebook
-      video: /uploads/nbc-a-m-2.mp4
-  - demo:
-      image: ""
-      caption: Video ads for NBC Basketball camps
-      video: /uploads/nbc-a-m-3.mp4
+  - image: /uploads/cl-img-1.png
+    caption: Sketch process, colors
+  - image: /uploads/cl-img-2.png
+    caption: Illustrations for categories pages
+  - image: /uploads/cl-img-3.png
+    caption: Icons for contracts categories
+  - image: /uploads/cl-img-4.png
+    caption: Illustrations on website pages
 results: Traveler's Companion app received positive reviews and gained
   popularity, redefining the travel experience for users worldwide.
 tools:
   - Figma
   - Illustrator
   - Photoshop
-moreProjects:
-  - isometric-icons-set-for-company-internal-use
-  - logotype-for-real-estate-management-platform
-  - video-ads-for-nbc-basketball-and-volleyball-sports-camps
+og:
+  image: /uploads/og-illustrations-cl.png
 ---
 ## Overview:
 

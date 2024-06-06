@@ -9,7 +9,7 @@ collections:
     label: "Work"
     folder: "src/work"
     create: true
-    slug: "{{handle}}"
+    slug: "{{fields.handle}}"
     sortable_fields:
       - "title"
       - "date"
@@ -49,9 +49,10 @@ collections:
         name: "title"
         widget: "string"
 
-      - label: "Slug"
+      - label: "URL path"
         name: "handle"
         widget: "string"
+        hint: "Applies only at creation. Further changes have no effect. To change the path, duplicate the entity and save the copy."
 
       - label: "Category"
         name: "category"
@@ -72,6 +73,7 @@ collections:
         name: "favorite"
         widget: "boolean"
         default: false
+        hint: "Marks the item as a favorite. Such items are displayed at the top of the list and marked with an star icon."
 
       - label: "Publish Date"
         name: "date"
@@ -108,25 +110,22 @@ collections:
       - label: "Demos"
         name: "demos"
         widget: "list"
+        summary: "{{fields.caption}}"
         fields:
-          - label: "Demo"
-            name: "demo"
-            widget: "object"
-            fields:
-              - label: "Image"
-                name: "image"
-                widget: "image"
-                required: false
+          - label: "Image"
+            name: "image"
+            widget: "image"
+            required: false
 
-              - label: "Video"
-                name: "video"
-                widget: "file"
-                required: false
+          - label: "Video"
+            name: "video"
+            widget: "file"
+            required: false
 
-              - label: "Caption"
-                name: "caption"
-                widget: "string"
-                required: false
+          - label: "Caption"
+            name: "caption"
+            widget: "string"
+            required: false
 
       - label: "Body"
         name: "body"
@@ -140,6 +139,7 @@ collections:
         name: "tools"
         widget: "list"
         allow_add: true
+        summary: "{{fields.tool}}"
         field:
           label: "Tool" 
           name: "tool"
@@ -160,63 +160,70 @@ collections:
         name: "og"
         widget: "object"
         fields:
-          - label: "og:title"
+          - label: "Add Open Graph"
             name: "opengraph"
             widget: "boolean"
             default: true
             required: false
+            hint: "If enabled, adds Open Graph tags to the page metadata."
 
           - label: "og:title"
             name: "title"
             widget: "string"
             required: false
+            hint: "The text for the og:title property. If nothing is specified, the og:title property will not be added to the page metadata."
 
           - label: "og:image"
             name: "image"
             widget: "image"
             required: false
-            hint: "1200 x 630 pixels recommended"
+            hint: "The image for the og:image property. If nothing is specified, the og:image property will not be added to the page metadata. An image of 1200 x 630 pixels is recommended."
 
           - label: "og:description"
             name: "description"
             widget: "text"
             required: false
+            hint: "The text for the og:description property. If nothing is specified, the og:description property will not be added to the page metadata."
 
           - label: "og:url"
             name: "url"
             widget: "boolean"
             default: true
             required: false
-            hint: "Generated automatically if enabled"
+            hint: "The URL for the og:url property. Generated automatically if enabled."
 
           - label: "og:type"
             name: "type"
             widget: "string"
             default: website
             required: false
+            hint: "The text for the og:type property. Defaults to website. Should not be changed."
 
           - label: "og:locale"
             name: "locale"
             widget: "string"
             default: en_US
             required: false
+            hint: "The locale code for the og:locale property. Defaults to en_US. Should not be changed."
 
           - label: "og:site_name"
             name: "site_name"
             widget: "string"
             required: false
+            hint: "The value for the og:site_name property. Defaults to site_name. Should not be changed."
 
           - label: "twitter:card"
             name: "twitter"
             widget: "boolean"
             default: true
             required: false
-            hint: "Generated automatically from og:* if enabled"
+            hint: "If enabled, adds Twitter Card tags to the page metadata. The data is generated automatically from the og:* properties."
 
           - label: "twitter:site"
             name: "site"
             widget: "string"
             required: false
+            hint: "The value for the twitter:site property. Defaults to site. Should not be changed."
 
   - name: "pages"
     label: "Pages"
@@ -247,63 +254,70 @@ collections:
             name: "og"
             widget: "object"
             fields:
-              - label: "og:title"
+              - label: "Add Open Graph"
                 name: "opengraph"
                 widget: "boolean"
                 default: true
                 required: false
+                hint: "If enabled, adds Open Graph tags to the page metadata."
 
               - label: "og:title"
                 name: "title"
                 widget: "string"
                 required: false
+                hint: "The text for the og:title property. If nothing is specified, the og:title property will not be added to the page metadata."
 
               - label: "og:image"
                 name: "image"
                 widget: "image"
                 required: false
-                hint: "1200 x 630 pixels recommended"
+                hint: "The image for the og:image property. If nothing is specified, the og:image property will not be added to the page metadata. An image of 1200 x 630 pixels is recommended."
 
               - label: "og:description"
                 name: "description"
                 widget: "text"
                 required: false
+                hint: "The text for the og:description property. If nothing is specified, the og:description property will not be added to the page metadata."
 
               - label: "og:url"
                 name: "url"
                 widget: "boolean"
                 default: true
                 required: false
-                hint: "Generated automatically if enabled"
+                hint: "The URL for the og:url property. Generated automatically if enabled."
 
               - label: "og:type"
                 name: "type"
                 widget: "string"
                 default: website
                 required: false
+                hint: "The text for the og:type property. Defaults to website. Should not be changed."
 
               - label: "og:locale"
                 name: "locale"
                 widget: "string"
                 default: en_US
                 required: false
+                hint: "The locale code for the og:locale property. Defaults to en_US. Should not be changed."
 
               - label: "og:site_name"
                 name: "site_name"
                 widget: "string"
                 required: false
+                hint: "The value for the og:site_name property. Defaults to site_name. Should not be changed."
 
               - label: "twitter:card"
                 name: "twitter"
                 widget: "boolean"
                 default: true
                 required: false
-                hint: "Generated automatically from og:* if enabled"
+                hint: "If enabled, adds Twitter Card tags to the page metadata. The data is generated automatically from the og:* properties."
 
               - label: "twitter:site"
                 name: "site"
                 widget: "string"
                 required: false
+                hint: "The value for the twitter:site property. Defaults to site. Should not be changed."
 
       - label: "About"
         name: "about"

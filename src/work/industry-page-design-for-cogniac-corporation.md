@@ -14,18 +14,14 @@ brief: Design a comprehensive mobile app addressing the varied needs of modern
 role: Research, Concept, Prototyping, UI Design, Graphic Design, Illustration.
 more: ""
 demos:
-  - demo:
-      image: /uploads/cogniac-img-1.png
-      caption: Logo, Typography, Colors, UI Kit
-  - demo:
-      image: /uploads/cogniac-img-2.png
-      caption: Page wireframes
-  - demo:
-      image: /uploads/cogniac-img-3.png
-      caption: Page blocks UI
-  - demo:
-      image: /uploads/cogniac-img-4.png
-      caption: Final page mockup
+  - image: /uploads/cogniac-img-1.png
+    caption: Logo, Typography, Colors, UI Kit
+  - image: /uploads/cogniac-img-2.png
+    caption: Page wireframes
+  - image: /uploads/cogniac-img-3.png
+    caption: Page blocks UI
+  - image: /uploads/cogniac-img-4.png
+    caption: Final page mockup
 results: Traveler's Companion app received positive reviews and gained
   popularity, redefining the travel experience for users worldwide.
 tools:

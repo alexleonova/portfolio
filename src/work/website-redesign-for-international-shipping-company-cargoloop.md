@@ -16,19 +16,14 @@ role: |-
   UI Design.
 more: ""
 demos:
-  - demo:
-      image: ""
-      caption: User path on the CargoLoop website
-      video: /uploads/cargoloop-01.mp4
-  - demo:
-      image: /uploads/cargoloop-02.png
-      caption: CargoLoop website sitemap
-  - demo:
-      image: /uploads/cargoloop-03.png
-      caption: Website pages blocks
-  - demo:
-      image: /uploads/cargoloop-04.png
-      caption: Homepage responsive versions
+  - video: /uploads/cargoloop-01.mp4
+    caption: User path on the CargoLoop website
+  - image: /uploads/cargoloop-02.png
+    caption: CargoLoop website sitemap
+  - image: /uploads/cargoloop-03.png
+    caption: Website pages blocks
+  - image: /uploads/cargoloop-04.png
+    caption: Homepage responsive versions
 results: Traveler's Companion app received positive reviews and gained
   popularity, redefining the travel experience for users worldwide.
 tools:

@@ -1,8 +1,8 @@
 ---
 layout: work.webc
 tags: work
-title: Website redesign for Ministry of Finance  of Kuwait
-handle: website-redesign-for-ministry-of-finance -of-kuwait
+title: Website redesign for Ministry of Finance of Kuwait
+handle: website-redesign-for-ministry-of-finance-of-kuwait
 category: ui_ux_design
 favorite: false
 date: 2024-04-09T07:36:08.473Z
@@ -16,18 +16,14 @@ role: |-
   UI Design.
 more: ""
 demos:
-  - demo:
-      image: /uploads/mof-01.png
-      caption: English page version vs Arabic page version
-  - demo:
-      image: /uploads/mof-02.png
-      caption: MoF website sitemap
-  - demo:
-      image: /uploads/mof-03.png
-      caption: Inner website pages
-  - demo:
-      image: /uploads/mof-04.png
-      caption: Arabic page responsive versions
+  - image: /uploads/mof-01.png
+    caption: English page version vs Arabic page version
+  - image: /uploads/mof-02.png
+    caption: MoF website sitemap
+  - image: /uploads/mof-03.png
+    caption: Inner website pages
+  - mage: /uploads/mof-04.png
+    caption: Arabic page responsive versions
 results: Traveler's Companion app received positive reviews and gained
   popularity, redefining the travel experience for users worldwide.
 tools:

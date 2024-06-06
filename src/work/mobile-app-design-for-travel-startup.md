@@ -14,17 +14,13 @@ brief: Design a comprehensive mobile app addressing the varied needs of modern
 role: Research, Concept, Prototyping, UI Design, Graphic Design, Illustration.
 more: ""
 demos:
-  - demo:
-      image: /uploads/img-1.png
-      caption: "Logotype, Typography, Colors "
-  - demo:
-      image: /uploads/img-2.png
-      caption: Wireframes vs UI Mockups
-  - demo:
-      image: /uploads/img-3.png
-      caption: Mobile App
-  - demo:
-      video: /uploads/elsewhere.mp4
+  - image: /uploads/img-1.png
+    caption: "Logotype, Typography, Colors "
+  - image: /uploads/img-2.png
+    caption: Wireframes vs UI Mockups
+  - image: /uploads/img-3.png
+    caption: Mobile App
+  - video: /uploads/elsewhere.mp4
 results: Traveler's Companion app received positive reviews and gained
   popularity, redefining the travel experience for users worldwide.
 tools:

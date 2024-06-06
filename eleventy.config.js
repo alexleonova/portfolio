@@ -31,6 +31,7 @@ module.exports = function(config) {
 	config.addPassthroughCopy('src/icon-512.png');
 	config.addPassthroughCopy('src/apple-touch-icon.png');
 	config.addPassthroughCopy('src/manifest.webmanifest');
+	config.addPassthroughCopy('src/admin/content.css');
 
 	const categoriesMap = new Map([
 		['all', { name: 'All Works', color: ''}],
@@ -76,7 +77,7 @@ module.exports = function(config) {
 	config.addJavaScriptFunction('picture', async function(src, widths = ['auto'], sizes = '', alt = '') {
 		const metadata = await Image(src, {
 			widths: widths,
-			formats: ['avif', 'webp', 'auto'],
+			formats: ['webp', 'auto'],
 			urlPath: '/images/',
 			outputDir: './build/images/',
 			filenameFormat: (id, src, width, format) => {

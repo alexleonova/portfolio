@@ -14,18 +14,14 @@ brief: Design a comprehensive mobile app addressing the varied needs of modern
 role: Research, Concept, Prototyping, UI Design, Graphic Design, Illustration.
 more: ""
 demos:
-  - demo:
-      image: /uploads/sf-img-1.png
-      caption: Banners key components
-  - demo:
-      image: /uploads/sf-img-2.png
-      caption: Banners for campers, volunteers, medical workers
-  - demo:
-      image: /uploads/sf-img-3.png
-      caption: Banners for instagram stories
-  - demo:
-      image: /uploads/sf-img-4.png
-      caption: Final advertisement of camps in facebook
+  - image: /uploads/sf-img-1.png
+    caption: Banners key components
+  - image: /uploads/sf-img-2.png
+    caption: Banners for campers, volunteers, medical workers
+  - image: /uploads/sf-img-3.png
+    caption: Banners for instagram stories
+  - image: /uploads/sf-img-4.png
+    caption: Final advertisement of camps in facebook
 results: Traveler's Companion app received positive reviews and gained
   popularity, redefining the travel experience for users worldwide.
 tools:

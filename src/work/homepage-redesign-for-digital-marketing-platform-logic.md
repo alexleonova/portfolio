@@ -1,51 +1,33 @@
 ---
 layout: work.webc
 tags: work
-title: Fintech website design for GainsGurus
-handle: fintech-website-design-for-gainsgurus
+title: "Homepage redesign for digital marketing platform Logic"
+handle: "homepage-redesign-for-digital-marketing-platform-logic"
 category: ui_ux_design
-favorite: true
-date: 2024-04-07T10:18:05.028Z
-coverImage: /uploads/gg-ui-thumbnail.png
-coverVideo: /uploads/gg-uxui-0.mp4
+favorite: false
+date: 2024-01-22T18:57:31.183Z
+coverImage: /uploads/logiq-thumbnail.png
+coverVideo: /uploads/logiq.mp4
 showVideo: true
 brief: Design a comprehensive mobile app addressing the varied needs of modern
   travelers.
-role: |-
-  UX Research, User flow,  Wireframes, Clicable Prototype, 
-  UI Design.
+role: Research, Concept, Prototyping, UI Design, Graphic Design, Illustration.
 more: ""
 demos:
-  - demo:
-      image: ""
-      caption: User path on the GainsGurus website
-      video: /uploads/gg-uxui-01.mp4
-  - demo:
-      image: /uploads/gg-uxui-2.png
-      caption: GainsGurus website sitemap
-  - demo:
-      image: /uploads/gg-uxui-3.png
-      caption: Nasdaq 52 Week High Volatility Graph by date
-  - demo:
-      image: /uploads/gg-uxui-4.png
-      caption: Inner website pages
+  - image: /uploads/logic-img-1.png
+    caption: Logo, Typography, Colors, UI Kit
+  - image: /uploads/logic-img-2.png
+    caption: Page wireframes
+  - image: /uploads/logic-img-3.png
+    caption: Page mockup
+  - image: /uploads/logic-img-4.png
+    caption: New website homepage
 results: Traveler's Companion app received positive reviews and gained
   popularity, redefining the travel experience for users worldwide.
 tools:
   - Figma
   - Illustrator
   - Photoshop
-og:
-  site_name: Alex Leonova
-  opengraph: true
-  site: "@alexleonova"
-  url: true
-  twitter: true
-  title: OG Title
-  locale: en_US
-  type: website
-  image: /uploads/mobile-app-design-for-travel-startup.png
-  description: OG description
 ---
 ## Overview:
 

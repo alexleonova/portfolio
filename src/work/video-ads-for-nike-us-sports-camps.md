@@ -14,18 +14,12 @@ brief: Design a comprehensive mobile app addressing the varied needs of modern
 role: Research, Concept, Prototyping, UI Design, Graphic Design, Illustration.
 more: ""
 demos:
-  - demo:
-      image: ""
-      caption: Advertising video editing process
-      video: /uploads/ussc-m-a-1.mp4
-  - demo:
-      image: ""
-      caption: Video ads for US Sports Camps camps in facebook
-      video: /uploads/ussc-m-a-2.mp4
-  - demo:
-      image: ""
-      caption: Video advertising with generated voiceover
-      video: /uploads/ussc-m-a-3.mp4
+  - video: /uploads/ussc-m-a-1.mp4
+    caption: Advertising video editing process
+  - video: /uploads/ussc-m-a-2.mp4
+    caption: Video ads for US Sports Camps camps in facebook
+  - video: /uploads/ussc-m-a-3.mp4
+    caption: Video advertising with generated voiceover  
 results: Traveler's Companion app received positive reviews and gained
   popularity, redefining the travel experience for users worldwide.
 tools:

@@ -1,39 +1,37 @@
 ---
 layout: work.webc
 tags: work
-title: Illustrations & icons for tech platform Creators Legal
-handle: illustrations-&-icons-for-tech-platform-creators-legal
-category: illustration
-favorite: true
-date: 2024-01-22T18:57:31.183Z
-coverImage: /uploads/creatorslegal_thumbnail.png
-coverVideo: /uploads/creatorslegal.mp4
+title: Social Media banners for Nike US Sports Camps
+handle: social-media-banners-for-nike-us-sports-camps
+category: social-media
+favorite: false
+date: 2024-03-23T15:24:33.721Z
+coverImage: /uploads/ussc-thumbnail.png
+coverVideo: /uploads/ussc-banners.mp4
 showVideo: true
 brief: Design a comprehensive mobile app addressing the varied needs of modern
   travelers.
 role: Research, Concept, Prototyping, UI Design, Graphic Design, Illustration.
 more: ""
 demos:
-  - demo:
-      image: /uploads/cl-img-1.png
-      caption: Sketch process, colors
-  - demo:
-      image: /uploads/cl-img-2.png
-      caption: Illustrations for categories pages
-  - demo:
-      image: /uploads/cl-img-3.png
-      caption: Icons for contracts categories
-  - demo:
-      image: /uploads/cl-img-4.png
-      caption: Illustrations on website pages
+  - image: /uploads/ussc-img-1.png
+    caption: Banners key components
+  - image: /uploads/ussc-img-2.png
+    caption: Camp specific & Sport specific banners for Basketball camps
+  - image: /uploads/ussc-img-3.png
+    caption: Banners for instagram stories
+  - image: /uploads/ussc-img-4.png
+    caption: Final advertisement of camps in facebook
 results: Traveler's Companion app received positive reviews and gained
   popularity, redefining the travel experience for users worldwide.
 tools:
   - Figma
   - Illustrator
   - Photoshop
-og:
-  image: /uploads/og-illustrations-cl.png
+moreProjects:
+  - isometric-icons-set-for-company-internal-use
+  - logotype-for-real-estate-management-platform
+  - video-ads-for-nbc-basketball-and-volleyball-sports-camps
 ---
 ## Overview:
 

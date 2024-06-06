@@ -116,3 +116,5 @@ CMS.registerEditorComponent({
 		return '<p>[DEMO]<p>';
 	}
 });
+
+CMS.registerPreviewStyle('/admin/content.css');

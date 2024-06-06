@@ -1,31 +1,27 @@
 ---
 layout: work.webc
 tags: work
-title: "Homepage redesign for digital marketing platform Logic "
-handle: "homepage-redesign-for-digital-marketing-platform-logic "
-category: ui_ux_design
+title: Illustrations set for company internal use
+handle: illustrations-set-for-company-internal-use
+category: illustration
 favorite: false
 date: 2024-01-22T18:57:31.183Z
-coverImage: /uploads/logiq-thumbnail.png
-coverVideo: /uploads/logiq.mp4
+coverImage: /uploads/ga4-thumbnail.png
+coverVideo: /uploads/ga4.mp4
 showVideo: true
 brief: Design a comprehensive mobile app addressing the varied needs of modern
   travelers.
 role: Research, Concept, Prototyping, UI Design, Graphic Design, Illustration.
 more: ""
 demos:
-  - demo:
-      image: /uploads/logic-img-1.png
-      caption: Logo, Typography, Colors, UI Kit
-  - demo:
-      image: /uploads/logic-img-2.png
-      caption: Page wireframes
-  - demo:
-      image: /uploads/logic-img-3.png
-      caption: Page mockup
-  - demo:
-      image: /uploads/logic-img-4.png
-      caption: New website homepage
+  - image: /uploads/ga4-img-1.png
+    caption: Sketch process, colors
+  - image: /uploads/ga4-img-2.png
+    caption: Illustrations for article
+  - image: /uploads/ga4-img-3.png
+    caption: "Alternative colour scheme "
+  - image: /uploads/ga4-img-4.png
+    caption: Illustrations on article website page
 results: Traveler's Companion app received positive reviews and gained
   popularity, redefining the travel experience for users worldwide.
 tools:

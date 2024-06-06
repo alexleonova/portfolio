@@ -1,37 +1,35 @@
 ---
 layout: work.webc
 tags: work
-title: Illustrations set for company internal use
+title: Logotype for real estate management platform
 handle: logotype-for-real-estate-management-platform
-category: illustration
+category: logotype
 favorite: false
 date: 2024-01-22T18:57:31.183Z
-coverImage: /uploads/ga4-thumbnail.png
-coverVideo: /uploads/ga4.mp4
+coverImage: /uploads/inhabify-thumbnail.png
+coverVideo: /uploads/inhabify.mp4
 showVideo: true
 brief: Design a comprehensive mobile app addressing the varied needs of modern
   travelers.
 role: Research, Concept, Prototyping, UI Design, Graphic Design, Illustration.
-more: ""
+more: https://example.com
 demos:
-  - demo:
-      image: /uploads/ga4-img-1.png
-      caption: Sketch process, colors
-  - demo:
-      image: /uploads/ga4-img-2.png
-      caption: Illustrations for article
-  - demo:
-      image: /uploads/ga4-img-3.png
-      caption: "Alternative colour scheme "
-  - demo:
-      image: /uploads/ga4-img-4.png
-      caption: Illustrations on article website page
+  - image: /uploads/inhabify-img-1.png
+    caption: Logo versions, Colors
+  - image: /uploads/inhabify-img-2.png
+    caption: Social banner
+  - image: /uploads/inhabify-img-3.png
+    caption: Platform website homepage
+  - image: /uploads/inhabify-img-4.png
+    caption: Mobile app, Favicon, Typography
 results: Traveler's Companion app received positive reviews and gained
   popularity, redefining the travel experience for users worldwide.
 tools:
   - Figma
   - Illustrator
   - Photoshop
+og:
+  image: /uploads/og-logotype-inhabify.png
 ---
 ## Overview:
 

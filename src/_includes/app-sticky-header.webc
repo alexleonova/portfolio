@@ -2,7 +2,9 @@
 	<header class="header__container container">
 		<div class="header__logo logo">
 			<a href="/" class="logo__link" :aria-current="page.url === '/' ? 'page' : null;">
-				<img :src="logo ? logo : '/images/logo.svg'" class="logo__image" width="224" height="33" alt="Alex Leonova Home.">
+				<img webc:if="logo.endsWith('.png') || logo.endsWith('.jpg') || logo.endsWith('.svg') || logo.endsWith('.gif')" :src="logo" class="logo__image" width="224" height="33" alt="Alex Leonova Home.">
+				<video webc:elseif="logo.endsWith('.mp4')" :src="logo" class="logo__image" width="224" height="33" autoplay loop muted playsinline></video>
+				<img webc:else src="/images/logo.svg" class="logo__image" width="224" height="33" alt="Alex Leonova Home.">
 			</a>
 			<span @text="global.logo"></span>
 		</div>

@@ -1,41 +1,44 @@
 ---
 layout: work.webc
 tags: work
-title: Social Media banners for Nike US Sports Camps
-handle: social-media-banners-for-nike-us-sports-camps
-category: social-media
-favorite: false
-date: 2024-03-23T15:24:33.721Z
-coverImage: /uploads/ussc-thumbnail.png
-coverVideo: /uploads/ussc-banners.mp4
+title: "Website redesign for men’s clothing brand ToddShelton"
+handle: "website-redesign-for-mens-clothing-brand-todd-shelton"
+category: ui_ux_design
+favorite: true
+date: 2024-01-30T18:57:31.183Z
+coverImage: /uploads/toddshelton-thumbnail.png
+coverVideo: /uploads/toddshelton.mp4
 showVideo: true
 brief: Design a comprehensive mobile app addressing the varied needs of modern
   travelers.
-role: Research, Concept, Prototyping, UI Design, Graphic Design, Illustration.
+role: |-
+  UX Research, User flow,  Wireframes, Clicable Prototype, 
+  UI Design.
 more: ""
 demos:
-  - demo:
-      image: /uploads/ussc-img-1.png
-      caption: Banners key components
-  - demo:
-      image: /uploads/ussc-img-2.png
-      caption: Camp specific & Sport specific banners for Basketball camps
-  - demo:
-      image: /uploads/ussc-img-3.png
-      caption: Banners for instagram stories
-  - demo:
-      image: /uploads/ussc-img-4.png
-      caption: Final advertisement of camps in facebook
+  - image: /uploads/toddshelton-img-1.png
+    caption: Typography, Colors, UI Kit
+  - image: /uploads/toddshelton-img-2.png
+    caption: Site on mobile
+  - image: /uploads/toddshelton-img-3.png
+    caption: Pages mockups
 results: Traveler's Companion app received positive reviews and gained
   popularity, redefining the travel experience for users worldwide.
 tools:
   - Figma
   - Illustrator
   - Photoshop
-moreProjects:
-  - isometric-icons-set-for-company-internal-use
-  - logotype-for-real-estate-management-platform
-  - video-ads-for-nbc-basketball-and-volleyball-sports-camps
+og:
+  site_name: Alex Leonova
+  opengraph: true
+  site: "@alexleonova"
+  url: true
+  twitter: true
+  title: OG Title
+  locale: en_US
+  type: website
+  image: /uploads/mobile-app-design-for-travel-startup.png
+  description: OG description
 ---
 ## Overview:
 
