@@ -24,8 +24,15 @@ demos:
     caption: Website pages blocks
   - image: /uploads/cargoloop-04.png
     caption: Homepage responsive versions
-results: Traveler's Companion app received positive reviews and gained
-  popularity, redefining the travel experience for users worldwide.
+results: >-
+  The redesigned CargoLoop website achieved the desired outcomes, providing
+  detailed information about the company's services and offerings in a modern
+  and dynamic manner. The website features enhanced service pages, an updated
+  company page, a career section for job applications, and a resources section
+  explaining the company's overall logistics.
+
+
+  From my perspective, the project allowed me to further develop my skills in animation and micro-interactions, as well as gain experience in collaborating closely with developers and testers throughout the design implementation process.
 tools:
   - Figma
   - Illustrator
@@ -58,22 +65,21 @@ Introducing the Traveler's Companion, a mobile app meticulously crafted to be th
 
 ## Design Process:
 
-1. ### Research and Discovery:
+1. ### Research and Analysis:
 
-   * Conducted extensive user interviews and market research to identify pain points and desires of frequent travelers.
-   * Explored competitor landscape to understand strengths and weaknesses.
-2. ### Wireframing and Prototyping:
+   I started by researching CargoLoop's competitors and analyzing their website designs. While many competitors had outdated designs, this research helped me understand the industry standards and identify areas for improvement.
+2. ### Prototyping:
 
-   * Developed wireframes for key app features, emphasizing simplicity and clarity in design.
-   * Iteratively tested prototypes to gather user feedback, refining the interface based on insights.
+   Based on the client's requirements and my research, I created low-fidelity prototypes to establish the overall structure and information architecture of the website.
 3. ### Visual Design:
 
-   * Created a visually appealing and cohesive design language, incorporating travel-themed elements.
-   * Prioritized user-friendly color schemes and typography for enhanced readability.
-4. ### Development Collaboration:
+   After gaining approval for the prototypes, I focused on the visual design aspects. I followed design principles such as using large typography, incorporating CargoLoop's brand color (orange) as an accent, and emphasizing the use of video and animation throughout the website.
+4. ### Animation and Micro-interactions:
 
-   * Worked closely with developers to ensure seamless integration of design elements.
-   * Conducted regular testing to address any usability or functionality issues.
-5. ### User Testing and Iteration:
+   To enhance the user experience, I designed various animations and micro-interactions for different elements, such as headlines and call-to-action buttons.
+5. ### Collaboration and Refinement:
 
-   * Engaged in multiple rounds of user testing to validate design decisions.
+   I worked closely with the development team, providing them with detailed documentation, animation references, and guidance. Throughout the implementation phase, I collaborated with the tester to identify and resolve any design-related issues.
+6. ### Final Review:
+
+   Once the development was complete, I conducted a thorough design review to ensure the final product met the desired standards and functioned as intended.
