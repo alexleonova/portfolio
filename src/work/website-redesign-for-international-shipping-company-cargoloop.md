@@ -11,9 +11,7 @@ coverVideo: /uploads/cargoloop-00.mp4
 showVideo: true
 brief: Design a comprehensive mobile app addressing the varied needs of modern
   travelers.
-role: |-
-  UX Research, User flow,  Wireframes, Clicable Prototype, 
-  UI Design.
+role: UX/UI Design, Motion Design
 more: ""
 demos:
   - video: /uploads/cargoloop-01.mp4
@@ -36,7 +34,8 @@ results: >-
 tools:
   - Figma
   - Illustrator
-  - Photoshop
+  - Premiere Pro
+  - After Effects
 og:
   site_name: Alex Leonova
   opengraph: true
@@ -51,15 +50,22 @@ og:
 ---
 ## Overview:
 
-In a world brimming with possibilities, the modern traveler seeks a seamless and enriching journey. Our challenge was to design a mobile app that transcends the conventional boundaries of travel assistance, providing users with a comprehensive tool that not only simplifies their journey but elevates their travel experience.
+CargoLoop is a business that provides transportation services for cars, boats, and motorcycles within the USA and European countries. They approached me to redesign their website, as their existing site had outdated and compressed information about their services.
 
 ## Problem:
 
-Frequent travelers face a myriad of challenges: from itinerary planning to navigation, language barriers to cultural immersion. Existing apps fell short in delivering a holistic solution, prompting the need for a groundbreaking design that integrates travel essentials seamlessly.
+The primary challenge was to create a website that provides detailed information about CargoLoop's services and the company in a visually appealing and user-friendly manner. The client wanted a design refresh that would enhance the overall user experience and effectively communicate their offerings.
 
 ## Solution:
 
-Introducing the Traveler's Companion, a mobile app meticulously crafted to be the ultimate travel partner. Our solution goes beyond mere navigation, offering an intuitive interface that combines itinerary management, real-time language translation, local insights, and personalized recommendations.
+I was the sole UX/UI designer and motion designer for this project. My responsibilities included:
+
+* Conducting competitive research and design analysis;
+* Creating wireframes and prototypes;
+* Designing the website's visual elements, including typography, color scheme, and iconography;
+* Incorporating animation and micro-interactions throughout the website;
+* Collaborating with developers and testers during implementation;
+* Performing final design reviews and quality assurance.
 
 \[DEMO]
 
