@@ -86,6 +86,8 @@ I was the sole UX/UI designer and motion designer for this project. My responsib
 
    Once the development was complete, I conducted a thorough design review to ensure the final product met the desired standards and functioned as intended.
 
+
+
 ## Challenges
 
 The project had tight deadlines, and the client had specific design preferences, requiring multiple iterations before reaching final approval. Additionally, there were some technical limitations that influenced design decisions, such as combining development and motion design for a complex animation block on the main page.
@@ -95,9 +97,3 @@ The project had tight deadlines, and the client had specific design preferences,
 The redesigned CargoLoop website achieved the desired outcomes, providing detailed information about the company's services and offerings in a modern and dynamic manner. The website features enhanced service pages, an updated company page, a career section for job applications, and a resources section explaining the company's overall logistics.
 
 From my perspective, the project allowed me to further develop my skills in animation and micro-interactions, as well as gain experience in collaborating closely with developers and testers throughout the design implementation process.
-
-## Lessons Learned
-
-This project taught me the importance of thoroughly analyzing design references and maintaining close communication with the development team. It also reinforced the need for careful planning and time management, especially when working with tight deadlines.
-
-Overall, the CargoLoop website redesign project was a successful endeavor that allowed me to showcase my design skills while delivering a visually appealing and user-friendly solution to the client.
