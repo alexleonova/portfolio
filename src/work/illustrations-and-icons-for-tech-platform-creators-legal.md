@@ -11,7 +11,7 @@ coverVideo: /uploads/creatorslegal.mp4
 showVideo: true
 brief: Design a comprehensive mobile app addressing the varied needs of modern
   travelers.
-role: Research, Concept, Prototyping, UI Design, Graphic Design, Illustration.
+role: Digital illustrator and 2D artist
 more: ""
 demos:
   - image: /uploads/cl-img-1.png
@@ -22,47 +22,113 @@ demos:
     caption: Icons for contracts categories
   - image: /uploads/cl-img-4.png
     caption: Illustrations on website pages
-results: Traveler's Companion app received positive reviews and gained
-  popularity, redefining the travel experience for users worldwide.
+results: .
 tools:
   - Figma
   - Illustrator
-  - Photoshop
+moreProjects:
+  - social-media-banners-for-nike-us-sports-camps
+  - illustrations-set-for-company-internal-use
+  - fintech-website-design-for-gainsgurus
 og:
   image: /uploads/og-illustrations-cl.png
 ---
 ## Overview:
 
-In a world brimming with possibilities, the modern traveler seeks a seamless and enriching journey. Our challenge was to design a mobile app that transcends the conventional boundaries of travel assistance, providing users with a comprehensive tool that not only simplifies their journey but elevates their travel experience.
+CreatorsLegal is a digital platform in the legal services sphere, designed to speed up and unify the process of drafting contracts in various fields of activity. The platform provides simple, industry-standard contracts that can be filled out, sent, and signed electronically in minutes.
 
 ## Problem:
 
-Frequent travelers face a myriad of challenges: from itinerary planning to navigation, language barriers to cultural immersion. Existing apps fell short in delivering a holistic solution, prompting the need for a groundbreaking design that integrates travel essentials seamlessly.
+* The client needed to decide how to organize their business proposal. My company was involved in designing and developing solutions, as well as providing expert consultations on business growth.
+* I was solving the issue of visual content on the website and platform. The illustrations had to be consistent in style and reflect the company's activities (the process of concluding contracts in various spheres/industries).
 
 ## Solution:
 
-Introducing the Traveler's Companion, a mobile app meticulously crafted to be the ultimate travel partner. Our solution goes beyond mere navigation, offering an intuitive interface that combines itinerary management, real-time language translation, local insights, and personalized recommendations.
+As a digital illustrator and 2D artist, I was brought in to create visual content that would:
+
+* Reflect the company's activities across various industries;
+* Provide intuitive navigation through the site and platform;
+* Visualize complex contract-related concepts and processes;
+* Maintain a consistent and appealing visual style.
 
 \[DEMO]
 
 ## Design Process:
 
-1. ### Research and Discovery:
+1. ### Research and analysis:
 
-   * Conducted extensive user interviews and market research to identify pain points and desires of frequent travelers.
-   * Explored competitor landscape to understand strengths and weaknesses.
-2. ### Wireframing and Prototyping:
+   The goals that the illustrations should solve were defined (conveying to the user the ease of the contract conclusion process through the platform, showing in which fields of activity it is possible to conclude such contracts). Understanding the target audience and its specifics (the illustration should form the impression that the brand wants to make on the external or internal target audience). The research of similar solutions and the selection of design references were conducted.
 
-   * Developed wireframes for key app features, emphasizing simplicity and clarity in design.
-   * Iteratively tested prototypes to gather user feedback, refining the interface based on insights.
-3. ### Visual Design:
 
-   * Created a visually appealing and cohesive design language, incorporating travel-themed elements.
-   * Prioritized user-friendly color schemes and typography for enhanced readability.
-4. ### Development Collaboration:
+2. ### Creation of a sketch (concept):
 
-   * Worked closely with developers to ensure seamless integration of design elements.
-   * Conducted regular testing to address any usability or functionality issues.
-5. ### User Testing and Iteration:
+   Several sketches of one illustration and one icon were developed in different styles (cartoon style, sketch, infographic presentation style). Concepts were sent to the client to determine the further vector of refinement, character, and style of rendering.
 
-   * Engaged in multiple rounds of user testing to validate design decisions.
+
+3. ### Finalization of the illustration:
+
+   Refinement of the chosen illustration and icon concept. Detailing of the illustration and icon (elaboration of composition element details, color palette selection). Approval of the final concept by the client.
+
+
+4. ### Design of a package of illustrations and icons:
+
+   Illustrations and icons for the main page, category pages, and platform screens were drawn in the approved style.
+
+
+5. ### Preparation for uploading on the website:
+
+   Adaptation of the illustration for various formats (desktop/responsive, Open Graph images). Transfer of illustrations to the development team in vector and raster formats.
+
+
+
+## Design Principles Applied:
+
+* Color harmony with website content;
+* Strategic use of contrast for emphasis;
+* Balanced composition;
+* Depth through isometric style (main page illustration).
+
+
+
+## Challenges Overcome:
+
+* Quick integration into the project at the UI design stage;
+* Adapting to design changes during the illustration process;
+* Balancing detail with clarity in visual communication.
+
+
+
+## Result:
+
+The project delivered:
+
+1. A fully developed contract management platform;
+2. An optimized marketing website;
+3. 12 custom illustrations and 10 icons for various uses;
+4. Improved visual appeal and competitiveness in the market.
+
+
+
+## Client Benefits:
+
+* Intuitive navigation through visual cues;
+* Strengthened brand identity;
+* Easier understanding of complex legal processes;
+* Enhanced user experience and engagement.
+
+
+
+## Personal Growth:
+
+This project allowed me to:
+
+* Develop my skills as a full-fledged illustrator;
+* Gain insight into various industries and contract processes;
+* Improve collaboration and communication skills;
+* Enhance my ability to visually simplify complex concepts.
+
+
+
+## Conclusion:
+
+The CreatorsLegal project showcased the power of thoughtful visual design in simplifying complex processes. By creating intuitive, consistent, and appealing illustrations, we were able to enhance the platform's usability and strengthen the client's brand identity in the competitive legal services market.
