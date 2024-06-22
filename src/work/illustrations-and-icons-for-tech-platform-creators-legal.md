@@ -92,14 +92,14 @@ As a digital illustrator and 2D artist, I was brought in to create visual conten
 
 ## Result:
 
-1. The project delivered a fully developed contract management platform;
-2. An optimized marketing website;
-3. 12 custom illustrations and 10 icons for various uses;
-4. Improved visual appeal and competitiveness in the market.
+* The project delivered a fully developed contract management platform;
+* An optimized marketing website;
+* 12 custom illustrations and 10 icons for various uses;
+* Improved visual appeal and competitiveness in the market.
 
 
 
-## Personal Growth:
+## Conclusion:
 
 This project allowed me to:
 
@@ -107,9 +107,5 @@ This project allowed me to:
 * Gain insight into various industries and contract processes;
 * Improve collaboration and communication skills;
 * Enhance my ability to visually simplify complex concepts.
-
-
-
-## Conclusion:
 
 The CreatorsLegal project showcased the power of thoughtful visual design in simplifying complex processes. By creating intuitive, consistent, and appealing illustrations, we were able to enhance the platform's usability and strengthen the client's brand identity in the competitive legal services market.
