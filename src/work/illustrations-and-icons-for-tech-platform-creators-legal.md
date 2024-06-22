@@ -9,9 +9,9 @@ date: 2024-01-22T18:57:31.183Z
 coverImage: /uploads/creatorslegal_thumbnail.png
 coverVideo: /uploads/creatorslegal.mp4
 showVideo: true
-brief: Design a comprehensive mobile app addressing the varied needs of modern
-  travelers.
-role: Digital illustrator and 2D artist
+brief: Create a package of illustrations and icons for digital platform in the
+  legal services sphere.
+role: Digital illustrator, 2D artist
 more: ""
 demos:
   - image: /uploads/cl-img-1.png
@@ -39,8 +39,9 @@ CreatorsLegal is a digital platform in the legal services sphere, designed to sp
 
 ## Problem:
 
-* The client needed to decide how to organize their business proposal. My company was involved in designing and developing solutions, as well as providing expert consultations on business growth.
-* I was solving the issue of visual content on the website and platform. The illustrations had to be consistent in style and reflect the company's activities (the process of concluding contracts in various spheres/industries).
+The client needed to decide how to organize their business proposal. My company was involved in designing and developing solutions, as well as providing expert consultations on business growth.
+
+I was solving the issue of visual content on the website and platform. The illustrations had to be consistent in style and reflect the company's activities (the process of concluding contracts in various spheres/industries).
 
 ## Solution:
 
@@ -81,15 +82,6 @@ As a digital illustrator and 2D artist, I was brought in to create visual conten
 
 
 
-## Design Principles Applied:
-
-* Color harmony with website content;
-* Strategic use of contrast for emphasis;
-* Balanced composition;
-* Depth through isometric style (main page illustration).
-
-
-
 ## Challenges Overcome:
 
 * Quick integration into the project at the UI design stage;
@@ -100,21 +92,10 @@ As a digital illustrator and 2D artist, I was brought in to create visual conten
 
 ## Result:
 
-The project delivered:
-
-1. A fully developed contract management platform;
+1. The project delivered a fully developed contract management platform;
 2. An optimized marketing website;
 3. 12 custom illustrations and 10 icons for various uses;
 4. Improved visual appeal and competitiveness in the market.
-
-
-
-## Client Benefits:
-
-* Intuitive navigation through visual cues;
-* Strengthened brand identity;
-* Easier understanding of complex legal processes;
-* Enhanced user experience and engagement.
 
 
 
