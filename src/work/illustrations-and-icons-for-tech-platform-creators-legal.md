@@ -82,30 +82,16 @@ As a digital illustrator and 2D artist, I was brought in to create visual conten
 
 
 
-## Challenges Overcome:
-
-* Quick integration into the project at the UI design stage;
-* Adapting to design changes during the illustration process;
-* Balancing detail with clarity in visual communication.
-
-
-
 ## Result:
 
-* The project delivered a fully developed contract management platform;
-* An optimized marketing website;
-* 12 custom illustrations and 10 icons for various uses;
-* Improved visual appeal and competitiveness in the market.
+* The company developed a contract management platform, as well as a presentation website optimized for marketing and conversion. My team completed the project on time. The client highly appreciated the team's clear and productive communication and quick execution of work.
+* The results of our work not only improved the functionality and usability of the platform but also increased its visual appeal and competitiveness in the market. The company's clients can easily and effectively conclude contracts while receiving a positive brand interaction experience.
+* I prepared visual content: 12 illustrations and 10 icons for the main page and industry pages where contracts are concluded, for the website, platform, and marketing materials.
+
+
 
 
 
 ## Conclusion:
-
-This project allowed me to:
-
-* Develop my skills as a full-fledged illustrator;
-* Gain insight into various industries and contract processes;
-* Improve collaboration and communication skills;
-* Enhance my ability to visually simplify complex concepts.
 
 The CreatorsLegal project showcased the power of thoughtful visual design in simplifying complex processes. By creating intuitive, consistent, and appealing illustrations, we were able to enhance the platform's usability and strengthen the client's brand identity in the competitive legal services market.
