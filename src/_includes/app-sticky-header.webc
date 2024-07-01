@@ -6,7 +6,6 @@
 				<video webc:elseif="logo.endsWith('.mp4')" :src="logo" class="logo__image" width="224" height="33" autoplay loop muted playsinline></video>
 				<img webc:else src="/images/logo.svg" class="logo__image" width="224" height="33" alt="Alex Leonova Home.">
 			</a>
-			<span @text="global.logo"></span>
 		</div>
 		<nav class="header__nav nav">
 			<a href="/work" class="nav__link" :aria-current="page.url === '/work/' ? 'page' : null">

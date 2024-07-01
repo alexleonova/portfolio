@@ -3,6 +3,10 @@
 	gap: 1.875rem;
 }
 
+.intro__item {
+	flex: 1 1 50%;
+}
+
 .intro__heading {
 	padding-bottom: 0.4375rem;
 	margin-bottom: 0.625rem;
