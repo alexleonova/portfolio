@@ -1,4 +1,4 @@
-:is(h1, h2, h3, h4, h5, h6) {
+:is(h1, h2, h3, h4, h5, h6, p, ul, ol) {
 	margin: 0;
 }
 
@@ -68,7 +68,7 @@ hr:not([class]) {
 	color: var(--color-text-1);
 }
 
-.content :is(h1, h2, h3, h4, h5, h6, ul, ol):not([class]):not(:last-child) {
+.content :is(h1, h2, h3, h4, h5, h6):not([class]):not(:last-child) {
 	margin-bottom: 0.9375rem;
 }
 

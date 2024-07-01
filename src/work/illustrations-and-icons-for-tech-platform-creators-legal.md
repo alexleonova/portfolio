@@ -22,7 +22,6 @@ demos:
     caption: Icons for contracts categories
   - image: /uploads/cl-img-4.png
     caption: Illustrations on website pages
-results: .
 tools:
   - Figma
   - Illustrator

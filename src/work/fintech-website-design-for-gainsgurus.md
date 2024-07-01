@@ -24,8 +24,6 @@ demos:
     caption: Nasdaq 52 Week High Volatility Graph by date
   - image: /uploads/gg-uxui-4.png
     caption: Inner website pages
-results: Traveler's Companion app received positive reviews and gained
-  popularity, redefining the travel experience for users worldwide.
 tools:
   - Figma
   - Illustrator
@@ -77,3 +75,7 @@ Introducing the Traveler's Companion, a mobile app meticulously crafted to be th
 5. ### User Testing and Iteration:
 
    * Engaged in multiple rounds of user testing to validate design decisions.
+
+## Result:
+
+Traveler's Companion app received positive reviews and gained popularity, redefining the travel experience for users worldwide.

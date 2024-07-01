@@ -67,10 +67,6 @@ lightbox: true
 		</div>
 
 		<div class="details__results content">
-			<template webc:nokeep webc:if="results">
-				<h2>Results:</h2>
-				<p @html="results"></p>
-			</template>
 			<template webc:nokeep webc:if="tools">
 				<h2>Tools</h2>
 				<ul class="tools">

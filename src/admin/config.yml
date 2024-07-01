@@ -131,10 +131,6 @@ collections:
         name: "body"
         widget: "markdown"
 
-      - label: "Results"
-        name: "results"
-        widget: "text"
-
       - label: "Tools"
         name: "tools"
         widget: "list"

@@ -22,7 +22,6 @@ demos:
     caption: Website pages blocks
   - image: /uploads/cargoloop-04.png
     caption: Homepage responsive versions
-results: .
 tools:
   - Figma
   - Illustrator
