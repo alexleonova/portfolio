@@ -21,12 +21,15 @@ demos:
   - image: /uploads/cargoloop-03.png
     caption: Website pages blocks
   - image: /uploads/cargoloop-04.png
-    caption: Homepage responsive versions
+    caption: Homepage on mobile
+  - caption: Homepage responsive versions
+    image: /uploads/cargoloop-05.png
 tools:
   - Figma
   - Illustrator
   - Premiere Pro
   - After Effects
+  - Midjorney
 moreProjects:
   - fintech-website-design-for-gainsgurus
   - industry-page-design-for-cogniac-corporation
@@ -37,11 +40,12 @@ og:
   site: "@alexleonova"
   url: true
   twitter: true
-  title: OG Title
+  title: Website redesign for international shipping company CargoLoop
   locale: en_US
   type: website
   image: /uploads/og-uxui-cargoloop.png
-  description: OG description
+  description: Redesign of the client's website with a focus on video content and
+    impressive visuals.
 ---
 ## Overview:
 
@@ -74,7 +78,7 @@ I was the sole UX/UI designer and motion designer for this project. My responsib
    Based on the client's requirements and my research, I created low-fidelity prototypes to establish the overall structure and information architecture of the website.
 3. ### Visual Design:
 
-   After gaining approval for the prototypes, I focused on the visual design aspects. I followed design principles such as using large typography, incorporating CargoLoop's brand color (orange) as an accent, and emphasizing the use of video and animation throughout the website.
+   After gaining approval for the prototypes, I focused on the visual design aspects. I followed design principles such as using large typography, incorporating CargoLoop's brand color (orange) as an accent, and emphasizing the use of video and animation throughout the website. The images for the individual pages (404 page, Thank You page) were generated in Midjorney.
 4. ### Animation and Micro-interactions:
 
    To enhance the user experience, I designed various animations and micro-interactions for different elements, such as headlines and call-to-action buttons.
@@ -84,8 +88,6 @@ I was the sole UX/UI designer and motion designer for this project. My responsib
 6. ### Final Review:
 
    Once the development was complete, I conducted a thorough design review to ensure the final product met the desired standards and functioned as intended.
-
-
 
 ## Challenges
 
