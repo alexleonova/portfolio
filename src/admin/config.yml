@@ -459,3 +459,23 @@ collections:
           - label: "Cards animation"
             name: "cardsAnimation"
             widget: "boolean"  
+
+          - label: "404 page"
+            name: "error404"
+            widget: "object"
+            fields:
+              - label: "Heading text"
+                name: "heading"
+                widget: "string"
+
+              - label: "Subheading text"
+                name: "subheading"
+                widget: "string"
+
+              - label: "Back link text"
+                name: "backlink"
+                widget: "string"
+
+              - label: "Illustration"
+                name: "illustration"
+                widget: "file"

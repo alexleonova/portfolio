@@ -1,4 +1,10 @@
 {
+  "error404": {
+    "heading": "Page not found",
+    "subheading": "The page you are looking for doesn't exist or has been moved.",
+    "backlink": "Back to Homepage",
+    "illustration": "/uploads/404.gif"
+  },
   "buttons": {
     "getInTouch": {
       "text": "Get in Touch",
