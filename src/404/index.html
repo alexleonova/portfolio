@@ -1,0 +1,14 @@
+---
+layout: base.webc
+---
+<main class="container error404">
+	<hgroup class="error404__hgroup content">
+		<h1>Page not found</h1>
+		<p>The page you are looking for doesn't exist or has been moved.</p>
+		<a href="/" class="button accent-green">Back to Homepage</a>
+	</hgroup>
+	
+	<img src="/uploads/404.gif" class="error404__image" width="200" height="200" alt="">
+
+	<app-socials :@socials="global.socials" class="error404__socials"></app-socials>
+</main>

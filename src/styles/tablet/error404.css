@@ -1,0 +1,8 @@
+.error404 {
+	min-height: calc(100dvh - 5rem - 0.0625rem);
+	padding-block: 4.0625rem 2.25rem;
+}
+
+.error404__hgroup {
+	margin-block-end: 1.875rem;
+}
