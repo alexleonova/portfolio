@@ -4,7 +4,7 @@ tags: work
 title: Social Media banners for Nike US Sports Camps
 handle: social-media-banners-for-nike-us-sports-camps
 category: social-media
-favorite: false
+favorite: true
 date: 2024-03-23T15:24:33.721Z
 coverImage: /uploads/ussc-thumbnail.png
 coverVideo: /uploads/ussc-banners.mp4
@@ -27,9 +27,9 @@ tools:
   - Illustrator
   - Photoshop
 moreProjects:
-  - isometric-icons-set-for-company-internal-use
   - logotype-for-real-estate-management-platform
   - video-ads-for-nbc-basketball-and-volleyball-sports-camps
+  - social-media-banners-for-seriousfun-camps
 ---
 ## Overview:
 
