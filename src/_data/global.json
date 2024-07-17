@@ -8,7 +8,7 @@
   "buttons": {
     "getInTouch": {
       "text": "Get in Touch",
-      "link": "mailto:alexleonova99@gmail.com"
+      "link": "mailto:alexleonova.work@gmail.com"
     },
     "resume": {
       "text": "Download my Resume",
@@ -17,9 +17,9 @@
     }
   },
   "socials": {
-    "linkedin": "https://www.linkedin.com/in/alex-leonova-7b73a4233/",
+    "linkedin": "https://www.linkedin.com/in/alex-leonova",
     "behance": "https://www.behance.net/alex_leonova",
-    "email": "mailto:alexleonova99@gmail.com"
+    "email": "mailto:alexleonova.work@gmail.com"
   },
   "cardsAnimation": false,
   "logo": "/uploads/logo-test3.gif",
