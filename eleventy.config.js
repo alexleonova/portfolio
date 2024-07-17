@@ -22,6 +22,7 @@ module.exports = function(config) {
 
 	config.addPassthroughCopy('src/admin/config.yml');
 	config.addPassthroughCopy('src/images');
+	config.addPassthroughCopy('src/assets');
 	config.addPassthroughCopy('src/fonts');
 	config.addPassthroughCopy('src/uploads');
 	// config.addPassthroughCopy('src/robots.txt');
