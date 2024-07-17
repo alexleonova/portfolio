@@ -32,10 +32,10 @@
 		<link webc:keep rel="stylesheet" href="/assets/glightbox.min.css">
 		<script webc:keep src="/assets/glightbox.min.js"></script>
 	</template>
-	<template webc:nokeep webc:if="global.scripts.head && isBuild()" @raw="global.scripts.head"></template>
+	<!--- <template webc:nokeep webc:if="global.scripts.head && isBuild()" @raw="global.scripts.head"></template> --->
 </head>
 <body class="color-light">
-	<template webc:nokeep webc:if="global.scripts.body && isBuild()" @raw="global.scripts.body"></template>
+	<!--- <template webc:nokeep webc:if="global.scripts.body && isBuild()" @raw="global.scripts.body"></template> --->
 	<app-sticky-header :@page="page" :@logo="global.logo"></app-sticky-header>
 	<slot webc:nokeep @html="content"></slot>
 	<template webc:nokeep webc:if="lightbox">
