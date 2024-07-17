@@ -39,7 +39,17 @@
 	<app-sticky-header :@page="page" :@logo="global.logo"></app-sticky-header>
 	<slot webc:nokeep @html="content"></slot>
 	<template webc:nokeep webc:if="lightbox">
-		<script webc:keep>GLightbox({loop:true})</script>
+		<script webc:keep>
+			const lightbox = GLightbox({ loop:true });
+			lightbox.on('slide_before_load', (e) => {
+				if (lightbox.index === e.index) {
+					lightbox.loader.style.display = 'none';
+					lightbox.resize();
+					lightbox.slideAnimateIn(e.slideNode, true);
+					lightbox.trigger('slide_after_load', e)
+				}
+			});
+		</script>
 	</template>
 </body>
 </html>
