@@ -4,7 +4,6 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Alex Leonova</title>
-	<meta name="robots" content="noindex">
 	<link rel="manifest" href="/manifest.webmanifest">
   <link rel="icon" href="/favicon.ico" sizes="32x32">
   <link rel="icon" href="/icon.svg" type="image/svg+xml">
@@ -30,11 +29,11 @@
 	<link webc:keep rel="stylesheet" href="/styles/desktop.css" media="(min-width: 901px)">
 	<template webc:nokeep webc:if="lightbox">
 		<link webc:keep rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
-	<style webc:keep>
-		.glightbox-open {
-			scrollbar-width: none;
-		}
-	</style>
+		<style webc:keep>
+			.glightbox-open {
+				scrollbar-width: none;
+			}
+		</style>
 		<script webc:keep src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
 	</template>	
 	<script webc:keep src="/scripts/index.js" type="module"></script>

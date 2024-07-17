@@ -24,7 +24,7 @@ module.exports = function(config) {
 	config.addPassthroughCopy('src/images');
 	config.addPassthroughCopy('src/fonts');
 	config.addPassthroughCopy('src/uploads');
-	config.addPassthroughCopy('src/robots.txt');
+	// config.addPassthroughCopy('src/robots.txt');
 	config.addPassthroughCopy('src/favicon.ico');
 	config.addPassthroughCopy('src/icon.svg');
 	config.addPassthroughCopy('src/icon-192.png');
