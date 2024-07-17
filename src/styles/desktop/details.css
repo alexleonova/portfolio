@@ -5,14 +5,17 @@
 
 .details__article {
 	display: grid;
-	grid-template-columns: repeat(2, minmax(0, 1fr));
+	grid-template-columns: minmax(0, 35.625rem) minmax(0, 35rem);
 	column-gap: 4.375rem;
 }
 
 .details__intro {
 	grid-column: 1 / 2;
 	grid-row: 1 / 2;
-	margin-bottom: 3.75rem;
+}
+
+.details__hgroup {
+	margin-bottom: 2.5rem;
 }
 
 .details__demo {
@@ -24,12 +27,6 @@
 .details__description {
 	grid-column: 1 / 2;
 	grid-row: 2 / 3;
-	margin-bottom: 1.875rem;
-}
-
-.details__results {
-	grid-column: 1 / 2;
-	grid-row: 3 / 4;
 }
 
 .details__hgroup {

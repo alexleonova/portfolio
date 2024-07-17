@@ -6,7 +6,8 @@ media_folder: "src/uploads"
 public_folder: "/uploads"
 collections:
   - name: "work"
-    label: "Work"
+    label: "Works"
+    label_singular: "Work"
     folder: "src/work"
     create: true
     slug: "{{fields.handle}}"
@@ -34,6 +35,8 @@ collections:
         field: "category"
       - label: "Favorite"
         field: "favorite"
+    editor: 
+      preview: false
     fields:
       - label: "Layout"
         name: "layout"
@@ -479,3 +482,18 @@ collections:
               - label: "Illustration"
                 name: "illustration"
                 widget: "file"
+
+          - label: "Scripts"
+            name: "scripts"
+            widget: "object"
+            hint: "To insert various analytics scripts."
+            fields:
+              - label: "<head> scripts"
+                name: "head"
+                widget: "text"
+                hint: "Places the specified code at the end of <head>."
+
+              - label: "<body> scripts"
+                name: "body"
+                widget: "text"
+                hint: "Places the specified code at the start of <body>."

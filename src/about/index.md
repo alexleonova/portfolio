@@ -21,7 +21,6 @@ Embark on a creative journey with me, where your ideas meet my expertise. Whethe
 
 </div>
 
-
 <div class="accent-green">
 
 ## <u>Why choose me:</u>
@@ -34,4 +33,4 @@ Feel free to explore my portfolio and get in touch. Let's turn your dreams into 
 
 </div>
 
-<h2 class="text-heading-2">Feel free to contact me :)</h2>
+## Feel free to contact me :)

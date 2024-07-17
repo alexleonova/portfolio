@@ -1,17 +1,31 @@
+h1:not([class]),
 .text-heading-1 {
 	font: var(--typography-heading-1);
 }
 
+h2:not([class]),
 .text-heading-2 {
 	font: var(--typography-heading-2);
 }
 
+h3:not([class]),
 .text-heading-3 {
 	font: var(--typography-heading-3);
 }
 
+h4:not([class]),
 .text-heading-4 {
 	font: var(--typography-heading-4);
+}
+
+h5:not([class]),
+.text-heading-5 {
+	font: var(--typography-text-s-bold);
+}
+
+h6:not([class]),
+.text-heading-6 {
+	font: var(--typography-text-xs-bold);
 }
 
 .text-l-bold {
@@ -42,6 +56,9 @@
 	font: var(--typography-text-xs-bold);
 }
 
+sup,
+sub,
+small,
 .text-xs {
 	font: var(--typography-text-xs);
 }

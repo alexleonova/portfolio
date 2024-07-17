@@ -31,7 +31,6 @@ module.exports = function(config) {
 	config.addPassthroughCopy('src/icon-512.png');
 	config.addPassthroughCopy('src/apple-touch-icon.png');
 	config.addPassthroughCopy('src/manifest.webmanifest');
-	config.addPassthroughCopy('src/admin/content.css');
 
 	const categoriesMap = new Map([
 		['all', { name: 'All Works', color: ''}],

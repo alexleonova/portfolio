@@ -22,5 +22,9 @@
     "email": "mailto:alexleonova99@gmail.com"
   },
   "cardsAnimation": false,
-  "logo": "/uploads/logo-test3.gif"
+  "logo": "/uploads/logo-test3.gif",
+  "scripts": {
+    "head": "<script id=\"Cookiebot\" src=\"https://consent.cookiebot.com/uc.js\" data-cbid=\"7f3a140b-36d2-4cd3-91e0-f6ef7f438ca9\" data-blockingmode=\"auto\"></script>\n\n<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-58JT25M2');</script>\n<!-- End Google Tag Manager -->",
+    "body": "<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-58JT25M2\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->"
+  }
 }

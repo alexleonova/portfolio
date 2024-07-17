@@ -12,7 +12,7 @@ lightbox: true
 				<app-demo-picture :src="coverImage"></app-demo-picture>
 			</div>
 
-			<div class="details__header content">
+			<div class="details__header">
 				<header class="details__hgroup">
 					<a :href="`/work/?filter=${category}`" class="details__tag tag" @text="getNameByCategory(category)"></a>
 					<img webc:if="favorite" class="details__favorite" src="/images/favorite.svg" width="28" height="28" alt="Favorite work.">
@@ -29,8 +29,10 @@ lightbox: true
 					</div>
 				</dl>
 				<p webc:if="more" class="details__more"><a :href="more" class="details__more-link">More Project Details <img src="/images/new-tab.svg" width="20" height="21" alt="(open in new tab)."></a></p>
-				<hr>
-				<slot webc:nokeep @html="getIntroFromContent(content)"></slot>
+				<div class="content">
+					<hr role="presentation">
+					<slot webc:nokeep @html="getIntroFromContent(content)"></slot>
+				</div>
 			</div>
 		</div>
 
@@ -64,9 +66,6 @@ lightbox: true
 
 		<div class="details__description content">
 			<slot webc:nokeep @html="getBodyFromContent(content)"></slot>
-		</div>
-
-		<div class="details__results content">
 			<template webc:nokeep webc:if="tools">
 				<h2>Tools</h2>
 				<ul class="tools">

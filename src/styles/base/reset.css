@@ -32,3 +32,35 @@ picture {
 ::selection {
 	background-color: var(--accent-color-secondary, var(--color-primary-light-blue));
 }
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+p, 
+ul, 
+ol,
+dl {
+	margin: 0;
+}
+
+ul,
+ol {
+	padding-left: 0;
+}
+
+u, 
+.text-underline {
+	text-decoration: underline;
+	text-decoration-thickness: 0.3125rem;
+	text-decoration-color: var(--accent-color-primary);
+	text-decoration-skip-ink: none;
+	text-underline-offset: 0.5rem;
+}
+
+b,
+strong {
+	font-weight: 700;
+}

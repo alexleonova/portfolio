@@ -29,17 +29,19 @@
 	<link webc:keep rel="stylesheet" href="/styles/tablet.css" media="(max-width: 900px) and (min-width: 601px)">
 	<link webc:keep rel="stylesheet" href="/styles/desktop.css" media="(min-width: 901px)">
 	<template webc:nokeep webc:if="lightbox">
-	<link webc:keep rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+		<link webc:keep rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
 	<style webc:keep>
 		.glightbox-open {
 			scrollbar-width: none;
 		}
 	</style>
-	<script webc:keep src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+		<script webc:keep src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
 	</template>	
 	<script webc:keep src="/scripts/index.js" type="module"></script>
+	<template webc:nokeep webc:if="global.scripts.head && isBuild()" @raw="global.scripts.head"></template>
 </head>
 <body class="color-light">
+	<template webc:nokeep webc:if="global.scripts.body && isBuild()" @raw="global.scripts.body"></template>
 	<app-sticky-header :@page="page" :@logo="global.logo"></app-sticky-header>
 
 	<slot webc:nokeep @html="content"></slot>

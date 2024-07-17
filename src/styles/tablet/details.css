@@ -12,6 +12,10 @@
 	margin-bottom: 3.125rem;
 }
 
+.details__hgroup {
+	margin-bottom: 1.875rem;
+}
+
 .details__header,
 .details__description {
 	max-width: 37.5rem;
@@ -20,10 +24,6 @@
 .details__demo {
 	gap: 1.875rem;
 	margin-bottom: 3.125rem;
-}
-
-.details__description {
-	margin-bottom: 1.875rem;
 }
 
 .details__hgroup {

@@ -18,12 +18,9 @@
 	margin-bottom: 2.5rem;
 }
 
-.details__description {
-	margin-bottom: 1.875rem;
-}
-
 .details__hgroup {
 	gap: 0.625rem;
+	margin-bottom: 1.875rem;
 }
 
 .details__tag {
