@@ -22,7 +22,7 @@ demos:
     caption: Website pages blocks
   - image: ""
     caption: Website on mobile
-    video: /uploads/cargoloop-03.mp4
+    video: /uploads/cargoloop-03-upd-.mp4
   - caption: Homepage responsive versions
     image: /uploads/cargoloop-05.png
 tools:
