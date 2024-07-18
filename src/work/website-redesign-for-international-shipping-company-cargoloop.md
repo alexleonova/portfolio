@@ -20,8 +20,9 @@ demos:
     caption: CargoLoop website sitemap
   - image: /uploads/cargoloop-03.png
     caption: Website pages blocks
-  - image: /uploads/cargoloop-04.png
-    caption: Homepage on mobile
+  - image: ""
+    caption: Website on mobile
+    video: /uploads/cargoloop-03.mp4
   - caption: Homepage responsive versions
     image: /uploads/cargoloop-05.png
 tools:
