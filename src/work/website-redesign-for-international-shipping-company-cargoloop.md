@@ -35,6 +35,10 @@ moreProjects:
   - fintech-website-design-for-gainsgurus
   - industry-page-design-for-cogniac-corporation
   - social-media-banners-for-nike-us-sports-camps
+seo:
+  title: Website redesign for international shipping company CargoLoop
+  description: Redesign of the client's website with a focus on video content and
+    impressive visuals.
 og:
   site_name: Alex Leonova
   opengraph: true
