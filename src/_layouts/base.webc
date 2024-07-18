@@ -3,7 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Alex Leonova</title>
+	<title @text="seo?.title ? seo.title : 'Alex Leonova'"></title>
+	<meta webc:if="seo?.description" name="description" :content="seo.description">
 	<link rel="manifest" href="/manifest.webmanifest">
   <link rel="icon" href="/favicon.ico" sizes="32x32">
   <link rel="icon" href="/icon.svg" type="image/svg+xml">
