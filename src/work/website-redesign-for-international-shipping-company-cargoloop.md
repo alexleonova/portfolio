@@ -54,22 +54,15 @@ og:
 ---
 ## Overview:
 
-CargoLoop is a business that provides transportation services for cars, boats, and motorcycles within the USA and European countries. They approached me to redesign their website, as their existing site had outdated and compressed information about their services.
+CargoLoop is a transportation service provider specializing in moving cars, boats, and motorcycles across the US and Europe. As the UX/UI and motion designer, I was tasked with completely redesigning their outdated website.
 
 ## Problem:
 
-The primary challenge was to create a website that provides detailed information about CargoLoop's services and the company in a visually appealing and user-friendly manner. The client wanted a design refresh that would enhance the overall user experience and effectively communicate their offerings.
+The client's existing site had compressed, outdated content that failed to fully showcase their services. They needed a modern, informative website that would provide detailed information about their offerings and company, while also serving as an effective recruitment tool.
 
 ## Solution:
 
-I was the sole UX/UI designer and motion designer for this project. My responsibilities included:
-
-* Conducting competitive research and design analysis;
-* Creating wireframes and prototypes;
-* Designing the website's visual elements, including typography, color scheme, and iconography;
-* Incorporating animation and micro-interactions throughout the website;
-* Collaborating with developers and testers during implementation;
-* Performing final design reviews and quality assurance.
+I developed a comprehensive website redesign that prioritized detailed service information, company insights, and a fresh visual approach, complete with animated elements and video integration.
 
 \[DEMO]
 
@@ -77,29 +70,33 @@ I was the sole UX/UI designer and motion designer for this project. My responsib
 
 1. ### Research and Analysis:
 
-   I started by researching CargoLoop's competitors and analyzing their website designs. While many competitors had outdated designs, this research helped me understand the industry standards and identify areas for improvement.
-2. ### Prototyping:
+   I began by analyzing the initial design provided by a previous designer and conducting thorough competitor analysis. I focused on content structure and design trends, gathering client-approved references to inform my approach.
+2. ### Prototyping & Information Architecture:
 
-   Based on the client's requirements and my research, I created low-fidelity prototypes to establish the overall structure and information architecture of the website.
-3. ### Visual Design:
+   Next, I developed initial prototypes for key pages, collaborating closely with the client to refine the layout and information hierarchy. This process involved multiple iterations based on client feedback, ensuring we achieved the right balance of information and visual appeal.
+3. ### Visual Design Development:
 
-   After gaining approval for the prototypes, I focused on the visual design aspects. I followed design principles such as using large typography, incorporating CargoLoop's brand color (orange) as an accent, and emphasizing the use of video and animation throughout the website. The images for the individual pages (404 page, Thank You page) were generated in Midjorney.
-4. ### Animation and Micro-interactions:
+   I established a design system featuring large typography and a bright orange accent color (the client's corporate color). I created mockups for both desktop and mobile versions, incorporating video content instead of static images for a more dynamic feel. Each block on the site was carefully designed with animation in mind. The images for the individual pages (404 page, Thank You page) were generated in Midjorney.
+4. ### Animation & Interaction Design:
 
-   To enhance the user experience, I designed various animations and micro-interactions for different elements, such as headlines and call-to-action buttons.
-5. ### Collaboration and Refinement:
+   I paid special attention to animations, designing custom micro-interactions for various page elements. For the homepage, I developed a complex animated block, combining motion design with development to overcome technical limitations and time constraints.
+5. ### Responsive Design & Documentation:
 
-   I worked closely with the development team, providing them with detailed documentation, animation references, and guidance. Throughout the implementation phase, I collaborated with the tester to identify and resolve any design-related issues.
-6. ### Final Review:
+   I created responsive designs for seamless multi-device experiences and prepared a comprehensive style guide detailing design elements, typography, and color usage. I also provided animation references to guide developers in implementing interactive elements.
+6. ### Collaboration & Implementation:
 
-   Once the development was complete, I conducted a thorough design review to ensure the final product met the desired standards and functioned as intended.
+   Throughout the development phase, I maintained close communication with the development team. I worked closely with testers, clarifying design intentions and helping identify and resolve visual bugs. Regular design reviews ensured adherence to the original vision.
+7. ### Final Review & Refinement:
+
+   After development, I conducted a thorough site-wide design review, making final adjustments to ensure design consistency and polish across all pages.
 
 ## Challenges
 
-The project had tight deadlines, and the client had specific design preferences, requiring multiple iterations before reaching final approval. Additionally, there were some technical limitations that influenced design decisions, such as combining development and motion design for a complex animation block on the main page.
+* Tight deadlines requiring efficient planning and execution
+* Multiple design iterations to meet client expectations
+* Balancing aesthetic appeal with informational clarity
+* Technical limitations necessitating creative solutions
 
 ## Result
 
-The redesigned CargoLoop website achieved the desired outcomes, providing detailed information about the company's services and offerings in a modern and dynamic manner. The website features enhanced service pages, an updated company page, a career section for job applications, and a resources section explaining the company's overall logistics.
-
-From my perspective, the project allowed me to further develop my skills in animation and micro-interactions, as well as gain experience in collaborating closely with developers and testers throughout the design implementation process.
+The final product was a modern, dynamic website that successfully met the client's needs. It featured detailed service information, improved company representation, enhanced user experience with custom animations and video integration, a functional career page, and a comprehensive resource section. The project showcased my ability to handle complex redesigns, incorporate motion design elements, and work effectively within tight timeframes.
