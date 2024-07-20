@@ -11,7 +11,7 @@ coverVideo: /uploads/nbc-motion.mp4
 showVideo: true
 brief: Design a comprehensive mobile app addressing the varied needs of modern
   travelers.
-role: Research, Concept, Prototyping, UI Design, Graphic Design, Illustration.
+role: Motion Designer
 more: ""
 demos:
   - video: /uploads/nbc-a-m-1.mp4
@@ -31,40 +31,44 @@ moreProjects:
 ---
 ## Overview:
 
-In a world brimming with possibilities, the modern traveler seeks a seamless and enriching journey. Our challenge was to design a mobile app that transcends the conventional boundaries of travel assistance, providing users with a comprehensive tool that not only simplifies their journey but elevates their travel experience.
+NBC Camps is a provider of training camps for basketball, volleyball, lacrosse, and fine arts, focusing on athletic skill development and personal growth. As a motion designer, I was tasked with creating engaging video content for their social media advertising campaigns.
 
 ## Problem:
 
-Frequent travelers face a myriad of challenges: from itinerary planning to navigation, language barriers to cultural immersion. Existing apps fell short in delivering a holistic solution, prompting the need for a groundbreaking design that integrates travel essentials seamlessly.
+NBC Camps needed to boost registrations for their basketball and volleyball camps. They required professionally created visual materials for Facebook and Instagram ads to increase the effectiveness of their advertising campaigns and attract their target audience's attention.
 
 ## Solution:
 
-Introducing the Traveler's Companion, a mobile app meticulously crafted to be the ultimate travel partner. Our solution goes beyond mere navigation, offering an intuitive interface that combines itinerary management, real-time language translation, local insights, and personalized recommendations.
+I developed a series of over 10 promotional videos for basketball and volleyball camps, designed to be visually appealing and aligned with NBC Camps' brand identity. These videos were created to increase brand awareness, draw attention to their camps, and drive more registrations through social media advertising.
 
 \[DEMO]
 
 ## Design Process:
 
-1. ### Research and Discovery:
+1. ### Research and Analysis:
 
-   * Conducted extensive user interviews and market research to identify pain points and desires of frequent travelers.
-   * Explored competitor landscape to understand strengths and weaknesses.
-2. ### Wireframing and Prototyping:
+   I began by defining the goals for the videos, which needed to complement the ad content while being noticeable and eye-catching. I researched the target audience (parents planning their children's activities) and explored creative solutions in the industry. I also collaborated with the copywriter and marketer to discuss video content.
+2. ### Concept Development:
 
-   * Developed wireframes for key app features, emphasizing simplicity and clarity in design.
-   * Iteratively tested prototypes to gather user feedback, refining the interface based on insights.
-3. ### Visual Design:
+   I created three alternative concepts for the final video fragment (5-10 seconds each). This involved selecting typography, creating animation effects, adapting the client's existing video materials, and applying motion design principles. I also sourced and purchased suitable music to complement the video content.
+3. ### Collaboration and Refinement:
 
-   * Created a visually appealing and cohesive design language, incorporating travel-themed elements.
-   * Prioritized user-friendly color schemes and typography for enhanced readability.
-4. ### Development Collaboration:
+   I presented the design concepts to the marketing team and made necessary adjustments based on their feedback. After receiving client approval, I made minimal content edits to finalize the videos.
+4. ### Expansion and Adaptation:
 
-   * Worked closely with developers to ensure seamless integration of design elements.
-   * Conducted regular testing to address any usability or functionality issues.
-5. ### User Testing and Iteration:
+   Using the approved design solutions, I developed creatives for volleyball camps. I then adapted the selected video concepts to different formats, originally creating them in a 1:1 format and later adapting them to 9:16 for various social media platforms.
 
-   * Engaged in multiple rounds of user testing to validate design decisions.
+## Challenges:
+
+* Balancing information and entertainment in short-form videos
+* Ensuring brand consistency across multiple video creatives
+* Adapting designs for different social media formats
+* Meeting tight deadlines while maintaining high-quality output
 
 ## Result:
 
-Traveler's Companion app received positive reviews and gained popularity, redefining the travel experience for users worldwide.
+The final product was a set of visually appealing and professionally designed promotional videos that strengthened NBC Camps' brand image. These videos helped increase brand awareness, drew more attention to their camps, and drove more registrations. 
+
+The success of the Facebook campaigns allowed NBC Camps to more effectively engage with potential customers and increase enrollment, particularly for camps that had previously struggled to attract applicants on other platforms. 
+
+This project not only benefited the client but also added a valuable case study to our company portfolio, demonstrating our expertise in handling large-scale projects and potentially attracting new clients.
