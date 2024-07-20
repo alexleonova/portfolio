@@ -7,7 +7,7 @@ category: animation-motion
 favorite: false
 date: 2024-04-03T19:04:34.757Z
 coverImage: /uploads/nbc-motion_thumbnails.png
-coverVideo: /uploads/nbc-a-m-4.mp4
+coverVideo: /uploads/nbc-motion.mp4
 showVideo: true
 brief: Create a set of videos for children's basketball and volleyball camps'
   social media advertising campaigns.
