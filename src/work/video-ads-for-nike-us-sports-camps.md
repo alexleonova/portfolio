@@ -19,7 +19,9 @@ demos:
   - video: /uploads/ussc-m-a-2.mp4
     caption: Video ads for US Sports Camps camps in facebook
   - video: /uploads/ussc-m-a-3.mp4
-    caption: Video advertising with generated voiceover  
+    caption: Video advertising (feed) with generated voiceover
+  - video: /uploads/ussc-m-a-4.mp4
+    caption: Video advertising (stories) with generated voiceover
 tools:
   - Figma
   - Illustrator
