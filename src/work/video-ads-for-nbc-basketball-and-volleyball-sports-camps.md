@@ -9,9 +9,9 @@ date: 2024-04-03T19:04:34.757Z
 coverImage: /uploads/nbc-motion_thumbnails.png
 coverVideo: /uploads/nbc-motion.mp4
 showVideo: true
-brief: Design a comprehensive mobile app addressing the varied needs of modern
-  travelers.
-role: Motion Designer
+brief: Create a set of videos for children's basketball and volleyball camps'
+  social media advertising campaigns.
+role: Motion Design
 more: ""
 demos:
   - video: /uploads/nbc-a-m-1.mp4
@@ -20,16 +20,29 @@ demos:
     caption: Video ads for NBC Volleyball&Basketball camps in facebook
   - video: /uploads/nbc-a-m-3.mp4
     caption: Video ads for NBC Basketball camps
-  - image: /uploads/cargoloop-02.png
-    caption: Test
+  - image: ""
+    caption: Video ads for NBC Volleyball camps
+    video: /uploads/nbc-a-m-4.mp4
 tools:
-  - Figma
-  - Illustrator
+  - After Effects
+  - Premiere Pro
   - Photoshop
+  - " ElevenLabs"
 moreProjects:
-  - isometric-icons-set-for-company-internal-use
-  - logotype-for-real-estate-management-platform
-  - video-ads-for-nbc-basketball-and-volleyball-sports-camps
+  - video-ads-for-nike-us-sports-camps
+  - social-media-banners-for-nbc-sports-camps
+  - social-media-banners-for-seriousfun-camps
+seo:
+  description: Create a set of videos for children's basketball and volleyball
+    camps' social media advertising campaigns.
+  title: Video ads for NBC Basketball & Volleyball Sports Camps
+og:
+  title: Video ads for NBC Basketball & Volleyball Sports Camps
+  description: Create a set of videos for children's basketball and volleyball
+    camps' social media advertising campaigns.
+  image: /uploads/og-motion-nbc.png
+  opengraph: true
+  url: true
 ---
 ## Overview:
 
@@ -71,6 +84,4 @@ I developed a series of over 10 promotional videos for basketball and volleyball
 
 The final product was a set of visually appealing and professionally designed promotional videos that strengthened NBC Camps' brand image. These videos helped increase brand awareness, drew more attention to their camps, and drove more registrations. 
 
-The success of the Facebook campaigns allowed NBC Camps to more effectively engage with potential customers and increase enrollment, particularly for camps that had previously struggled to attract applicants on other platforms. 
-
-This project not only benefited the client but also added a valuable case study to our company portfolio, demonstrating our expertise in handling large-scale projects and potentially attracting new clients.
+The success of the Facebook campaigns allowed NBC Camps to more effectively engage with potential customers and increase enrollment, particularly for camps that had previously struggled to attract applicants on other platforms.
