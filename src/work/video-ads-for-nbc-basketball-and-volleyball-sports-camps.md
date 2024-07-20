@@ -20,6 +20,8 @@ demos:
     caption: Video ads for NBC Volleyball&Basketball camps in facebook
   - video: /uploads/nbc-a-m-3.mp4
     caption: Video ads for NBC Basketball camps
+  - image: /uploads/cargoloop-02.png
+    caption: Test
 tools:
   - Figma
   - Illustrator
