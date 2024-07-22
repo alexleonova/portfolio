@@ -28,6 +28,10 @@ tools:
   - Figma
   - Illustrator
   - Photoshop
+moreProjects:
+  - fintech-website-design-for-gainsgurus
+  - website-redesign-for-international-shipping-company-cargoloop
+  - industry-page-design-for-cogniac-corporation
 seo:
   title: Website redesign for men’s clothing brand ToddShelton
   description: "Redesigned website to update brand vision and improve user experience. "
