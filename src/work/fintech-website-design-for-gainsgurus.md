@@ -28,6 +28,10 @@ tools:
   - Figma
   - Illustrator
   - Photoshop
+moreProjects:
+  - website-redesign-for-mens-clothing-brand-todd-shelton
+  - website-redesign-for-international-shipping-company-cargoloop
+  - homepage-redesign-for-digital-marketing-platform-logic
 seo:
   title: Fintech website design for GainsGurus
   description: Design digital platform for a data-driven investment strategy company.
