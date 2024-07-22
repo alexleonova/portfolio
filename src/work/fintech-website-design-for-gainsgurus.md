@@ -9,36 +9,39 @@ date: 2024-04-07T10:18:05.028Z
 coverImage: /uploads/gg-ui-thumbnail.png
 coverVideo: /uploads/gg-uxui-0.mp4
 showVideo: true
-brief: Design a comprehensive mobile app addressing the varied needs of modern
-  travelers.
-role: |-
-  UX Research, User flow,  Wireframes, Clickable Prototype, 
-  UI Design.
+brief: |
+  Design digital platform for a data-driven investment strategy company.
+role: UX/UI Design
 more: ""
 demos:
   - video: /uploads/gg-uxui-01.mp4
-    caption: User path on the GainsGurus website
+    caption: User flow on the GainsGurus website
   - image: /uploads/gg-uxui-2.png
     caption: GainsGurus website sitemap
   - image: /uploads/gg-uxui-3.png
-    caption: Nasdaq 52 Week High Volatility Graph by date
+    caption: Inner pages wireframes
   - image: /uploads/gg-uxui-4.png
-    caption: Inner website pages
+    caption: Inner pages mockups
+  - image: /uploads/gg-uxui-5.png
+    caption: Nasdaq 52 Week High Volatility Graph by date
 tools:
   - Figma
   - Illustrator
   - Photoshop
+seo:
+  title: Fintech website design for GainsGurus
+  description: Design digital platform for a data-driven investment strategy company.
 og:
   site_name: Alex Leonova
   opengraph: true
   site: "@alexleonova"
   url: true
   twitter: true
-  title: OG Title
+  title: Fintech website design for GainsGurus
   locale: en_US
   type: website
-  image: /uploads/mobile-app-design-for-travel-startup.png
-  description: OG description
+  image: /uploads/og-uxui-gg.png
+  description: Design digital platform for a data-driven investment strategy company.
 ---
 ## Overview:
 
