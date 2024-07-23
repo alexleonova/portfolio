@@ -1,7 +1,7 @@
 ---
 layout: work.webc
 tags: work
-title: Social Media banners for Nike US Sports Camps
+title: "US Sports Camps: Scaling Social Media Advertising"
 handle: social-media-banners-for-nike-us-sports-camps
 category: social-media
 favorite: true
@@ -9,9 +9,9 @@ date: 2024-03-23T15:24:33.721Z
 coverImage: /uploads/ussc-thumbnail.png
 coverVideo: /uploads/ussc-banners.mp4
 showVideo: true
-brief: Design a comprehensive mobile app addressing the varied needs of modern
-  travelers.
-role: Research, Concept, Prototyping, UI Design, Graphic Design, Illustration.
+brief: Create advertising creatives for sports camps' social media marketing
+  campaigns.
+role: Social Media Design
 more: ""
 demos:
   - image: /uploads/ussc-img-1.png
@@ -27,46 +27,68 @@ tools:
   - Illustrator
   - Photoshop
 moreProjects:
-  - logotype-for-real-estate-management-platform
   - video-ads-for-nbc-basketball-and-volleyball-sports-camps
   - social-media-banners-for-seriousfun-camps
+  - video-ads-for-nike-us-sports-camps
+seo:
+  title: "US Sports Camps: Scaling Social Media Advertising"
+  description: Create advertising creatives for sports camps' social media
+    marketing campaigns.
+og:
+  title: "US Sports Camps: Scaling Social Media Advertising"
+  image: /uploads/og-social-ussc.png
+  description: Create advertising creatives for sports camps' social media
+    marketing campaigns.
+  opengraph: true
 ---
 ## Overview:
 
-In a world brimming with possibilities, the modern traveler seeks a seamless and enriching journey. Our challenge was to design a mobile app that transcends the conventional boundaries of travel assistance, providing users with a comprehensive tool that not only simplifies their journey but elevates their travel experience.
+US Sports Camps (USSC) is a leading organizer of sports camps in the USA and worldwide, and an exclusive partner of Nike. As their Social Media Designer, I was tasked with creating advertising creatives for their Facebook and Instagram campaigns.
 
 ## Problem:
 
-Frequent travelers face a myriad of challenges: from itinerary planning to navigation, language barriers to cultural immersion. Existing apps fell short in delivering a holistic solution, prompting the need for a groundbreaking design that integrates travel essentials seamlessly.
+USSC needed a creative advertising strategy to attract new customers and scale advertising budgets without losing effectiveness. They had not previously utilized Facebook for marketing and required a fresh approach to engage their target audience across multiple sports and camp types.
 
 ## Solution:
 
-Introducing the Traveler's Companion, a mobile app meticulously crafted to be the ultimate travel partner. Our solution goes beyond mere navigation, offering an intuitive interface that combines itinerary management, real-time language translation, local insights, and personalized recommendations.
+I developed a comprehensive set of visually appealing and brand-consistent advertising creatives for 18 different sports/activities, with multiple design options for each. These creatives were designed to increase engagement, drive website traffic, and ultimately boost camp bookings.
 
 \[DEMO]
 
 ## Design Process:
 
-1. ### Research and Discovery:
+1. ### Research and Analysis:
 
-   * Conducted extensive user interviews and market research to identify pain points and desires of frequent travelers.
-   * Explored competitor landscape to understand strengths and weaknesses.
-2. ### Wireframing and Prototyping:
+   I began by defining the goals for the creatives, which needed to complement ad content while being attention-grabbing and stylish. I studied competitors' creatives, analyzed USSC's website for design cues, and collected references from platforms like Dribbble and Behance. I also collaborated with copywriters and marketers to align on content strategy.
+2. ### Concept Development:
 
-   * Developed wireframes for key app features, emphasizing simplicity and clarity in design.
-   * Iteratively tested prototypes to gather user feedback, refining the interface based on insights.
-3. ### Visual Design:
+   Using basketball camps as an example, I created six alternative design concepts. I focused on selecting an appropriate color scheme, typography, and adapting client photos. My designs were grounded in general design principles, research findings, and client preferences. This stage was crucial in establishing a strong foundation for the entire campaign.
+3. ### Refinement and Approval:
 
-   * Created a visually appealing and cohesive design language, incorporating travel-themed elements.
-   * Prioritized user-friendly color schemes and typography for enhanced readability.
-4. ### Development Collaboration:
+   I presented the design concepts to the marketing team for discussion and refinement. We selected four main solutions to present to the client. After receiving client approval, I made minimal content edits to finalize the designs. This collaborative approach ensured that the final designs met both marketing objectives and client expectations.
+4. ### Full Campaign Creation:
 
-   * Worked closely with developers to ensure seamless integration of design elements.
-   * Conducted regular testing to address any usability or functionality issues.
-5. ### User Testing and Iteration:
+   With the approved design framework, I developed creatives for the remaining 17 sports activities (soccer, tennis, swimming, etc.). Each set was tailored to the specific sport while maintaining brand consistency. I worked closely with marketers on content and obtained final client approval on design aspects.
+5. ### Preparation for Launch:
 
-   * Engaged in multiple rounds of user testing to validate design decisions.
+   I adapted the selected creative concepts for various formats (1:1 and 9:16 ratios) to ensure compatibility across different social media platforms. The final step involved handing over the ready-to-use creatives to the team responsible for launching the advertising campaigns.
+
+## Challenges:
+
+* Creating visually distinct designs for 18 different sports while maintaining brand consistency
+* Balancing information density with visual appeal in limited ad space
+* Adapting designs for multiple social media formats
+* Meeting high expectations for my first large-scale client project
 
 ## Result:
 
-Traveler's Companion app received positive reviews and gained popularity, redefining the travel experience for users worldwide.
+The project resulted in a comprehensive set of advertising creatives that effectively showcased USSC's diverse range of sports camps. 
+
+### The designs successfully:
+
+* Increased website traffic and potential customer engagement
+* Strengthened USSC's brand image as a professional sports camp organizer
+* Improved booking rates, particularly for camps that previously struggled to attract applicants
+* Enabled USSC to scale their advertising efforts across multiple platforms
+
+This project not only met the client's objectives but also enhanced my skills in brand-consistent design, social media advertising, and large-scale campaign creation. It demonstrated the power of well-executed visual design in driving marketing success and provided a valuable case study for future client work.
