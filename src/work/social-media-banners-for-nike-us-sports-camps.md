@@ -5,7 +5,7 @@ title: "US Sports Camps: Scaling Social Media Advertising"
 handle: social-media-banners-for-nike-us-sports-camps
 category: social-media
 favorite: true
-date: 2024-07-22T09:18:41.002Z
+date: 2024-07-22T19:18:00.000Z
 coverImage: /uploads/ussc-thumbnail.png
 coverVideo: /uploads/ussc-banners.mp4
 showVideo: true
