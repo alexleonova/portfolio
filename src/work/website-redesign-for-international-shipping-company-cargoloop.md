@@ -1,11 +1,11 @@
 ---
 layout: work.webc
 tags: work
-title: Website redesign for international shipping company CargoLoop
+title: "CargoLoop: Website Redesign for International Shipping Company"
 handle: website-redesign-for-international-shipping-company-cargoLoop
 category: ui_ux_design
 favorite: true
-date: 2024-04-07T20:01:26.552Z
+date: 2024-07-24T20:01:26.552Z
 coverImage: /uploads/cargoloop-00.png
 coverVideo: /uploads/cargoloop-00.mp4
 showVideo: true
@@ -34,9 +34,9 @@ tools:
 moreProjects:
   - fintech-website-design-for-gainsgurus
   - industry-page-design-for-cogniac-corporation
-  - social-media-banners-for-nike-us-sports-camps
+  - illustrations-and-icons-for-tech-platform-creators-legal
 seo:
-  title: Website redesign for international shipping company CargoLoop
+  title: "CargoLoop: Website Redesign for International Shipping Company"
   description: Redesign of the client's website with a focus on video content and
     impressive visuals.
 og:
@@ -45,7 +45,7 @@ og:
   site: "@alexleonova"
   url: true
   twitter: true
-  title: Website redesign for international shipping company CargoLoop
+  title: "CargoLoop: Website Redesign for International Shipping Company"
   locale: en_US
   type: website
   image: /uploads/og-uxui-cargoloop.png
@@ -68,7 +68,7 @@ I developed a comprehensive website redesign that prioritized detailed service i
 
 ## Design Process:
 
-1. ### Research and Analysis:
+1. ### Research & Analysis:
 
    I began by analyzing the initial design provided by a previous designer and conducting thorough competitor analysis. I focused on content structure and design trends, gathering client-approved references to inform my approach.
 2. ### Prototyping & Information Architecture:
