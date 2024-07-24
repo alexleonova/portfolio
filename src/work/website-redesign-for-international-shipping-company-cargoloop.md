@@ -5,7 +5,7 @@ title: "CargoLoop: Website Redesign for International Shipping Company"
 handle: website-redesign-for-international-shipping-company-cargoLoop
 category: ui_ux_design
 favorite: true
-date: 2024-07-24T20:01:26.552Z
+date: 2024-07-22T20:01:26.552Z
 coverImage: /uploads/cargoloop-00.png
 coverVideo: /uploads/cargoloop-00.mp4
 showVideo: true
