@@ -21,6 +21,8 @@ demos:
   - image: /uploads/ussc-img-3.png
     caption: Banners for instagram stories
   - image: /uploads/ussc-img-4.png
+    caption: Kinds of camps for marketing advertising
+  - image: /uploads/ussc-img-5.png
     caption: Final advertisement of camps in facebook
 tools:
   - Figma
