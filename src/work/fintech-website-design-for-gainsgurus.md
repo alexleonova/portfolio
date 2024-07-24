@@ -1,11 +1,11 @@
 ---
 layout: work.webc
 tags: work
-title: Fintech website design for GainsGurus
+title: "GainsGurus: Visualizing Financial Data for Investor Empowerment"
 handle: fintech-website-design-for-gainsgurus
 category: ui_ux_design
 favorite: true
-date: 2024-04-07T10:18:05.028Z
+date: 2024-07-24T09:20:12.948Z
 coverImage: /uploads/gg-ui-thumbnail.png
 coverVideo: /uploads/gg-uxui-0.mp4
 showVideo: true
@@ -33,7 +33,7 @@ moreProjects:
   - website-redesign-for-international-shipping-company-cargoloop
   - homepage-redesign-for-digital-marketing-platform-logic
 seo:
-  title: Fintech website design for GainsGurus
+  title: "GainsGurus: Visualizing Financial Data for Investor Empowerment"
   description: Design digital platform for a data-driven investment strategy company.
 og:
   site_name: Alex Leonova
@@ -41,7 +41,7 @@ og:
   site: "@alexleonova"
   url: true
   twitter: true
-  title: Fintech website design for GainsGurus
+  title: "GainsGurus: Visualizing Financial Data for Investor Empowerment"
   locale: en_US
   type: website
   image: /uploads/og-uxui-gg.png
