@@ -1,11 +1,11 @@
 ---
 layout: work.webc
 tags: work
-title: Website redesign for men’s clothing brand ToddShelton
+title: "Todd Shelton: Tailoring E-Commerce for Custom Menswear"
 handle: website-redesign-for-mens-clothing-brand-todd-shelton
 category: ui_ux_design
 favorite: true
-date: 2024-01-30T18:57:31.183Z
+date: 2024-07-23T18:57:31.183Z
 coverImage: /uploads/toddshelton-thumbnail.png
 coverVideo: /uploads/toddshelton.mp4
 showVideo: true
@@ -33,7 +33,7 @@ moreProjects:
   - website-redesign-for-international-shipping-company-cargoloop
   - industry-page-design-for-cogniac-corporation
 seo:
-  title: Website redesign for men’s clothing brand ToddShelton
+  title: "Todd Shelton: Tailoring E-Commerce for Custom Menswear"
   description: "Redesigned website to update brand vision and improve user experience. "
 og:
   site_name: Alex Leonova
@@ -41,7 +41,7 @@ og:
   site: "@alexleonova"
   url: true
   twitter: true
-  title: Website redesign for men’s clothing brand ToddShelton
+  title: "Todd Shelton: Tailoring E-Commerce for Custom Menswear"
   locale: en_US
   type: website
   image: /uploads/og-uxui-toddshelton.png
