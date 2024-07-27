@@ -26,6 +26,10 @@ tools:
   - Figma
   - Illustrator
   - Photoshop
+moreProjects:
+  - fintech-website-design-for-gainsgurus
+  - homepage-redesign-for-digital-marketing-platform-logic
+  - website-redesign-for-mens-clothing-brand-todd-shelton
 seo:
   title: "Cogniac: Tailored Landing Page for AI in Government"
   description: Create a landing page design with a lot of complex content in a
