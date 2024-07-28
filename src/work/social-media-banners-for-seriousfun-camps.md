@@ -27,8 +27,8 @@ tools:
   - Illustrator
   - Photoshop
 moreProjects:
-  - isometric-icons-set-for-company-internal-use
-  - logotype-for-real-estate-management-platform
+  - social-media-banners-for-nike-us-sports-camps
+  - social-media-banners-for-nbc-sports-camps
   - video-ads-for-nbc-basketball-and-volleyball-sports-camps
 seo:
   title: Boosting Visibility for SeriousFun Through Engaging Social Media Campaigns
