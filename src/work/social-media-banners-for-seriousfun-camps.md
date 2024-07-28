@@ -1,7 +1,7 @@
 ---
 layout: work.webc
 tags: work
-title: Social Media banners for SeriousFun Camps
+title: Boosting Visibility for SeriousFun Through Engaging Social Media Campaigns
 handle: social-media-banners-for-seriousfun-camps
 category: social-media
 favorite: false
@@ -9,9 +9,9 @@ date: 2024-03-28T17:05:41.785Z
 coverImage: /uploads/thumbnail-sf.png
 coverVideo: /uploads/seriousfun.mp4
 showVideo: true
-brief: Design a comprehensive mobile app addressing the varied needs of modern
-  travelers.
-role: Research, Concept, Prototyping, UI Design, Graphic Design, Illustration.
+brief: Develop visual creatives for advertising campaigns of children's camps in
+  social networks.
+role: Social Media Design
 more: ""
 demos:
   - image: /uploads/sf-img-1.png
@@ -30,43 +30,53 @@ moreProjects:
   - isometric-icons-set-for-company-internal-use
   - logotype-for-real-estate-management-platform
   - video-ads-for-nbc-basketball-and-volleyball-sports-camps
+seo:
+  title: Boosting Visibility for SeriousFun Through Engaging Social Media Campaigns
+  description: Develop visual creatives for advertising campaigns of children's
+    camps in social networks.
+og:
+  opengraph: true
+  title: Boosting Visibility for SeriousFun Through Engaging Social Media Campaigns
+  image: /uploads/og-social-seriousfun.png
+  description: Develop visual creatives for advertising campaigns of children's
+    camps in social networks.
 ---
 ## Overview:
 
-In a world brimming with possibilities, the modern traveler seeks a seamless and enriching journey. Our challenge was to design a mobile app that transcends the conventional boundaries of travel assistance, providing users with a comprehensive tool that not only simplifies their journey but elevates their travel experience.
+SeriousFun is a global network of 30 camps and programs offering free recreational activities to seriously ill children and their families. These transformative camps, located across North America, Europe, Asia, and Africa, help build confidence and resilience in children facing challenging circumstances.
 
 ## Problem:
 
-Frequent travelers face a myriad of challenges: from itinerary planning to navigation, language barriers to cultural immersion. Existing apps fell short in delivering a holistic solution, prompting the need for a groundbreaking design that integrates travel essentials seamlessly.
+SeriousFun needed to leverage digital advertising to attract more campers, recruit volunteers, and increase brand awareness.
 
 ## Solution:
 
-Introducing the Traveler's Companion, a mobile app meticulously crafted to be the ultimate travel partner. Our solution goes beyond mere navigation, offering an intuitive interface that combines itinerary management, real-time language translation, local insights, and personalized recommendations.
+I designed a series of visually compelling social media banners for Facebook and Instagram, targeting potential campers, volunteers, and medical professionals. These materials aimed to enhance SeriousFun’s online presence and engagement.
 
 \[DEMO]
 
 ## Design Process:
 
-1. ### Research and Discovery:
+1. ### Research & Analysis:
 
-   * Conducted extensive user interviews and market research to identify pain points and desires of frequent travelers.
-   * Explored competitor landscape to understand strengths and weaknesses.
-2. ### Wireframing and Prototyping:
+   I started by defining the goals and tasks for the creatives, ensuring they complemented the advertisement content and were eye-catching. I analyzed the target audience, researched similar themes, and selected design references. Collaborating with the copywriter and marketer helped shape the content for the creatives.
+2. ### Visual Design:
 
-   * Developed wireframes for key app features, emphasizing simplicity and clarity in design.
-   * Iteratively tested prototypes to gather user feedback, refining the interface based on insights.
-3. ### Visual Design:
+   I developed six alternative design concepts for the banners, focusing on potential camp participants. I chose color schemes, typography, and style solutions based on research, client preferences, and general design principles. I adapted the client's photos to fit the visual style.
+3. ### Interaction with the Marketing Team:
 
-   * Created a visually appealing and cohesive design language, incorporating travel-themed elements.
-   * Prioritized user-friendly color schemes and typography for enhanced readability.
-4. ### Development Collaboration:
+   I discussed the design concepts with marketers, refined the designs and content, and sent them to the client for approval. Only minimal edits were required, ensuring the designs met all specifications.
+4. ### Creation of Creatives for All Activities:
 
-   * Worked closely with developers to ensure seamless integration of design elements.
-   * Conducted regular testing to address any usability or functionality issues.
-5. ### User Testing and Iteration:
+   I developed banners for volunteers and medical professionals using the approved design solutions. These were finalized with the marketing team and client, ensuring consistency across all target audiences.
+5. ### Preparing the Creatives for Launch:
 
-   * Engaged in multiple rounds of user testing to validate design decisions.
+   I adapted the selected designs for different formats, including 1:1 and 9:16 ratios, and handed over the final creatives for the advertising campaigns.
+
+## Challenges:
+
+A significant challenge was creating cohesive designs that aligned with SeriousFun’s brand while being versatile enough to attract various target audiences. Flexibility and iterative feedback were key to overcoming these challenges.
 
 ## Result:
 
-Traveler's Companion app received positive reviews and gained popularity, redefining the travel experience for users worldwide.
+The campaign successfully launched multi-platform ads on Google and Meta, increasing SeriousFun’s brand awareness and engagement. The visually appealing banners attracted attention, generated positive feedback, and encouraged more registrations from campers, volunteers, and healthcare professionals.
