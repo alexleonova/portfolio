@@ -81,6 +81,8 @@ I developed a comprehensive set of 12 illustrations and 10 icons for the main pa
 * Balancing detail and simplicity in illustrations to effectively communicate complex concepts
 * Maintaining consistency across a large set of illustrations and icons
 
-## Conclusion:
+## Result:
 
-The illustrations and icons provided clear visual navigation, helping users understand the platform's functionalities and enhancing overall usability. The consistent visual style strengthened the brand's identity, making it more memorable and attractive. The client appreciated the team's clear communication and quick execution, leading to positive feedback and recommendations. This project not only improved the functionality and visual appeal of Creators Legal's platform but also provided a valuable addition to our company's portfolio, showcasing our ability to deliver comprehensive visual solutions for complex digital products.
+The illustrations and icons provided clear visual navigation, helping users understand the platform's functionalities and enhancing overall usability. The consistent visual style strengthened the brand's identity, making it more memorable and attractive. 
+
+The client appreciated the team's clear communication and quick execution, leading to positive feedback and recommendations. This project not only improved the functionality and visual appeal of Creators Legal's platform but also provided a valuable addition to our company's portfolio, showcasing our ability to deliver comprehensive visual solutions for complex digital products.
