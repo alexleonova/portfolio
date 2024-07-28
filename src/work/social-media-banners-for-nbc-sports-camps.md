@@ -1,7 +1,7 @@
 ---
 layout: work.webc
 tags: work
-title: Social Media banners for NBC Sports Camps
+title: Enhancing NBC Camps’ Social Media Presence with Engaging Ad Campaigns
 handle: social-media-banners-for-nbc-sports-camps
 category: social-media
 favorite: false
@@ -9,9 +9,9 @@ date: 2024-03-27T11:32:55.305Z
 coverImage: /uploads/nbc-thumbnail.png
 coverVideo: /uploads/nbc-banners.mp4
 showVideo: true
-brief: Design a comprehensive mobile app addressing the varied needs of modern
-  travelers.
-role: Research, Concept, Prototyping, UI Design, Graphic Design, Illustration.
+brief: Creating advertising creatives for basketball and volleyball kids camps'
+  social media marketing campaigns.
+role: Social Media Design
 more: ""
 demos:
   - image: /uploads/nbc-img-1.png
@@ -27,46 +27,56 @@ tools:
   - Illustrator
   - Photoshop
 moreProjects:
-  - isometric-icons-set-for-company-internal-use
-  - logotype-for-real-estate-management-platform
+  - social-media-banners-for-nike-us-sports-camps
+  - social-media-banners-for-seriousfun-camps
   - video-ads-for-nbc-basketball-and-volleyball-sports-camps
+seo:
+  title: Enhancing NBC Camps’ Social Media Presence with Engaging Ad Campaigns
+  description: Creating advertising creatives for basketball and volleyball kids
+    camps' social media marketing campaigns.
+og:
+  title: Enhancing NBC Camps’ Social Media Presence with Engaging Ad Campaigns
+  opengraph: true
+  image: /uploads/og-social-nbc.png
+  description: Creating advertising creatives for basketball and volleyball kids
+    camps' social media marketing campaigns.
 ---
-## Overview:
+## Overview
 
-In a world brimming with possibilities, the modern traveler seeks a seamless and enriching journey. Our challenge was to design a mobile app that transcends the conventional boundaries of travel assistance, providing users with a comprehensive tool that not only simplifies their journey but elevates their travel experience.
+NBC Camps provides training camps for basketball, volleyball, lacrosse, and fine arts, focusing on athletic skill development and personal growth, including leadership and resilience.
 
-## Problem:
+## Problem
 
-Frequent travelers face a myriad of challenges: from itinerary planning to navigation, language barriers to cultural immersion. Existing apps fell short in delivering a holistic solution, prompting the need for a groundbreaking design that integrates travel essentials seamlessly.
+NBC Camps needed to attract attention to their basketball and volleyball camps, increase registrations, and enhance the effectiveness of their advertising campaigns with professionally created visuals and text for Facebook and Instagram ads.
 
-## Solution:
+## Solution
 
-Introducing the Traveler's Companion, a mobile app meticulously crafted to be the ultimate travel partner. Our solution goes beyond mere navigation, offering an intuitive interface that combines itinerary management, real-time language translation, local insights, and personalized recommendations.
+I designed a series of eye-catching social media banners for Facebook and Instagram, targeting parents planning their children's leisure activities. These materials aimed to boost camp registrations and reinforce NBC Camps’ brand identity.
 
 \[DEMO]
 
-## Design Process:
+## Design Process
 
-1. ### Research and Discovery:
+1. ### Research & Analysis:
 
-   * Conducted extensive user interviews and market research to identify pain points and desires of frequent travelers.
-   * Explored competitor landscape to understand strengths and weaknesses.
-2. ### Wireframing and Prototyping:
+   I started by defining the goals for the creatives, ensuring they complemented the ad content and were visually appealing. I analyzed the target audience and researched similar themes, selecting relevant design references. Collaborating with the copywriter and marketer helped refine the content for the creatives.
+2. ### Visual Design:
 
-   * Developed wireframes for key app features, emphasizing simplicity and clarity in design.
-   * Iteratively tested prototypes to gather user feedback, refining the interface based on insights.
-3. ### Visual Design:
+   I developed five alternative design concepts for basketball camps. I selected color schemes, typography, and style solutions based on general design principles, research, and client preferences. Adapting the client's photos to fit the visual style was a crucial part of this process.
+3. ### Interaction with the Marketing Team:
 
-   * Created a visually appealing and cohesive design language, incorporating travel-themed elements.
-   * Prioritized user-friendly color schemes and typography for enhanced readability.
-4. ### Development Collaboration:
+   I discussed the design concepts with the marketing team, finalizing the designs and content. We selected four main solutions, which were then sent to the client for approval. Only minimal edits were required, ensuring the designs met all specifications.
+4. ### Creation of Creatives for All Activities:
 
-   * Worked closely with developers to ensure seamless integration of design elements.
-   * Conducted regular testing to address any usability or functionality issues.
-5. ### User Testing and Iteration:
+   I developed banners for volleyball camps using the approved design solutions. These were finalized with input from marketers and the client, ensuring consistency across all target audiences.
+5. ### Preparing the Creatives for Launch:
 
-   * Engaged in multiple rounds of user testing to validate design decisions.
+   I adapted the selected designs for different formats, including 1:1 and 9:16 ratios, and handed over the final creatives for the advertising campaigns.
 
-## Result:
+## Challenges
 
-Traveler's Companion app received positive reviews and gained popularity, redefining the travel experience for users worldwide.
+A significant challenge was creating cohesive designs that aligned with NBC Camps’ brand while being versatile enough to attract various target audiences. Flexibility and iterative feedback were key to overcoming these challenges.
+
+## Result
+
+The campaign successfully launched multi-platform ads, increasing NBC Camps’ brand awareness and engagement. The visually appealing banners attracted attention, generated positive feedback, and boosted camp registrations.
