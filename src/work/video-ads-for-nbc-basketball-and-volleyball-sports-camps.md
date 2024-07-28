@@ -1,7 +1,7 @@
 ---
 layout: work.webc
 tags: work
-title: Video ads for NBC Basketball & Volleyball Sports Camps
+title: "NBC Camps Social Media Ad Campaign: A Motion Design Case Study"
 handle: video-ads-for-nbc-basketball-and-volleyball-sports-camps
 category: animation-motion
 favorite: false
@@ -35,9 +35,9 @@ moreProjects:
 seo:
   description: Create a set of videos for children's basketball and volleyball
     camps' social media advertising campaigns.
-  title: Video ads for NBC Basketball & Volleyball Sports Camps
+  title: "NBC Camps Social Media Ad Campaign: A Motion Design Case Study"
 og:
-  title: Video ads for NBC Basketball & Volleyball Sports Camps
+  title: "NBC Camps Social Media Ad Campaign: A Motion Design Case Study"
   description: Create a set of videos for children's basketball and volleyball
     camps' social media advertising campaigns.
   image: /uploads/og-motion-nbc.png
