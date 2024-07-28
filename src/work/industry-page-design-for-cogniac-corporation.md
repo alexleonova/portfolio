@@ -78,4 +78,6 @@ I designed a custom landing page that introduces Cogniac's government-focused se
 
 ## Result:
 
-The final product was a visually appealing and informative landing page that successfully showcased Cogniac's AI solutions for the government sector. The page effectively communicated the company's expertise in enhancing security across various government operations. The client appreciated the clear communication and quick turnaround time, leading to positive feedback and recommendations. This project allowed me to deepen my skills in content-heavy design and complex page structures, while also exploring innovative design solutions within the constraints of an established brand.
+The final product was a visually appealing and informative landing page that successfully showcased Cogniac's AI solutions for the government sector. The page effectively communicated the company's expertise in enhancing security across various government operations. 
+
+The client appreciated the clear communication and quick turnaround time, leading to positive feedback and recommendations. This project allowed me to deepen my skills in content-heavy design and complex page structures, while also exploring innovative design solutions within the constraints of an established brand.
