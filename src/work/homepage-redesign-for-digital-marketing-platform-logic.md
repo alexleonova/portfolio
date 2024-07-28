@@ -1,17 +1,10 @@
 ---
 layout: work.webc
-tags: work
-title: "Homepage redesign for digital marketing platform Logic"
-handle: "homepage-redesign-for-digital-marketing-platform-logic"
-category: ui_ux_design
-favorite: false
+handle: homepage-redesign-for-digital-marketing-platform-logic
 date: 2024-01-22T18:57:31.183Z
 coverImage: /uploads/logiq-thumbnail.png
 coverVideo: /uploads/logiq.mp4
-showVideo: true
-brief: Design a comprehensive mobile app addressing the varied needs of modern
-  travelers.
-role: Research, Concept, Prototyping, UI Design, Graphic Design, Illustration.
+role: UX/UI Design
 more: ""
 demos:
   - image: /uploads/logic-img-1.png
@@ -22,49 +15,67 @@ demos:
     caption: Page mockup
   - image: /uploads/logic-img-4.png
     caption: New website homepage
+moreProjects:
+  - industry-page-design-for-cogniac-corporation
+  - illustrations-and-icons-for-tech-platform-creators-legal
+  - fintech-website-design-for-gainsgurus
 results: Traveler's Companion app received positive reviews and gained
   popularity, redefining the travel experience for users worldwide.
+tags: work
+title: "Logiq Homepage Redesign: Modernizing a Marketing Platform"
+category: ui_ux_design
+favorite: false
+showVideo: true
+brief: Update the homepage design according to company positioning and UX/UI
+  design trends.
 tools:
   - Figma
   - Illustrator
   - Photoshop
+seo:
+  title: "Logiq Homepage Redesign: Modernizing a Marketing Platform"
+  description: Update the homepage design according to company positioning and
+    UX/UI design trends.
+og:
+  title: "Logiq Homepage Redesign: Modernizing a Marketing Platform"
+  opengraph: true
+  image: /uploads/og-uxui-logic.png
+  description: Update the homepage design according to company positioning and
+    UX/UI design trends.
 ---
 ## Overview:
 
-In a world brimming with possibilities, the modern traveler seeks a seamless and enriching journey. Our challenge was to design a mobile app that transcends the conventional boundaries of travel assistance, providing users with a comprehensive tool that not only simplifies their journey but elevates their travel experience.
+Logiq, a provider of innovative marketing solutions for small to medium-sized agencies, sought to revamp its main website page. As the UX/UI designer, I was tasked with updating the page structure, refreshing the content, and modernizing the design while preserving their corporate identity.
 
 ## Problem:
 
-Frequent travelers face a myriad of challenges: from itinerary planning to navigation, language barriers to cultural immersion. Existing apps fell short in delivering a holistic solution, prompting the need for a groundbreaking design that integrates travel essentials seamlessly.
+Logiq's existing homepage could not effectively showcase its ability to provide cutting-edge ways to engage and influence consumers. The client needed a fresh online presence to better reflect their vision and address current business challenges in the competitive marketing software industry.
 
 ## Solution:
 
-Introducing the Traveler's Companion, a mobile app meticulously crafted to be the ultimate travel partner. Our solution goes beyond mere navigation, offering an intuitive interface that combines itinerary management, real-time language translation, local insights, and personalized recommendations.
+I delivered a comprehensive redesign of the homepage that retained Logiq’s corporate identity while incorporating modern UX/UI design principles. The new design aimed to solve business challenges by providing an intuitive and engaging user experience.
 
 \[DEMO]
 
 ## Design Process:
 
-1. ### Research and Discovery:
+1. ### Research and Analysis:
 
-   * Conducted extensive user interviews and market research to identify pain points and desires of frequent travelers.
-   * Explored competitor landscape to understand strengths and weaknesses.
-2. ### Wireframing and Prototyping:
+   I began with a comprehensive research phase, analyzing Logiq's current website to identify existing design principles and page structure. I also conducted competitor research to determine optimal block placement and content organization for the new page.
+2. ### Prototyping:
 
-   * Developed wireframes for key app features, emphasizing simplicity and clarity in design.
-   * Iteratively tested prototypes to gather user feedback, refining the interface based on insights.
-3. ### Visual Design:
+   Using insights from my research, I developed low-fidelity wireframes to establish the new page structure. I focused on improving navigation and creating logical content groupings that would guide users through Logiq's offerings more effectively.
+3. ### UI Design:
 
-   * Created a visually appealing and cohesive design language, incorporating travel-themed elements.
-   * Prioritized user-friendly color schemes and typography for enhanced readability.
-4. ### Development Collaboration:
+   For the UI design phase, I created high-fidelity prototypes that balanced Logiq's established brand with modern design elements. I carefully selected color schemes, typography, and visual elements that would refresh the look while maintaining brand consistency. Throughout this process, I applied key design principles such as visibility, familiarity, and unity.
+4. ### Handoff to Development:
 
-   * Worked closely with developers to ensure seamless integration of design elements.
-   * Conducted regular testing to address any usability or functionality issues.
-5. ### User Testing and Iteration:
+   To ensure a smooth transition, I created a comprehensive design system and detailed the functionality of interactive elements. I also adapted the design for tablet and mobile views to ensure a responsive experience across devices.
 
-   * Engaged in multiple rounds of user testing to validate design decisions.
+## Challenges:
+
+The primary challenge was adapting to changes in page structure and content volume during the design process. This required flexibility and rapid iterations to incorporate new requirements while maintaining visual coherence and design integrity.
 
 ## Result:
 
-Traveler's Companion app received positive reviews and gained popularity, redefining the travel experience for users worldwide.
+The redesign of Logiq's homepage was successfully completed, integrating their existing corporate identity with an updated, user-friendly design. This solution not only met Logiq's business objectives but also enhanced user engagement. The positive client feedback and recommendations significantly boosted my company's market reputation.
