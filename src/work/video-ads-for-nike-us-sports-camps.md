@@ -1,7 +1,7 @@
 ---
 layout: work.webc
 tags: work
-title: Video ads for Nike US Sports Camps
+title: Transforming US Sports Camps’ Advertising with Dynamic Motion Design
 handle: video-ads-for-nike-us-sports-camps
 category: animation-motion
 favorite: false
@@ -9,9 +9,8 @@ date: 2024-04-06T17:35:05.821Z
 coverImage: /uploads/ussc-motion-thumbnail.png
 coverVideo: /uploads/ussc-m-a-01-.mp4
 showVideo: true
-brief: Design a comprehensive mobile app addressing the varied needs of modern
-  travelers.
-role: Research, Concept, Prototyping, UI Design, Graphic Design, Illustration.
+brief: Create a set of videos for sports camps' social media advertising campaigns.
+role: Motion Design
 more: ""
 demos:
   - video: /uploads/ussc-m-a-1.mp4
@@ -23,50 +22,59 @@ demos:
   - video: /uploads/ussc-m-a-4.mp4
     caption: Video advertising (stories) with generated voiceover
 tools:
-  - Figma
+  - After Effects
+  - Premiere Pro
+  - ElevenLabs
   - Illustrator
-  - Photoshop
 moreProjects:
-  - isometric-icons-set-for-company-internal-use
-  - logotype-for-real-estate-management-platform
   - video-ads-for-nbc-basketball-and-volleyball-sports-camps
+  - social-media-banners-for-nike-us-sports-camps
+  - social-media-banners-for-seriousfun-camps
+seo:
+  description: Create a set of videos for sports camps' social media advertising campaigns.
+  title: Transforming US Sports Camps’ Advertising with Dynamic Motion Design
+og:
+  description: Create a set of videos for sports camps' social media advertising campaigns.
+  image: /uploads/og-motion-ussc.png
+  opengraph: true
+  title: Transforming US Sports Camps’ Advertising with Dynamic Motion Design
 ---
-## Overview:
+## Overview
 
-In a world brimming with possibilities, the modern traveler seeks a seamless and enriching journey. Our challenge was to design a mobile app that transcends the conventional boundaries of travel assistance, providing users with a comprehensive tool that not only simplifies their journey but elevates their travel experience.
+US Sports Camps (USSC) is a premier organizer of sports camps in the United States and globally, partnering exclusively with Nike for a branded sports camp program. They offer training camps in basketball, volleyball, lacrosse, and other sports, focusing on skill development and personal growth.
 
-## Problem:
+## Problem
 
-Frequent travelers face a myriad of challenges: from itinerary planning to navigation, language barriers to cultural immersion. Existing apps fell short in delivering a holistic solution, prompting the need for a groundbreaking design that integrates travel essentials seamlessly.
+USSC needed a creative advertising strategy to attract new clients, scale their advertising budgets, and maintain campaign effectiveness. Previously, they were not utilizing Facebook as a platform to boost sales.
 
-## Solution:
+## Solution
 
-Introducing the Traveler's Companion, a mobile app meticulously crafted to be the ultimate travel partner. Our solution goes beyond mere navigation, offering an intuitive interface that combines itinerary management, real-time language translation, local insights, and personalized recommendations.
+I created over 20 engaging promotional videos for various sports camps, tailored for Facebook and Instagram ads. These videos aimed to attract attention, increase engagement, and drive camp registrations.
 
 \[DEMO]
 
-## Design Process:
+## Design Process
 
-1. ### Research and Discovery:
+1. ### Research & Analysis:
 
-   * Conducted extensive user interviews and market research to identify pain points and desires of frequent travelers.
-   * Explored competitor landscape to understand strengths and weaknesses.
-2. ### Wireframing and Prototyping:
+   I began by defining the goals for the videos, ensuring they complemented the advertisement content and were visually striking. I analyzed the target audience — primarily parents planning their children's leisure activities—and researched similar advertising solutions. Collaborating with the copywriter and marketer helped refine the video content.
+2. ### Development of Test Versions:
 
-   * Developed wireframes for key app features, emphasizing simplicity and clarity in design.
-   * Iteratively tested prototypes to gather user feedback, refining the interface based on insights.
-3. ### Visual Design:
+   I developed three alternative concepts for the final video fragment (~5-10 seconds). This involved selecting typography, creating animation effects, and adapting the client's video materials. I also searched for suitable music and generated voice-overs using ElevenLabs for one concept.
+3. ### Interaction with the Marketing Team:
 
-   * Created a visually appealing and cohesive design language, incorporating travel-themed elements.
-   * Prioritized user-friendly color schemes and typography for enhanced readability.
-4. ### Development Collaboration:
+   I discussed the design concepts with the marketing team and finalized the motion design and content. We selected two main solutions, which were then sent to the client for approval. Minimal edits were made, ensuring the videos met all specifications.
+4. ### Creation of Videos for All Activities:
 
-   * Worked closely with developers to ensure seamless integration of design elements.
-   * Conducted regular testing to address any usability or functionality issues.
-5. ### User Testing and Iteration:
+   Using the approved design solutions, I developed videos for other sports activities, including soccer, tennis, and golf. These were finalized with input from marketers and the client, ensuring consistency across all sports.
+5. ### Preparing the Videos for Launch:
 
-   * Engaged in multiple rounds of user testing to validate design decisions.
+   I adapted the selected video concepts to different formats, initially developed in 1:1 and adapted to 9:16. The final videos were delivered for launching the advertising campaigns.
 
-## Result:
+## Challenges
 
-Traveler's Companion app received positive reviews and gained popularity, redefining the travel experience for users worldwide.
+Working with a large-scale client like USSC for the first time, it was crucial to demonstrate high results and a professional approach. Flexibility and iterative feedback were key to overcoming these challenges.
+
+## Result
+
+The campaign successfully launched on Facebook, increasing USSC's brand awareness and engagement. The visually appealing and dynamic videos attracted attention, stimulated user interaction, and significantly boosted camp registrations.
