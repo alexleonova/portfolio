@@ -1,7 +1,7 @@
 ---
 layout: work.webc
 tags: work
-title: Website redesign for Ministry of Finance of Kuwait
+title: "Ministry of Finance: Intuitive Design for Arabic & English Users"
 handle: website-redesign-for-ministry-of-finance-of-kuwait
 category: ui_ux_design
 favorite: false
@@ -9,11 +9,9 @@ date: 2024-04-09T07:36:08.473Z
 coverImage: /uploads/thumbnail-mof.png
 coverVideo: /uploads/mof-00.mp4
 showVideo: true
-brief: Design a comprehensive mobile app addressing the varied needs of modern
-  travelers.
-role: |-
-  UX Research, User flow,  Wireframes, Clicable Prototype, 
-  UI Design.
+brief: Regesign a website for The Ministry of Finance with a user-friendly
+  interface and expanded functionality.
+role: UX/UI Design
 more: ""
 demos:
   - image: /uploads/mof-01.png
@@ -24,58 +22,68 @@ demos:
     caption: Inner website pages
   - mage: /uploads/mof-04.png
     caption: Arabic page responsive versions
+    image: /uploads/mof-04.png
 tools:
   - Figma
   - Illustrator
   - Photoshop
+moreProjects:
+  - homepage-redesign-for-digital-marketing-platform-logic
+  - website-redesign-for-international-shipping-company-cargoloop
+  - industry-page-design-for-cogniac-corporation
+seo:
+  title: "Ministry of Finance: Intuitive Design for Arabic & English Users"
+  description: Regesign a website for The Ministry of Finance with a user-friendly
+    interface and expanded functionality.
 og:
   site_name: Alex Leonova
   opengraph: true
   site: "@alexleonova"
   url: true
   twitter: true
-  title: OG Title
+  title: "Ministry of Finance: Intuitive Design for Arabic & English Users"
   locale: en_US
   type: website
   image: /uploads/og-uxui-mof.png
-  description: OG description
+  description: Regesign a website for The Ministry of Finance with a user-friendly
+    interface and expanded functionality.
 ---
-## Overview:
+## Overview
 
-In a world brimming with possibilities, the modern traveler seeks a seamless and enriching journey. Our challenge was to design a mobile app that transcends the conventional boundaries of travel assistance, providing users with a comprehensive tool that not only simplifies their journey but elevates their travel experience.
+The Ministry of Finance in Kuwait is a government body responsible for the overall executive management of public financial affairs in the state. It is a crucial part of the cabinet, providing essential services and information to the public.
 
-## Problem:
+## Problem
 
-Frequent travelers face a myriad of challenges: from itinerary planning to navigation, language barriers to cultural immersion. Existing apps fell short in delivering a holistic solution, prompting the need for a groundbreaking design that integrates travel essentials seamlessly.
+The client requested a redesign of their website to make the interface easier and more user-friendly. Additionally, the structure of the site needed revision, with new sections to be introduced. The existing website was in Arabic, and the new design required both Arabic and English versions.
 
-## Solution:
+## Solution
 
-Introducing the Traveler's Companion, a mobile app meticulously crafted to be the ultimate travel partner. Our solution goes beyond mere navigation, offering an intuitive interface that combines itinerary management, real-time language translation, local insights, and personalized recommendations.
+I redesigned the Ministry of Finance website, creating an intuitive and accessible interface in both Arabic and English. The solution included an updated navigation scheme and expanded functionality to improve user experience.
 
 \[DEMO]
 
-## Design Process:
+## Design Process
 
-1. ### Research and Discovery:
+1. ### Research & Analysis:
 
-   * Conducted extensive user interviews and market research to identify pain points and desires of frequent travelers.
-   * Explored competitor landscape to understand strengths and weaknesses.
-2. ### Wireframing and Prototyping:
+   I began by analyzing the existing website to identify its strengths and weaknesses. I researched similar government websites to understand best practices and selected relevant design references. This step involved understanding the client’s requirements and the target audience's needs.
+2. ### Prototyping:
 
-   * Developed wireframes for key app features, emphasizing simplicity and clarity in design.
-   * Iteratively tested prototypes to gather user feedback, refining the interface based on insights.
-3. ### Visual Design:
+   I created a comprehensive site map, thinking through the structure and hierarchy of pages, including sections and subsections. This step involved developing low-fidelity prototypes (wireframes) to plan the layout and navigation, ensuring a logical flow of information.
+3. ### UI Design:
 
-   * Created a visually appealing and cohesive design language, incorporating travel-themed elements.
-   * Prioritized user-friendly color schemes and typography for enhanced readability.
-4. ### Development Collaboration:
+   Transitioning to high-fidelity prototypes, I focused on creating design layouts for both English and Arabic versions of the site. This involved selecting a suitable color scheme, typography, visuals, and style solutions based on general design principles, research data, and the client’s preferences.
+4. ### Transfer to Development:
 
-   * Worked closely with developers to ensure seamless integration of design elements.
-   * Conducted regular testing to address any usability or functionality issues.
-5. ### User Testing and Iteration:
+   I developed a site design system and ensured the layouts were consistent and compliant with the grid. This phase included thinking through the interactive elements of the site (buttons, sliders, animations) and their intermediate states. I also prepared the designs for various screen resolutions.
+5. ### Interaction with Developers:
 
-   * Engaged in multiple rounds of user testing to validate design decisions.
+   Throughout the development process, I consulted with developers and testers to ensure the implementation met the design specifications. I addressed any issues or disputes that arose, making improvements as necessary.
 
-## Result:
+## Challenges
 
-Traveler's Companion app received positive reviews and gained popularity, redefining the travel experience for users worldwide.
+Designing layouts for both Arabic (right-to-left alignment) and English (left-to-right alignment) required additional focus and a convenient system for language switching. The complex site layout with multiple branches demanded careful planning of navigation using main menus, nested menus, and breadcrumbs.
+
+## Result
+
+The Ministry of Finance received a redesigned website with a user-friendly interface and expanded functionality, including an English version. The new design features a consistent visual style, improved navigation, and an easy-to-use document search interface.
