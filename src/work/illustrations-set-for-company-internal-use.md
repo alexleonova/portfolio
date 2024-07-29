@@ -26,6 +26,10 @@ tools:
   - Figma
   - Illustrator
   - Photoshop
+moreProjects:
+  - illustrations-and-icons-for-tech-platform-creators-legal
+  - logotype-for-real-estate-management-platform
+  - social-media-banners-for-nike-us-sports-camps
 seo:
   title: Detailed Illustrations for a Digital Product Agency
   description: Create a set of illustrations, maintaining a unified visual style
