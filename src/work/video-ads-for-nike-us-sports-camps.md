@@ -1,7 +1,7 @@
 ---
 layout: work.webc
 tags: work
-title: Transforming US Sports Camps’ Advertising with Dynamic Motion Design
+title: "US Sports Camps: Enhancing Brand Awareness Through Video Ads"
 handle: video-ads-for-nike-us-sports-camps
 category: animation-motion
 favorite: false
@@ -32,12 +32,12 @@ moreProjects:
   - social-media-banners-for-seriousfun-camps
 seo:
   description: Create a set of videos for sports camps' social media advertising campaigns.
-  title: Transforming US Sports Camps’ Advertising with Dynamic Motion Design
+  title: "US Sports Camps: Enhancing Brand Awareness Through Video Ads"
 og:
   description: Create a set of videos for sports camps' social media advertising campaigns.
   image: /uploads/og-motion-ussc.png
   opengraph: true
-  title: Transforming US Sports Camps’ Advertising with Dynamic Motion Design
+  title: "US Sports Camps: Enhancing Brand Awareness Through Video Ads"
 ---
 ## Overview
 
