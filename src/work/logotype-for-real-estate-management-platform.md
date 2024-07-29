@@ -26,9 +26,9 @@ tools:
   - Illustrator
   - Photoshop
 moreProjects:
-  - logotype-design-for-fintech-website-gainsgurus
   - illustrations-set-for-company-internal-use
   - illustrations-and-icons-for-tech-platform-creators-legal
+  - fintech-website-design-for-gainsgurus
 seo:
   title: "Inhabify: Unique Logo for Property Management Solutions"
   description: Design a logotype for platform, which offering property management solutions.
