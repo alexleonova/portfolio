@@ -1,7 +1,7 @@
 ---
 layout: work.webc
 tags: work
-title: "Elsewhere: Innovative Mobile App for Personalized Travel Planning"
+title: "Elsewhere: Mobile App for Personalized Travel Planning"
 handle: mobile-app-design-for-travel-startup
 category: ui_ux_design
 favorite: false
@@ -31,13 +31,13 @@ moreProjects:
   - homepage-redesign-for-digital-marketing-platform-logic
   - fintech-website-design-for-gainsgurus
 seo:
-  title: "Elsewhere: Innovative Mobile App for Personalized Travel Planning"
+  title: "Elsewhere: Mobile App for Personalized Travel Planning"
   description: "Design a comprehensive mobile app to streamline the travel
     planning process. "
 og:
   image: /uploads/og-uxui-elsewhere.png
   opengraph: true
-  title: "Elsewhere: Innovative Mobile App for Personalized Travel Planning"
+  title: "Elsewhere: Mobile App for Personalized Travel Planning"
   description: "Design a comprehensive mobile app to streamline the travel
     planning process. "
   url: true
