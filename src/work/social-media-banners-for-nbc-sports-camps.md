@@ -1,7 +1,7 @@
 ---
 layout: work.webc
 tags: work
-title: Enhancing NBC Camps’ Social Media Presence with Engaging Ad Campaigns
+title: "NBC Camps: Enhancing Social Media Presence"
 handle: social-media-banners-for-nbc-sports-camps
 category: social-media
 favorite: false
@@ -31,11 +31,11 @@ moreProjects:
   - social-media-banners-for-seriousfun-camps
   - video-ads-for-nbc-basketball-and-volleyball-sports-camps
 seo:
-  title: Enhancing NBC Camps’ Social Media Presence with Engaging Ad Campaigns
+  title: "NBC Camps: Enhancing Social Media Presence"
   description: Creating advertising creatives for basketball and volleyball kids
     camps' social media marketing campaigns.
 og:
-  title: Enhancing NBC Camps’ Social Media Presence with Engaging Ad Campaigns
+  title: "NBC Camps: Enhancing Social Media Presence"
   opengraph: true
   image: /uploads/og-social-nbc.png
   description: Creating advertising creatives for basketball and volleyball kids
