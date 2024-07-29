@@ -1,7 +1,7 @@
 ---
 layout: work.webc
 tags: work
-title: Creating a Unique Logo for GainsGurus in the Financial Advisory Sector
+title: "GainsGurus: Elevating Brand Identity with Unique Logo Design"
 handle: logotype-design-for-fintech-website-gainsgurus
 category: logotype
 favorite: false
@@ -30,12 +30,12 @@ moreProjects:
   - logotype-for-real-estate-management-platform
   - illustrations-and-icons-for-tech-platform-creators-legal
 seo:
-  title: Creating a Unique Logo for GainsGurus in the Financial Advisory Sector
+  title: "GainsGurus: Elevating Brand Identity with Unique Logo Design"
   description: Design a logotype for company, which provide data-backed insights
     for making independent long-term investments.
 og:
   image: /uploads/og-logotype-gg.png
-  title: Creating a Unique Logo for GainsGurus in the Financial Advisory Sector
+  title: "GainsGurus: Elevating Brand Identity with Unique Logo Design"
   opengraph: true
   description: Design a logotype for company, which provide data-backed insights
     for making independent long-term investments.
