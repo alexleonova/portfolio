@@ -1,7 +1,7 @@
 ---
 layout: work.webc
 tags: work
-title: "NBC Camps Social Media Ad Campaign: A Motion Design Case Study"
+title: "NBC Camps: A Motion Design Case Study"
 handle: video-ads-for-nbc-basketball-and-volleyball-sports-camps
 category: animation-motion
 favorite: false
@@ -35,30 +35,30 @@ moreProjects:
 seo:
   description: Create a set of videos for children's basketball and volleyball
     camps' social media advertising campaigns.
-  title: "NBC Camps Social Media Ad Campaign: A Motion Design Case Study"
+  title: "NBC Camps: A Motion Design Case Study"
 og:
-  title: "NBC Camps Social Media Ad Campaign: A Motion Design Case Study"
+  title: "NBC Camps: A Motion Design Case Study"
   description: Create a set of videos for children's basketball and volleyball
     camps' social media advertising campaigns.
   image: /uploads/og-motion-nbc.png
   opengraph: true
   url: true
 ---
-## Overview:
+## Overview
 
 NBC Camps is a provider of training camps for basketball, volleyball, lacrosse, and fine arts, focusing on athletic skill development and personal growth. As a motion designer, I was tasked with creating engaging video content for their social media advertising campaigns.
 
-## Problem:
+## Problem
 
 NBC Camps needed to boost registrations for their basketball and volleyball camps. They required professionally created visual materials for Facebook and Instagram ads to increase the effectiveness of their advertising campaigns and attract their target audience's attention.
 
-## Solution:
+## Solution
 
 I developed a series of over 10 promotional videos for basketball and volleyball camps, designed to be visually appealing and aligned with NBC Camps' brand identity. These videos were created to increase brand awareness, draw attention to their camps, and drive more registrations through social media advertising.
 
 \[DEMO]
 
-## Design Process:
+## Design Process
 
 1. ### Research and Analysis:
 
@@ -73,14 +73,14 @@ I developed a series of over 10 promotional videos for basketball and volleyball
 
    Using the approved design solutions, I developed creatives for volleyball camps. I then adapted the selected video concepts to different formats, originally creating them in a 1:1 format and later adapting them to 9:16 for various social media platforms.
 
-## Challenges:
+## Challenges
 
 * Balancing information and entertainment in short-form videos
 * Ensuring brand consistency across multiple video creatives
 * Adapting designs for different social media formats
 * Meeting tight deadlines while maintaining high-quality output
 
-## Result:
+## Result
 
 The final product was a set of visually appealing and professionally designed promotional videos that strengthened NBC Camps' brand image. These videos helped increase brand awareness, drew more attention to their camps, and drove more registrations. 
 
