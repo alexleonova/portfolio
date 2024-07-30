@@ -5,7 +5,7 @@ title: "Creators Legal: Illustrating Legal Simplicity"
 handle: illustrations-and-icons-for-tech-platform-creators-legal
 category: illustration
 favorite: true
-date: 2024-07-22T18:57:31.183Z
+date: 2024-07-22T18:00:00.000Z
 coverImage: /uploads/creatorslegal_thumbnail.png
 coverVideo: /uploads/creatorslegal.mp4
 showVideo: true
@@ -41,21 +41,21 @@ og:
     user experience and brand identity for their contract management platform.
   opengraph: true
 ---
-## Overview:
+## Overview
 
 CreatorsLegal is a digital platform in the legal services sphere, designed to speed up and unify the process of drafting contracts in various fields of activity. The platform provides simple, industry-standard contracts that can be filled out, sent, and signed electronically in minutes.
 
-## Problem:
+## Problem
 
 The client needed to visually represent their business proposition and enhance user understanding of their contract management platform. They required illustrations that were consistent in style and effectively reflected the process of concluding contracts in various industries.
 
-## Solution:
+## Solution
 
 I developed a comprehensive set of 12 illustrations and 10 icons for the main page, industry pages, website, platform, and marketing materials. These visuals were designed to provide clear navigation, visualize complex concepts, and strengthen the brand's visual identity.
 
 \[DEMO]
 
-## Design Process:
+## Design Process
 
 1. ### Research and analysis:
 
@@ -73,14 +73,14 @@ I developed a comprehensive set of 12 illustrations and 10 icons for the main pa
 
    I adapted the illustrations for various formats (desktop/responsive, Open Graph images) and prepared them for website integration. The final step involved transferring the illustrations to the development team in both vector and raster formats, ensuring they had all necessary assets for implementation.
 
-## Challenges:
+## Challenges
 
 * Quickly grasping the project essence and proposing illustration concepts at the UI design stage
 * Adapting the color palette to harmonize with changing website and platform designs
 * Balancing detail and simplicity in illustrations to effectively communicate complex concepts
 * Maintaining consistency across a large set of illustrations and icons
 
-## Result:
+## Result
 
 The illustrations and icons provided clear visual navigation, helping users understand the platform's functionalities and enhancing overall usability. The consistent visual style strengthened the brand's identity, making it more memorable and attractive. 
 
