@@ -9,8 +9,7 @@ date: 2024-07-22T18:57:31.183Z
 coverImage: /uploads/creatorslegal_thumbnail.png
 coverVideo: /uploads/creatorslegal.mp4
 showVideo: true
-brief: Create a package of illustrations and icons for digital platform in the
-  legal services sphere.
+brief: 12 illustrations and 10 icons enhancing Creators Legal's contract platform.
 role: Digital illustrator, 2D artist
 more: ""
 demos:
@@ -32,14 +31,14 @@ moreProjects:
   - illustrations-set-for-company-internal-use
   - fintech-website-design-for-gainsgurus
 seo:
-  title: "Creators Legal: Illustrating Legal Simplicity"
-  description: Create a package of illustrations and icons for digital platform in
-    the legal services sphere.
+  title: "Creators Legal: Illustrating Contract Management Platform"
+  description: Case study of custom illustrations for Creators Legal, enhancing
+    user experience and brand identity for their contract management platform.
 og:
   image: /uploads/og-illustrations-cl.png
-  title: "Creators Legal: Illustrating Legal Simplicity"
-  description: Create a package of illustrations and icons for digital platform in
-    the legal services sphere.
+  title: "Creators Legal: Illustrating Contract Management Platform"
+  description: Case study of custom illustrations for Creators Legal, enhancing
+    user experience and brand identity for their contract management platform.
   opengraph: true
 ---
 ## Overview:
