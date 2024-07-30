@@ -5,12 +5,11 @@ title: "CargoLoop: Website Redesign for International Shipping Company"
 handle: website-redesign-for-international-shipping-company-cargoLoop
 category: ui_ux_design
 favorite: true
-date: 2024-07-22T20:01:26.552Z
+date: 2024-07-22T19:00:26.552Z
 coverImage: /uploads/cargoloop-00.png
 coverVideo: /uploads/cargoloop-00.mp4
 showVideo: true
-brief: Redesign of the client's website with a focus on video content and
-  impressive visuals.
+brief: Comprehensive website redesign for CargoLoop with custom animations and video.
 role: UX/UI Design, Motion Design
 more: ""
 demos:
@@ -36,37 +35,39 @@ moreProjects:
   - industry-page-design-for-cogniac-corporation
   - illustrations-and-icons-for-tech-platform-creators-legal
 seo:
-  title: "CargoLoop: Website Redesign for International Shipping Company"
-  description: Redesign of the client's website with a focus on video content and
-    impressive visuals.
+  title: "CargoLoop: Modernizing Transportation Services Website"
+  description: Case study of CargoLoop's website redesign, featuring custom
+    animations, video integration, and improved information architecture for
+    enhanced user experience.
 og:
   site_name: Alex Leonova
   opengraph: true
   site: "@alexleonova"
   url: true
   twitter: true
-  title: "CargoLoop: Website Redesign for International Shipping Company"
+  title: "CargoLoop: Modernizing Transportation Services Website"
   locale: en_US
   type: website
   image: /uploads/og-uxui-cargoloop.png
-  description: Redesign of the client's website with a focus on video content and
-    impressive visuals.
+  description: Case study of CargoLoop's website redesign, featuring custom
+    animations, video integration, and improved information architecture for
+    enhanced user experience.
 ---
-## Overview:
+## Overview
 
 CargoLoop is a transportation service provider specializing in moving cars, boats, and motorcycles across the US and Europe. As the UX/UI and motion designer, I was tasked with completely redesigning their outdated website.
 
-## Problem:
+## Problem
 
 The client's existing site had compressed, outdated content that failed to fully showcase their services. They needed a modern, informative website that would provide detailed information about their offerings and company, while also serving as an effective recruitment tool.
 
-## Solution:
+## Solution
 
 I developed a comprehensive website redesign that prioritized detailed service information, company insights, and a fresh visual approach, complete with animated elements and video integration.
 
 \[DEMO]
 
-## Design Process:
+## Design Process
 
 1. ### Research & Analysis:
 
