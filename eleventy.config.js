@@ -20,6 +20,7 @@ module.exports = function(config) {
 		config.addPassthroughCopy('src/scripts');
 	}
 
+	config.addPassthroughCopy('src/auth/index.html');
 	config.addPassthroughCopy('src/admin/config.yml');
 	config.addPassthroughCopy('src/images');
 	config.addPassthroughCopy('src/assets');
