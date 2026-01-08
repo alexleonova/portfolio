@@ -14,8 +14,9 @@ brief: |
 role: UX/UI Design
 more: ""
 demos:
-  - video: /uploads/gg-uxui-01.mp4
-    caption: User flow on the GainsGurus website
+  - video: ""
+    caption: GainsGurus financial digital platform
+    image: /uploads/gg-upd-01.png
   - image: /uploads/gg-uxui-2.png
     caption: GainsGurus website sitemap
   - image: /uploads/gg-uxui-3.png
