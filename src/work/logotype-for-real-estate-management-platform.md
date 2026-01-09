@@ -5,7 +5,7 @@ title: "Inhabify: Unique Logo for Property Management Solutions"
 handle: logotype-for-real-estate-management-platform
 category: logotype
 favorite: false
-date: 2024-01-22T18:57:31.183Z
+date: 2026-01-08T18:57:31.183Z
 coverImage: /uploads/inhabify-thumbnail.png
 coverVideo: /uploads/inhabify.mp4
 showVideo: true
