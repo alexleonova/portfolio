@@ -5,7 +5,7 @@ title: "Cogniac: Tailored Landing Page for AI in Government"
 handle: industry-page-design-for-cogniac-corporation
 category: ui_ux_design
 favorite: false
-date: 2024-04-11T08:08:00.994Z
+date: 2026-01-03T08:08:00.994Z
 coverImage: /uploads/thumbnail-cogniac.png
 coverVideo: /uploads/cogniac.mp4
 showVideo: true
