@@ -5,7 +5,7 @@ title: "Dragonfly: Rapidly growing e-commerce marketplace platform"
 handle: dragonfly-rapidly-growing-e-commerce-marketplace-platform
 category: ui_ux_design
 favorite: false
-date: 2026-01-09T19:38:45.432Z
+date: 2026-01-07T19:38:45.432Z
 coverImage: /uploads/thumbnail-df.png
 brief: Create a visually engaging, sales-oriented interface that reflects the
   brand’s confident and fresh identity
