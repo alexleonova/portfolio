@@ -26,7 +26,7 @@ demos:
   - image: /uploads/rb-07.png
     caption: Design system components
   - caption: Interactive prototype for account creation flow
-    video: /uploads/create-account.mp4
+    video: /uploads/create-account_2.mp4
 tools:
   - Figma
   - Illustrator
