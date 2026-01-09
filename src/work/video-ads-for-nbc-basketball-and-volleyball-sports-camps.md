@@ -5,7 +5,7 @@ title: "NBC Camps: A Motion Design Case Study"
 handle: video-ads-for-nbc-basketball-and-volleyball-sports-camps
 category: animation-motion
 favorite: false
-date: 2024-04-03T19:04:34.757Z
+date: 2026-01-06T19:04:34.757Z
 coverImage: /uploads/nbc-motion_thumbnails.png
 coverVideo: /uploads/nbc-motion.mp4
 showVideo: true
