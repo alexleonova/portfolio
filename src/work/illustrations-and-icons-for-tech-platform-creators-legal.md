@@ -4,8 +4,8 @@ tags: work
 title: "Creators Legal: Illustrating Legal Simplicity"
 handle: illustrations-and-icons-for-tech-platform-creators-legal
 category: illustration
-favorite: true
-date: 2024-07-22T18:00:00.000Z
+favorite: false
+date: 2026-01-04T18:00:00.000Z
 coverImage: /uploads/creatorslegal_thumbnail.png
 coverVideo: /uploads/creatorslegal.mp4
 showVideo: true
