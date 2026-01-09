@@ -5,7 +5,7 @@ title: "GainsGurus: Visualizing Financial Data for Investor Empowerment"
 handle: fintech-website-design-for-gainsgurus
 category: ui_ux_design
 favorite: true
-date: 2024-07-24T09:20:12.948Z
+date: 2026-01-08T09:20:12.948Z
 coverImage: /uploads/thumbnail-gg-upd.png
 coverVideo: ""
 showVideo: false
