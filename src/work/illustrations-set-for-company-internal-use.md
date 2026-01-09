@@ -5,7 +5,7 @@ title: Detailed Illustrations for a Digital Product Agency
 handle: illustrations-set-for-company-internal-use
 category: illustration
 favorite: false
-date: 2024-01-22T18:57:31.183Z
+date: 2026-01-05T18:57:31.183Z
 coverImage: /uploads/ga4-thumbnail.png
 coverVideo: /uploads/ga4.mp4
 showVideo: true
