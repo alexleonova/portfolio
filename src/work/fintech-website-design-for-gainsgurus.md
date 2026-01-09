@@ -6,29 +6,35 @@ handle: fintech-website-design-for-gainsgurus
 category: ui_ux_design
 favorite: true
 date: 2024-07-24T09:20:12.948Z
-coverImage: /uploads/gg-ui-thumbnail.png
-coverVideo: /uploads/gg-uxui-0.mp4
-showVideo: true
-brief: |
-  Design digital platform for a data-driven investment strategy company.
-role: UX/UI Design
+coverImage: /uploads/thumbnail-gg-upd.png
+coverVideo: ""
+showVideo: false
+brief: Design digital platform and brand identity for a data-driven investment
+  strategy company
+role: UX/UI Design, Branding (Logo Design, Visual Identity Foundations)
 more: ""
 demos:
   - video: ""
     caption: GainsGurus financial digital platform
     image: /uploads/gg-upd-01.png
-  - image: /uploads/gg-uxui-2.png
+  - image: /uploads/gg-upd-02.png
     caption: GainsGurus website sitemap
-  - image: /uploads/gg-uxui-3.png
+  - image: /uploads/gg-upd-3.png
     caption: Inner pages wireframes
-  - image: /uploads/gg-uxui-4.png
-    caption: Inner pages mockups
-  - image: /uploads/gg-uxui-5.png
-    caption: Nasdaq 52 Week High Volatility Graph by date
+  - image: /uploads/gg-upd-04.png
+    caption: GainsGurus brand identity
+  - image: /uploads/gg-upd-05.png
+    caption: Create an account flow
+  - image: /uploads/gg-upd-06.png
+    caption: Platform inner pages
+  - caption: GainsGurus design system
+    image: /uploads/gg-upd-07.png
 tools:
   - Figma
   - Illustrator
   - Photoshop
+  - Zeroheight
+  - Recraft
 moreProjects:
   - website-redesign-for-mens-clothing-brand-todd-shelton
   - website-redesign-for-international-shipping-company-cargoloop
