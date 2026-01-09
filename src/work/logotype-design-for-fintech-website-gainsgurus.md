@@ -5,7 +5,7 @@ title: "GainsGurus: Elevating Brand Identity with Unique Logo Design"
 handle: logotype-design-for-fintech-website-gainsgurus
 category: logotype
 favorite: false
-date: 2024-03-14T17:36:09.686Z
+date: 2026-01-07T17:36:09.686Z
 coverImage: /uploads/gainsgurus-logo_thumbnail.png
 coverVideo: /uploads/gg-logo-video.mp4
 showVideo: true
