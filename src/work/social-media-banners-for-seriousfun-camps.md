@@ -5,7 +5,7 @@ title: "SeriousFun: Attracting Campers & Volunteers with Creative Ads"
 handle: social-media-banners-for-seriousfun-camps
 category: social-media
 favorite: false
-date: 2024-03-28T17:05:41.785Z
+date: 2026-01-01T17:05:41.785Z
 coverImage: /uploads/thumbnail-sf.png
 coverVideo: /uploads/seriousfun.mp4
 showVideo: true
