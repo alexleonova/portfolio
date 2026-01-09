@@ -5,7 +5,7 @@ title: "Ministry of Finance: Intuitive Design for Arabic & English Users"
 handle: website-redesign-for-ministry-of-finance-of-kuwait
 category: ui_ux_design
 favorite: false
-date: 2024-04-09T07:36:08.473Z
+date: 2026-01-04T07:36:08.473Z
 coverImage: /uploads/thumbnail-mof.png
 coverVideo: /uploads/mof-00.mp4
 showVideo: true
