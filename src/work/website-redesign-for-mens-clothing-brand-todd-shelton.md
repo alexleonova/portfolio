@@ -5,7 +5,7 @@ title: "Todd Shelton: Tailoring E-Commerce for Custom Menswear"
 handle: website-redesign-for-mens-clothing-brand-todd-shelton
 category: ui_ux_design
 favorite: false
-date: 2026-01-05T18:57:31.183Z
+date: 2025-12-29T18:57:31.183Z
 coverImage: /uploads/toddshelton-thumbnail.png
 coverVideo: /uploads/toddshelton.mp4
 showVideo: true
