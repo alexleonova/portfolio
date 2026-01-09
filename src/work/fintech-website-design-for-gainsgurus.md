@@ -21,7 +21,7 @@ demos:
     caption: GainsGurus website sitemap
   - image: /uploads/gg-upd-3.png
     caption: Inner pages wireframes
-  - image: /uploads/gg-upd-04.png
+  - image: /uploads/gg-uxui-04.png
     caption: GainsGurus brand identity
   - image: /uploads/gg-upd-05.png
     caption: Create an account flow
