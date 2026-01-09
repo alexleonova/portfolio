@@ -25,6 +25,8 @@ demos:
     caption: Design system color tokens
   - image: /uploads/rb-07.png
     caption: Design system components
+  - caption: Interactive prototype for account creation flow
+    video: /uploads/create-account.mp4
 tools:
   - Figma
   - Illustrator
