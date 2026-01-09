@@ -5,7 +5,7 @@ title: "Raqeem Bank: Mobile Banking App for the Middle Eastern Market"
 handle: raqeem-bank-mobile-banking-app-for-the-middle-eastern-market
 category: ui_ux_design
 favorite: true
-date: 2026-01-09T16:59:19.629Z
+date: 2025-12-25T16:59:19.629Z
 coverImage: /uploads/thumbnail_rb.png
 brief: Design of a mobile banking application for the Middle Eastern market with
   a strong focus on security, usability, and cultural relevance.
