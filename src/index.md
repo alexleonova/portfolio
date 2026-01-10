@@ -24,6 +24,6 @@ og:
 ---
 <h1 class="text-heading-2">Hi, I'm Alex Leonova, a <u>mindful UI/UX & Product Designer</u> with a passion for creating seamless and consistent user experiences</h1>
 
-With over 5 years of experience, I help teams transform ideas into practical, intuitive digital products that balance user needs, business goals, and technical constraints.
+With over 5 years of experience, I help teams transform ideas into practical, intuitive digital products that balance user needs, business goals, and technical constraints. My approach combines analytical thinking with a careful attention to visual and interaction details.
 
 <h2 class="text-heading-3">Let’s talk and design interfaces that work!</h2>
