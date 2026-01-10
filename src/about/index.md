@@ -7,13 +7,13 @@ og:
 ---
 <h1 class="text-heading-2">About me</h1>
 
-From web and mobile applications to illustration, motion and animations, I thrive on bringing creative ideas to life. I also have a keen interest in character and creature design, suitable for books, games, animation, and advertising. I'm excited to share my portfolio and connect with fellow design enthusiasts.
+I’m passionate about creating digital products that make sense for both users and teams. Over 5+ years, I’ve helped turn ideas into interfaces that are practical, reliable, and clear. I value collaboration, structured workflows, and thoughtful design decisions that have a real impact.
 
 <div class="accent-purple">
 
 ## <u>Favourite kinds of projects</u>
 
-* Visual and UI/UX web design
+* UX/UI & Product Design
 * Illustration
 * Animation & Motion
 
@@ -25,12 +25,16 @@ Embark on a creative journey with me, where your ideas meet my expertise. Whethe
 
 ## <u>Why choose me:</u>
 
-* **Innovative Approach**: I thrive on pushing creative boundaries and embracing new trends to ensure your projects stand out in a crowded digital landscape.
-* **Detail-Oriented**: Every pixel matters. I pay meticulous attention to detail, ensuring that each design element serves a purpose and contributes to the overall aesthetic.
-* **Collaborative Spirit**: I believe in the power of collaboration. Your vision combined with my expertise creates a synergy that results in exceptional outcomes.
+I bring a mindful, user-focused approach to every project. Here’s what I offer:
 
-Feel free to explore my portfolio and get in touch. Let's turn your dreams into visually stunning reality!
+* **Deliberate design decisions**: balancing user needs, business goals, and technical constraints.
+* **Proven experience**: 5+ years delivering products across industries.
+* **Practical solutions**: turning ideas into structured, intuitive interfaces that work in practice.
+* **Collaborative mindset**: working closely with product managers, developers, and stakeholders.
+* **Attention to detail**: ensuring clarity, consistency, and usability throughout the process.
+
+Explore my portfolio, and get in touch to shape ideas into usable solutions.
 
 </div>
 
-## Feel free to contact me :)
+## Let’s talk and design interfaces that work!
