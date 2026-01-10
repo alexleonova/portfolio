@@ -2,6 +2,8 @@
 layout: about.webc
 video: /uploads/about-video-upscale.mp4
 poster: /uploads/about-illustration-v02.png
+seo:
+  title: About me
 og:
   image: /uploads/og-main.png
 ---
@@ -13,11 +15,12 @@ I’m passionate about creating digital products that make sense for both users 
 
 ## <u>Favourite kinds of projects</u>
 
-* UX/UI & Product Design
-* Illustration
-* Animation & Motion
+I enjoy projects where design meets real-world needs. My favorite kinds of projects include:
 
-Embark on a creative journey with me, where your ideas meet my expertise. Whether you're a startup looking for a standout brand identity or an established business seeking a design refresh, I'm here to bring your vision to life.
+* **Data-rich dashboards & complex platforms**: projects that involve structuring large volumes of data and turning complexity into clear, readable interfaces. I have a special interest in products with multiple user roles and permissions.
+* **Creative interfaces with non-standard layouts**: web and mobile interfaces where there’s room to explore alternative concepts, experiment with layouts, and find visual solutions beyond typical patterns.
+* **Products built from scratch and thoughtful redesigns**: I enjoy working both on new products and redesigns, especially when there’s freedom to propose and compare multiple design directions before shaping the final solution.
+* **Design systems as a shared language**: projects where consistency matters, using design systems not only to scale interfaces, but also to align teams and create a coherent experience for final users.
 
 </div>
 
