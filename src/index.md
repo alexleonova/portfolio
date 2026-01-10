@@ -3,8 +3,7 @@ layout: home.webc
 video: /uploads/main-video-upd.mp4
 poster: /uploads/main-illustration-3.png
 seo:
-  title: Hi, I’m Alex Leonova — a mindful UX/UI & Product Designer with a passion
-    for creating seamless and consistent user experiences.
+  title: Hi, I’m Alex Leonova!
   description: With over 5 years of experience, I help teams transform ideas into
     practical, intuitive digital products that balance user needs, business
     goals, and technical constraints.
